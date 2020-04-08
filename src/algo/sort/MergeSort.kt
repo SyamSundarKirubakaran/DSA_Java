@@ -1,4 +1,4 @@
-package ds
+package algo.sort
 
 /**
  * @author SYAM K

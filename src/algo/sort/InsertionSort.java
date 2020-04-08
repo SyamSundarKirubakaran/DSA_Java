@@ -1,4 +1,4 @@
-package ds;
+package algo.sort;
 
 import java.util.Arrays;
 import java.util.List;
