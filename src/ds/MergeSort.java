@@ -26,23 +26,23 @@ public class MergeSort {
 
 
     private static void performMerge(List<Integer> integerList, int startIndex, int middleIndex, int endIndex) {
-        int n1 = middleIndex - startIndex + 1;
-        int n2 = endIndex - middleIndex;
-        ArrayList<Integer> leftSet = new ArrayList<>(n1);
-        ArrayList<Integer> rightSet = new ArrayList<>(n2);
-        for (int i = 0; i < n1; i++)
-            leftSet.add(integerList.get(startIndex + i));
-        for (int j = 0; j < n2; j++)
-            rightSet.add(integerList.get((middleIndex + 1) + j));
-        leftSet.add(Integer.MAX_VALUE);
-        rightSet.add(Integer.MAX_VALUE);
+        int leftListSize = middleIndex - startIndex + 1;
+        int rightListSize = endIndex - middleIndex;
+        ArrayList<Integer> leftList = new ArrayList<>();
+        ArrayList<Integer> rightList = new ArrayList<>();
+        for (int i = 0; i < leftListSize; i++)
+            leftList.add(integerList.get(startIndex + i));
+        for (int j = 0; j < rightListSize; j++)
+            rightList.add(integerList.get((middleIndex + 1) + j));
+        leftList.add(Integer.MAX_VALUE);
+        rightList.add(Integer.MAX_VALUE);
         int i = 0, j = 0;
         for (int k = startIndex; k <= endIndex; k++) {
-            if (leftSet.get(i) <= rightSet.get(j)) {
-                integerList.set(k, leftSet.get(i));
+            if (leftList.get(i) <= rightList.get(j)) {
+                integerList.set(k, leftList.get(i));
                 i += 1;
             } else {
-                integerList.set(k, rightSet.get(j));
+                integerList.set(k, rightList.get(j));
                 j += 1;
             }
         }
