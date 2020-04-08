@@ -5,7 +5,7 @@ package ds
  */
 
 fun main() {
-    println(performInsertionSort(mutableListOf(22, 33, 11, 55, 99, 77, 66, 88)))
+    println(performInsertionSort(integerList = mutableListOf(22, 33, 11, 55, 99, 77, 66, 88)))
 }
 
 fun performInsertionSort(integerList: MutableList<Int>): List<Int> {
