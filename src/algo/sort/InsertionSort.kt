@@ -8,7 +8,7 @@ fun main() {
     println(performInsertionSort(integerList = mutableListOf(22, 33, 11, 55, 99, 77, 66, 88)))
 }
 
-fun performInsertionSort(integerList: MutableList<Int>): List<Int> {
+private fun performInsertionSort(integerList: MutableList<Int>): List<Int> {
     var i: Int
     var currentValue: Int
     for (j in 1 until integerList.size) {

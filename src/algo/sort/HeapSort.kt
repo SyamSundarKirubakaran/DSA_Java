@@ -9,7 +9,7 @@ fun main() {
     println(integerList)
 }
 
-fun performHeapSort(integerList: MutableList<Int>) {
+private fun performHeapSort(integerList: MutableList<Int>) {
     var heapSize = integerList.size - 1
     constructHeap(integerList = integerList, heapSize = heapSize)
     for (i in (integerList.size - 1) downTo 0) {
@@ -19,12 +19,12 @@ fun performHeapSort(integerList: MutableList<Int>) {
     }
 }
 
-fun constructHeap(integerList: MutableList<Int>, heapSize: Int) {
+private fun constructHeap(integerList: MutableList<Int>, heapSize: Int) {
     for (i in (integerList.size - 1) / 2 downTo 0)
         maxHeapify(integerList = integerList, parent = i, heapSize = heapSize)
 }
 
-fun maxHeapify(integerList: MutableList<Int>, parent: Int, heapSize: Int) {
+private fun maxHeapify(integerList: MutableList<Int>, parent: Int, heapSize: Int) {
     val leftChild = parent * 2
     val rightChild = leftChild + 1
     var largest = parent
@@ -38,7 +38,7 @@ fun maxHeapify(integerList: MutableList<Int>, parent: Int, heapSize: Int) {
     }
 }
 
-fun performSwap(integerList: MutableList<Int>, i: Int, j: Int) {
+private fun performSwap(integerList: MutableList<Int>, i: Int, j: Int) {
     if (i != j && integerList[i] != integerList[j]) {
         integerList[i] = integerList[i] + integerList[j]
         integerList[j] = integerList[i] - integerList[j]

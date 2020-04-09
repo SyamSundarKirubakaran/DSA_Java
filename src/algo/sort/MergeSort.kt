@@ -10,7 +10,7 @@ fun main() {
     println(integerList)
 }
 
-fun performMergeSort(integerList: MutableList<Int>, startIndex: Int, endIndex: Int) {
+private fun performMergeSort(integerList: MutableList<Int>, startIndex: Int, endIndex: Int) {
     if (startIndex < endIndex) {
         val middleIndex = (startIndex + endIndex) / 2
         performMergeSort(integerList = integerList, startIndex = startIndex, endIndex = middleIndex)
@@ -19,7 +19,7 @@ fun performMergeSort(integerList: MutableList<Int>, startIndex: Int, endIndex: I
     }
 }
 
-fun performMerge(integerList: MutableList<Int>, startIndex: Int, middleIndex: Int, endIndex: Int) {
+private fun performMerge(integerList: MutableList<Int>, startIndex: Int, middleIndex: Int, endIndex: Int) {
     val leftListSize = middleIndex - startIndex + 1
     val rightListSize = endIndex - middleIndex
     val leftList: MutableList<Int> = mutableListOf()

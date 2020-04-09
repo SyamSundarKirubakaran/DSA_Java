@@ -9,7 +9,7 @@ fun main() {
     println(integerList)
 }
 
-fun performBubbleSort(integerList: MutableList<Int>) {
+private fun performBubbleSort(integerList: MutableList<Int>) {
     var swapPerformed: Boolean
     for (i in 0 until integerList.size) {
         swapPerformed = false
@@ -20,5 +20,13 @@ fun performBubbleSort(integerList: MutableList<Int>) {
             }
         }
         if (!swapPerformed) break
+    }
+}
+
+private fun swap(integerList: MutableList<Int>, i: Int, j: Int) {
+    if (i != j && integerList[i] != integerList[j]) {
+        integerList[i] = integerList[i] + integerList[j]
+        integerList[j] = integerList[i] - integerList[j]
+        integerList[i] = integerList[i] - integerList[j]
     }
 }

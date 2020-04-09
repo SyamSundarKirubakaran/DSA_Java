@@ -8,7 +8,7 @@ import java.util.List;
  * @author SYAM K
  */
 
-public class MergeSort {
+class MergeSort {
     public static void main(String[] args) {
         List<Integer> integerList = Arrays.asList(22, 33, 11, 55, 99, 77, 66, 88);
         performMergeSort(integerList, 0, integerList.size() - 1);

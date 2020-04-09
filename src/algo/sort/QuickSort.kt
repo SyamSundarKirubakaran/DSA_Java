@@ -10,7 +10,7 @@ fun main() {
     println(integerList)
 }
 
-fun performQuickSort(integerList: MutableList<Int>, startIndex: Int, endIndex: Int) {
+private fun performQuickSort(integerList: MutableList<Int>, startIndex: Int, endIndex: Int) {
     if (startIndex < endIndex) {
         val partitionIndex = performPartition(integerList, startIndex, endIndex)
         performQuickSort(integerList = integerList, startIndex = startIndex, endIndex = partitionIndex - 1)
@@ -18,7 +18,7 @@ fun performQuickSort(integerList: MutableList<Int>, startIndex: Int, endIndex: I
     }
 }
 
-fun performPartition(integerList: MutableList<Int>, startIndex: Int, endIndex: Int): Int {
+private fun performPartition(integerList: MutableList<Int>, startIndex: Int, endIndex: Int): Int {
     val pivot = integerList[endIndex]
     var i = startIndex - 1
     for (j in startIndex until endIndex) {
@@ -31,7 +31,7 @@ fun performPartition(integerList: MutableList<Int>, startIndex: Int, endIndex: I
     return i + 1
 }
 
-fun swap(integerList: MutableList<Int>, i: Int, j: Int) {
+private fun swap(integerList: MutableList<Int>, i: Int, j: Int) {
     if (i != j && integerList[i] != integerList[j]) {
         integerList[i] = integerList[i] + integerList[j]
         integerList[j] = integerList[i] - integerList[j]

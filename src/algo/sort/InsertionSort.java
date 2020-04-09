@@ -7,7 +7,7 @@ import java.util.List;
  * @author SYAM K
  */
 
-public class InsertionSort {
+class InsertionSort {
     public static void main(String[] args) {
         System.out.println(performInsertionSort(Arrays.asList(22, 33, 11, 55, 99, 77, 66, 88)));
     }
