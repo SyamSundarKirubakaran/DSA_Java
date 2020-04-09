@@ -26,6 +26,10 @@ class Heap {
         // Min Heap Operations
         constructMinHeap(minIntegerList, heapSizeMin);
         System.out.println("Min Heap:" + minIntegerList);
+        increaseMinHeapValue(minIntegerList, 2, 100, heapSizeMax);
+        System.out.println("Min Heap After value increase to 100 @ index:2 : " + minIntegerList);
+        reduceMinHeapValue(minIntegerList, 2, 1, heapSizeMax);
+        System.out.println("Min Heap After value reduce to 11 @ index:2 : " + minIntegerList);
         int minValue = extractMin(minIntegerList, heapSizeMin);
         System.out.println("Min Value: " + minValue);
     }
@@ -33,16 +37,35 @@ class Heap {
     private static void reduceMaxHeapValue(List<Integer> integerList, int index, int newValue, int heapSize) {
         if (newValue >= integerList.get(index)) return;
         integerList.set(index, newValue);
+        // Downward traversal
         maxHeapify(integerList, index, heapSize);
     }
 
     private static void increaseMaxHeapValue(List<Integer> integerList, int index, int newValue, int heapSize) {
         if (newValue <= integerList.get(index)) return;
         integerList.set(index, newValue);
+        // Upward traversal
         while (index >= 0 && integerList.get(index / 2) < integerList.get(index)) {
             performSwap(integerList, index / 2, index);
             index /= 2;
         }
+    }
+
+    private static void reduceMinHeapValue(List<Integer> integerList, int index, int newValue, int heapSize) {
+        if (newValue >= integerList.get(index)) return;
+        integerList.set(index, newValue);
+        // Upward traversal
+        while (index >= 0 && integerList.get(index / 2) > integerList.get(index)) {
+            performSwap(integerList, index / 2, index);
+            index /= 2;
+        }
+    }
+
+    private static void increaseMinHeapValue(List<Integer> integerList, int index, int newValue, int heapSize) {
+        if (newValue <= integerList.get(index)) return;
+        integerList.set(index, newValue);
+        // Downward traversal
+        minHeapify(integerList, index, heapSize);
     }
 
     private static int extractMin(List<Integer> integerList, int heapSize) {
