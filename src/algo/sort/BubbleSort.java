@@ -27,7 +27,7 @@ class BubbleSort {
         }
     }
 
-    public static void swap(List<Integer> integerList, int i, int j) {
+    private static void swap(List<Integer> integerList, int i, int j) {
         if (i != j && !integerList.get(i).equals(integerList.get(j))) {
             integerList.set(i, integerList.get(i) + integerList.get(j));
             integerList.set(j, integerList.get(i) - integerList.get(j));

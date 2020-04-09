@@ -13,7 +13,7 @@ class HeapSort {
         System.out.println(integerList);
     }
 
-    public static void performMaxHeapSort(List<Integer> integerList) {
+    private static void performMaxHeapSort(List<Integer> integerList) {
         int heapSize = integerList.size() - 1;
         buildMaxHeap(integerList, heapSize);
         for (int i = integerList.size() - 1; i >= 0; i--) {
@@ -23,13 +23,13 @@ class HeapSort {
         }
     }
 
-    public static void buildMaxHeap(List<Integer> integerList, int heapSize) {
+    private static void buildMaxHeap(List<Integer> integerList, int heapSize) {
         for (int i = (integerList.size() - 1) / 2; i >= 0; i--) {
             maxHeapify(integerList, i, heapSize);
         }
     }
 
-    public static void maxHeapify(List<Integer> integerList, int parent, int heapSize) {
+    private static void maxHeapify(List<Integer> integerList, int parent, int heapSize) {
         int leftChild = parent * 2;
         int rightChild = leftChild + 1;
         int largest = parent;
@@ -43,7 +43,7 @@ class HeapSort {
         }
     }
 
-    public static void swap(List<Integer> integerList, int i, int j) {
+    private static void swap(List<Integer> integerList, int i, int j) {
         if (i != j && !integerList.get(i).equals(integerList.get(j))) {
             integerList.set(i, integerList.get(i) + integerList.get(j));
             integerList.set(j, integerList.get(i) - integerList.get(j));
