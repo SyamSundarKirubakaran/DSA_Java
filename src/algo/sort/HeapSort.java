@@ -1,29 +1,26 @@
 package algo.sort;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 /**
  * @author SYAM K
  */
-public class MaxHeapSort {
+public class HeapSort {
     public static void main(String[] args) {
-        System.out.println(performHeapSort(Arrays.asList(22, 33, 11, 55, 99, 77, 66, 88)));
-        System.out.println(performHeapSort(Arrays.asList(12, 11, 13, 5, 6, 7)));
+        List<Integer> integerList = Arrays.asList(22, 33, 11, 55, 99, 77, 66, 88);
+        performMaxHeapSort(integerList);
+        System.out.println(integerList);
     }
 
-    public static List<Integer> performHeapSort(List<Integer> integerList) {
+    public static void performMaxHeapSort(List<Integer> integerList) {
         int heapSize = integerList.size() - 1;
         buildMaxHeap(integerList, heapSize);
-        List<Integer> resultList = new ArrayList<>();
         for (int i = integerList.size() - 1; i >= 0; i--) {
             swap(integerList, 0, i);
-            resultList.add(integerList.get(i));
             heapSize = heapSize - 1;
             maxHeapify(integerList, 0, heapSize);
         }
-        return resultList;
     }
 
     public static void buildMaxHeap(List<Integer> integerList, int heapSize) {
