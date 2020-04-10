@@ -8,10 +8,53 @@ public class SinglyLinkedList {
         Node head = new Node();
         inflateSampleLinkedListData(head);
         head = insertAtBeginning(head, 0);
+        printLinkedList(head);
         insertNodeAtEnd(head, 5);
+        printLinkedList(head);
         insertAtIndex(head, 2, 10);
+        printLinkedList(head);
+        head = deleteAtBeginning(head);
+        printLinkedList(head);
+        deleteAtEnd(head);
+        printLinkedList(head);
+        head = deleteAtIndex(head, 3);
+        printLinkedList(head);
+    }
+
+    private static Node deleteAtBeginning(Node head) {
+        if (head == null || head.next == null) {
+            return null;
+        }
+        head = head.next;
+        return head;
+    }
+
+    private static void deleteAtEnd(Node head) {
+        if (head == null || head.next == null) {
+            head = null;
+            return;
+        }
+        while (head.next != null && head.next.next != null) {
+            head = head.next;
+        }
+        head.next = null;
+    }
+
+    private static Node deleteAtIndex(Node head, int index) {
         Node temp = head;
-        printLinkedList(temp);
+        Node resultHead;
+        if (index == 0)
+            resultHead = deleteAtBeginning(head);
+        else {
+            while (--index > 0) head = head.next;
+            if (head.next != null && head.next.next != null) {
+                head.next = head.next.next;
+            } else if (head.next != null) {
+                deleteAtEnd(temp);
+            }
+            resultHead = temp;
+        }
+        return resultHead;
     }
 
     private static Node insertAtBeginning(Node head, int nodeValue) {
@@ -24,11 +67,7 @@ public class SinglyLinkedList {
     private static void insertAtIndex(Node head, int index, int nodeValue) {
         Node newNode = new Node(nodeValue);
         Node temp = head;
-        int indexCopy = index;
-        while (indexCopy > 1) {
-            temp = temp.next;
-            indexCopy -= 1;
-        }
+        while (--index > 0) temp = temp.next;
         newNode.next = temp.next;
         temp.next = newNode;
     }
@@ -55,6 +94,7 @@ public class SinglyLinkedList {
             System.out.print(temp.value + postAttachment);
             temp = temp.next;
         }
+        System.out.println();
     }
 
     private static void inflateSampleLinkedListData(Node head) {
