@@ -13,12 +13,47 @@ public class SinglyLinkedList {
         printLinkedList(head);
         insertAtIndex(head, 2, 10);
         printLinkedList(head);
+
+        head = moveNodeAtIndexToBeginning(head, 2);
+        printLinkedList(head);
+
+        head = reverseLinkedList(head);
+        printLinkedList(head);
+
         head = deleteAtBeginning(head);
         printLinkedList(head);
         deleteAtEnd(head);
         printLinkedList(head);
         head = deleteAtIndex(head, 3);
         printLinkedList(head);
+    }
+
+    private static Node moveNodeAtIndexToBeginning(Node head, int index) {
+        if (index == 0) return head;
+        Node temp = head;
+        while (--index > 0) temp = temp.next;
+        Node temp1 = temp.next;
+        if (temp.next != null && temp.next.next != null)
+            temp.next = temp.next.next;
+        else
+            temp.next = null;
+        temp1.next = head;
+        head = temp1;
+        return head;
+    }
+
+    private static Node reverseLinkedList(Node head) {
+        if (head == null || head.next == null) return head;
+        Node prev = null, current = head, upcoming = head.next, temp;
+        while (upcoming != null) {
+            current.next = prev;
+            temp = upcoming;
+            upcoming = upcoming.next;
+            temp.next = current;
+            prev = current;
+            current = temp;
+        }
+        return current;
     }
 
     private static Node deleteAtBeginning(Node head) {
