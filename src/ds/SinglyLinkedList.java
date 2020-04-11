@@ -144,4 +144,20 @@ public class SinglyLinkedList {
         node2.next = node3;
         node3.next = node4;
     }
+
+    static class Node {
+        public int value;
+        public Node next;
+
+        public Node() {
+            value = -1;
+            next = null;
+        }
+
+        public Node(int nodeValue) {
+            value = nodeValue;
+            next = null;
+        }
+    }
+
 }

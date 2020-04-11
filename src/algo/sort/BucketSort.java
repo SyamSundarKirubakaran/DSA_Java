@@ -1,7 +1,5 @@
 package algo.sort;
 
-import ds.Node;
-
 import java.util.*;
 
 /**
@@ -112,6 +110,21 @@ public class BucketSort {
         newNode.next = head;
         head = newNode;
         return head;
+    }
+
+    static class Node {
+        public int value;
+        public Node next;
+
+        public Node() {
+            value = -1;
+            next = null;
+        }
+
+        public Node(int nodeValue) {
+            value = nodeValue;
+            next = null;
+        }
     }
 
 }
