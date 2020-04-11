@@ -1,23 +1,27 @@
 package problems;
 
-import java.util.Arrays;
-import java.util.List;
-
 /**
  * @author SYAM K
  * @problem : Convert a given infix expression to postfix notation - using stack
  */
 public class Prob3 {
 
-    List<String> operators = Arrays.asList("*", "/", "-", "/");
-
     public static void main(String[] args) {
-        String infixExpression = "a+b-c";
+        String infixExpression = "a*b+c";
         Node head = null;
         for (int i = 0; i < infixExpression.length(); i++) {
-            int asciiValue = infixExpression.charAt(i);
-            if (!(asciiValue >= 97 && asciiValue <= 122)) {
-                head = push(head, infixExpression.charAt(i));
+            char charValue = infixExpression.charAt(i);
+            if (!(charValue >= 97 && charValue <= 122)) {
+                if (head == null)
+                    head = push(null, infixExpression.charAt(i));
+                else if (findPrecedence(charValue) >= findPrecedence(head.value))
+                    head = push(head, infixExpression.charAt(i));
+                else {
+                    while (head != null) {
+                        head = pop(head);
+                    }
+                    head = push(null, infixExpression.charAt(i));
+                }
             } else {
                 System.out.print(infixExpression.charAt(i) + " ");
             }
@@ -26,6 +30,18 @@ public class Prob3 {
             while (head != null) {
                 head = pop(head);
             }
+    }
+
+    private static int findPrecedence(char operator) {
+        switch (operator) {
+            case '*':
+            case '/':
+                return 2;
+            case '+':
+            case '-':
+                return 1;
+        }
+        return 0;
     }
 
     private static void print(Node head) {
