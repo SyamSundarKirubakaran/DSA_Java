@@ -7,20 +7,26 @@ package problems;
 public class Prob3 {
 
     public static void main(String[] args) {
-        String infixExpression = "a*b+c";
+        String infixExpression = "a+b+(c-d)";
         Node head = null;
         for (int i = 0; i < infixExpression.length(); i++) {
             char charValue = infixExpression.charAt(i);
             if (!(charValue >= 97 && charValue <= 122)) {
                 if (head == null)
                     head = push(null, infixExpression.charAt(i));
-                else if (findPrecedence(charValue) >= findPrecedence(head.value))
-                    head = push(head, infixExpression.charAt(i));
-                else {
-                    while (head != null) {
+                else if (charValue == ')') {
+                    while (head != null && head.value != '(') {
                         head = pop(head);
                     }
-                    head = push(null, infixExpression.charAt(i));
+                    head = pop(head);
+                } else if (findPrecedence(charValue) >= findPrecedence(head.value))
+                    head = push(head, charValue);
+                else {
+                    while (head != null) {
+                        if (head.value == '(') break;
+                        head = pop(head);
+                    }
+                    head = push(head, charValue);
                 }
             } else {
                 System.out.print(infixExpression.charAt(i) + " ");
@@ -34,6 +40,8 @@ public class Prob3 {
 
     private static int findPrecedence(char operator) {
         switch (operator) {
+            case '(':
+                return 3;
             case '*':
             case '/':
                 return 2;
@@ -57,7 +65,8 @@ public class Prob3 {
 
     private static Node pop(Node head) {
         if (head == null) return null;
-        System.out.print(head.value + " ");
+        if (head.value != '(')
+            System.out.print(head.value + " ");
         head = head.next;
         return head;
     }
