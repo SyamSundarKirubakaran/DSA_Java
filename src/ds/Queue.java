@@ -3,39 +3,43 @@ package ds;
 /**
  * @author SYAM K
  */
-public class Stack {
+public class Queue {
     public static void main(String[] args) {
-        Node head;
-        head = push(new Node(0), 1);
-        head = push(head, 2);
+        Node head, tail;
+        Node firstNode = new Node(0);
+        head = tail = firstNode;
+        tail = enqueue(tail, 1);
+        tail = enqueue(tail, 2);
+        tail = enqueue(tail, 3);
+        tail = enqueue(tail, 4);
         printLinkedList(head);
-        head = pop(head);
+        head = dequeue(head);
         printLinkedList(head);
-        head = pop(head);
+        head = dequeue(head);
         printLinkedList(head);
-        head = pop(head);
+        head = dequeue(head);
         printLinkedList(head);
-        head = push(head, 3);
-        head = push(head, 4);
-        head = push(head, 5);
+        head = dequeue(head);
+        printLinkedList(head);
+        head = dequeue(head);
+        printLinkedList(head);
+        head = dequeue(head);
         printLinkedList(head);
     }
 
-    // Head, Deleted Node
-
-    public static Node pop(Node head) {
+    public static Node dequeue(Node head) {
         if (head == null) {
-            System.out.println("Nothing to pop.!");
+            System.out.println("Nothing to dequeue");
             return null;
         }
-        System.out.println("Popped: " + head.value);
+        System.out.println("Dequeue: " + head.value);
         head = head.next;
         return head;
     }
 
-    public static Node push(Node head, int value) {
-        Node newNode = new Node(value);
-        if (head != null) newNode.next = head;
+    public static Node enqueue(Node tail, int nodeValue) {
+        Node newNode = new Node(nodeValue);
+        if (tail != null) tail.next = newNode;
         return newNode;
     }
 
@@ -55,12 +59,12 @@ public class Stack {
         int value;
         Node next;
 
-        public Node() {
+        Node() {
             value = -1;
             next = null;
         }
 
-        private Node(int nodeValue) {
+        Node(int nodeValue) {
             value = nodeValue;
             next = null;
         }
