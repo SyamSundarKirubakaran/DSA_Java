@@ -2,7 +2,7 @@ package problems;
 
 /**
  * @author SYAM K
- * @problem : Convert a given infix expression to postfix notation - using stack
+ * @problem : Convert a given infix expression to postfix notation - using operator stack
  */
 public class Prob3 {
 
