@@ -4,7 +4,7 @@ import java.util.Map;
 import java.util.TreeMap;
 
 class BucketSort {
-    // Can be used only when all the entires in the input have same no of digits
+    // Can be used only when all the entries in the input have same no of digits
     static int[] arr = new int[]{22, 33, 11, 55, 99, 77, 66, 88, 12, 13, 14, 59, 67, 20};
 
     public static void main(String[] args) {
