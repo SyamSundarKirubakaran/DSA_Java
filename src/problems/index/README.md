@@ -34,3 +34,6 @@ Array Problems:
 - ThirtyThree -> Smallest number that can't be formed from the array of given numbers
 - ThirtyFour -> Rearrange such that a[i] becomes a[a[i]]
 - ThirtyFive -> Rotate Matrix by 90 degree - anti-clockwise
+
+Tree Problems:
+- One -> Size of a Binary Tree
