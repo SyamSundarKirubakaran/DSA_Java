@@ -1,4 +1,4 @@
-package problems;
+package problems.array;
 
 import java.util.LinkedList;
 
@@ -6,7 +6,7 @@ import java.util.LinkedList;
  * @author SYAM K
  * @problem : Maximum of every contiguous sub-array of size k. - Sliding Window.
  */
-public class Seventeen1 {
+public class Seventeen {
     static int[] arr = new int[]{10, 4, 2, 11, 3, 15, 12, 8, 7, 9, 21, 14};
 
     public static void main(String[] args) {

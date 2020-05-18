@@ -1,11 +1,11 @@
-package problems;
+package problems.array;
 
 
 /**
  * @author SYAM K
  * @problem : count the no.of smaller elements to the right of each element in the array.
  */
-public class Eighteen1 {
+public class Eighteen {
 
     static int height(Node node) {
         return node == null ? 0 : node.height;
