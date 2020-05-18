@@ -29,3 +29,8 @@ Array Problems:
 - TwentyEight -> Rotate an array of size n by d elements - Left rotation - Beginning to End - Juggling Algorithm
 - TwentyNine -> Sort array in wave form - Even position number
 - Thirty -> Next least greater number to the given number, input as digit array - with same digits
+- ThirtyOne -> Trapping Rain Water Problem
+- ThirtyTwo -> No.of Triangles that can be formed
+- ThirtyThree -> Smallest number that can't be formed from the array of given numbers
+- ThirtyFour -> Rearrange such that a[i] becomes a[a[i]]
+- ThirtyFive -> Rotate Matrix by 90 degree - anti-clockwise
