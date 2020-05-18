@@ -14,7 +14,7 @@ class Ten {
         printArray(arr);
     }
 
-    static void seperateZeroAndOne(int[] arr, int leftPointer, int rightPointer) {
+    private static void seperateZeroAndOne(int[] arr, int leftPointer, int rightPointer) {
         while (leftPointer < rightPointer) {
             while (arr[leftPointer] == 0 && leftPointer < rightPointer)
                 leftPointer++;
@@ -28,12 +28,12 @@ class Ten {
         }
     }
 
-    static void swap(int left, int right) {
+    private static void swap(int left, int right) {
         arr[left] = 0;
         arr[right] = 1;
     }
 
-    static void printArray(int[] arr) {
+    private static void printArray(int[] arr) {
         for (int value : arr) {
             System.out.print(value + " ");
         }

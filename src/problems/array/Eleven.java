@@ -33,7 +33,7 @@ class Eleven {
         arr[right] = temp;
     }
 
-    static void printArray(int[] arr) {
+    private static void printArray(int[] arr) {
         for (int value : arr) {
             System.out.print(value + " ");
         }
