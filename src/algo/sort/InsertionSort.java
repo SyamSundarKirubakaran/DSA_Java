@@ -3,7 +3,7 @@ package algo.sort;
 import java.util.Arrays;
 import java.util.List;
 
-class InsertionSortOne {
+class InsertionSort {
 	public static void main(String[] args) {
 		List<Integer> unsortedList = Arrays.asList(9, 6, 5, 0, 8, 2, 7, 1);
 		printList(performInsertionSort(unsortedList));

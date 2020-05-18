@@ -1,6 +1,6 @@
 package algo.sort;
 
-class HeapSortOne {
+class HeapSort {
     static int[] arr = new int[]{22, 33, 11, 55, 99, 77, 66, 88};
 
     public static void main(String[] args) {

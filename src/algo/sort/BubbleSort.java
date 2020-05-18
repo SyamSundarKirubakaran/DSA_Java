@@ -1,6 +1,6 @@
 package algo.sort;
 
-class BubbleSortOne {
+class BubbleSort {
 
     static int[] arr = new int[]{22, 33, 11, 55, 99, 77, 66, 88};
 
