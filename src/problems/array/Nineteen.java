@@ -19,7 +19,7 @@ public class Nineteen {
         LinkedList<Integer> q1 = new LinkedList<>();
         LinkedList<Integer> q2 = new LinkedList<>();
         LinkedList<Integer> q3 = new LinkedList<>();
-        int sum = 0, counter;
+        int sum = 0;
         for (int i = 0; i <= size; i++) {
             sum += arr[i];
             if (arr[i] % 3 == 0) {
@@ -34,25 +34,13 @@ public class Nineteen {
             if (!q2.isEmpty()) {
                 q2.removeFirst();
             } else {
-                counter = 1;
-                while (counter >= 0) {
-                    if (!q3.isEmpty()) {
-                        q3.removeFirst();
-                    }
-                    counter -= 1;
-                }
+                removeTwoElements(q3);
             }
         } else if (sum % 3 == 2) {
             if (!q3.isEmpty()) {
                 q3.removeFirst();
             } else {
-                counter = 1;
-                while (counter >= 0) {
-                    if (!q2.isEmpty()) {
-                        q2.removeFirst();
-                    }
-                    counter -= 1;
-                }
+                removeTwoElements(q2);
             }
         }
         LinkedList<Integer> result = new LinkedList<>();
@@ -61,9 +49,19 @@ public class Nineteen {
         printInReverse(result);
     }
 
+    private static void removeTwoElements(LinkedList<Integer> q) {
+        int counter = 1;
+        while (counter >= 0) {
+            if (!q.isEmpty()) {
+                q.removeFirst();
+            }
+            counter -= 1;
+        }
+    }
+
     private static void printInReverse(LinkedList<Integer> result) {
         for (int i = result.size() - 1; i >= 0; i--) {
-            System.out.print(result.get(i));
+            System.out.print(result.get(i) + " ");
         }
     }
 
