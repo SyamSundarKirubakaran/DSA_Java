@@ -1,0 +1,733 @@
+{
+  "success": true,
+  "lectures": [
+    {
+      "id": "947",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "matrix multiplication",
+      "duration_hm": "5:53",
+      "num_of_question": "0"
+    },
+    {
+      "id": "896",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Dijkstra algorithm example1",
+      "duration_hm": "17:56",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1202",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Introduction to LCS",
+      "duration_hm": "17:22",
+      "num_of_question": "0"
+    },
+    {
+      "id": "4287",
+      "cl_lecture_type": "4",
+      "cl_lecture_name": "Insertion sort algorithm and analysis",
+      "duration_hm": "27:38",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1101",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Introduction to multi stage graph",
+      "duration_hm": "8:10",
+      "num_of_question": "0"
+    },
+    {
+      "id": "901",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Introduction to Greedy algorithms",
+      "duration_hm": "7:8",
+      "num_of_question": "0"
+    },
+    {
+      "id": "933",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Introduction to Dynamic programming",
+      "duration_hm": "13:1",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1203",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Introduction",
+      "duration_hm": "6:7",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1131",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Introduction to TSP",
+      "duration_hm": "6:47",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1158",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Difference between fractional and 0-1 knapsack",
+      "duration_hm": "8:24",
+      "num_of_question": "0"
+    },
+    {
+      "id": "993",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Subset Sum Introduction",
+      "duration_hm": "11:28",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1201",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Relationship between single source shortest path and all pairs shortest path",
+      "duration_hm": "5:15",
+      "num_of_question": "0"
+    },
+    {
+      "id": "4281",
+      "cl_lecture_type": "4",
+      "cl_lecture_name": "Algorithms Lecture 1 -- Introduction to asymptotic notations",
+      "duration_hm": "22:27",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1163",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Why greedy method fails in 0-1 knapsack",
+      "duration_hm": "3:18",
+      "num_of_question": "0"
+    },
+    {
+      "id": "907",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Dijkstra algorithm example2",
+      "duration_hm": "4:38",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1205",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Optimal substructure",
+      "duration_hm": "6:52",
+      "num_of_question": "0"
+    },
+    {
+      "id": "928",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Greedy knap sack algorithm",
+      "duration_hm": "32:23",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1114",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Substructure and recursive equation",
+      "duration_hm": "9:35",
+      "num_of_question": "0"
+    },
+    {
+      "id": "4282",
+      "cl_lecture_type": "4",
+      "cl_lecture_name": "Time complexity Analysis of iterative programs",
+      "duration_hm": "37:9",
+      "num_of_question": "0"
+    },
+    {
+      "id": "952",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "chain multiplication introduction",
+      "duration_hm": "5:4",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1206",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Optimal substructure and Recursive equations",
+      "duration_hm": "10:8",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1068",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Example",
+      "duration_hm": "21:23",
+      "num_of_question": "0"
+    },
+    {
+      "id": "4288",
+      "cl_lecture_type": "4",
+      "cl_lecture_name": "Merge sort algorithm, analysis and problems",
+      "duration_hm": "65:9",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1207",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Types of algorithms",
+      "duration_hm": "10:37",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1150",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Detecting Optimal substructure",
+      "duration_hm": "18:53",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1077",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Huffman codes",
+      "duration_hm": "42:59",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1215",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Recursion tree and unique sub problems",
+      "duration_hm": "28:30",
+      "num_of_question": "0"
+    },
+    {
+      "id": "4289",
+      "cl_lecture_type": "4",
+      "cl_lecture_name": "Quick sort algorithm",
+      "duration_hm": "44:51",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1016",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Examples",
+      "duration_hm": "15:47",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1210",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "some examples",
+      "duration_hm": "6:16",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1155",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Bottom up dynamic programming algorithm",
+      "duration_hm": "22:55",
+      "num_of_question": "0"
+    },
+    {
+      "id": "916",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Dijkstra algorithm",
+      "duration_hm": "11:40",
+      "num_of_question": "0"
+    },
+    {
+      "id": "4283",
+      "cl_lecture_type": "4",
+      "cl_lecture_name": " Time analysis of recursive program",
+      "duration_hm": "24:37",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1166",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Substructure and Recursive equation",
+      "duration_hm": "7:44",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1127",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Bottom up Dynamic programming algorithm",
+      "duration_hm": "18:40",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1218",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Example",
+      "duration_hm": "33:7",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1098",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Optimal substructure and Recursive equations",
+      "duration_hm": "12:53",
+      "num_of_question": "0"
+    },
+    {
+      "id": "4284",
+      "cl_lecture_type": "4",
+      "cl_lecture_name": "comparing various functions to analyse time complexity",
+      "duration_hm": "25:26",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1223",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Time complexity and space complexity of bottom up dynamic programming algorithm",
+      "duration_hm": "5:30",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1219",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "example 1",
+      "duration_hm": "8:15",
+      "num_of_question": "0"
+    },
+    {
+      "id": "4290",
+      "cl_lecture_type": "4",
+      "cl_lecture_name": "Analysis of quick sort and problems on it",
+      "duration_hm": "32:52",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1169",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Recursion tree and unique subproblems",
+      "duration_hm": "9:4",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1090",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "More examples on Huffman codes",
+      "duration_hm": "12:8",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1213",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Optimisation and Decision problems",
+      "duration_hm": "14:25",
+      "num_of_question": "0"
+    },
+    {
+      "id": "926",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Negative weight edges and dijkstra algorithm",
+      "duration_hm": "18:12",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1226",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Bottom Dynamic programming algorithm",
+      "duration_hm": "3:38",
+      "num_of_question": "0"
+    },
+    {
+      "id": "4291",
+      "cl_lecture_type": "4",
+      "cl_lecture_name": "introduction to heaps",
+      "duration_hm": "39:43",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1172",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Example tracing out bottom up Dynamic programming algorithm",
+      "duration_hm": "22:51",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1216",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "We use only decision problems in NP completeness theory",
+      "duration_hm": "5:6",
+      "num_of_question": "0"
+    },
+    {
+      "id": "4285",
+      "cl_lecture_type": "4",
+      "cl_lecture_name": "Masters theorem",
+      "duration_hm": "24:38",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1224",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "example 2",
+      "duration_hm": "12:14",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1115",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Recursion tree",
+      "duration_hm": "13:47",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1113",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Job sequencing with deadlines",
+      "duration_hm": "22:32",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1227",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Bottom up Dynamic programming algorithm",
+      "duration_hm": "4:34",
+      "num_of_question": "0"
+    },
+    {
+      "id": "4292",
+      "cl_lecture_type": "4",
+      "cl_lecture_name": " Max heapify algorithm and complete binary tree",
+      "duration_hm": "37:37",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1124",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Dynamic programming bottom up implementation",
+      "duration_hm": "28:30",
+      "num_of_question": "0"
+    },
+    {
+      "id": "5261",
+      "cl_lecture_type": "5",
+      "cl_lecture_name": "Optimal merge Patterns video mistake at 10:03 mins",
+      "duration_hm": "0:0",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1221",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Verfication algorithms",
+      "duration_hm": "8:51",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1176",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Bottom up Dynamic programming algorithm and analysis",
+      "duration_hm": "6:51",
+      "num_of_question": "0"
+    },
+    {
+      "id": "4286",
+      "cl_lecture_type": "4",
+      "cl_lecture_name": "Analyzing Space complexity of iterative and recursive algorithms",
+      "duration_hm": "46:15",
+      "num_of_question": "0"
+    },
+    {
+      "id": "5585",
+      "cl_lecture_type": "5",
+      "cl_lecture_name": "Note",
+      "duration_hm": "0:0",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1118",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Optimal merge patterns",
+      "duration_hm": "13:42",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1130",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Top down dynamic programming memoization algorithm",
+      "duration_hm": "10:27",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1228",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "P NP Introduction",
+      "duration_hm": "14:39",
+      "num_of_question": "0"
+    },
+    {
+      "id": "4293",
+      "cl_lecture_type": "4",
+      "cl_lecture_name": "Build max heap algorithm and analysis",
+      "duration_hm": "15:24",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1132",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Introduction to spanning trees and Kirchhoff theorem",
+      "duration_hm": "37:3",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1237",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Polynomial time reduction algorithms",
+      "duration_hm": "19:9",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1078",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Amortized Analysis",
+      "duration_hm": "2:37",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1159",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "MST and examples on prims algorithm",
+      "duration_hm": "42:21",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1146",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Heap sort and analysis",
+      "duration_hm": "16:44",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1246",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "NP hard and NP complete problems",
+      "duration_hm": "23:44",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1082",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Aggregate Analysis",
+      "duration_hm": "3:32",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1251",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Well know NP complete problems",
+      "duration_hm": "12:12",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1167",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Prims algorithm implementation without min heap",
+      "duration_hm": "28:51",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1089",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Example on Aggregate Analysis",
+      "duration_hm": "7:5",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1198",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Prims algorithm implement with min heap",
+      "duration_hm": "29:20",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1181",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Introduction to kruskal algorithm and examples on it",
+      "duration_hm": "40:30",
+      "num_of_question": "0"
+    },
+    {
+      "id": "2172",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Kruskal's algorithm using Disjoint sets",
+      "duration_hm": "7:13",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1162",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Bubble sort algorithm",
+      "duration_hm": "6:15",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1165",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Example on Bubble sort",
+      "duration_hm": "8:49",
+      "num_of_question": "0"
+    },
+    {
+      "id": "2174",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Example on kruskal's using Disjoint sets",
+      "duration_hm": "8:53",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1170",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Time complenity analysis for bubble sort",
+      "duration_hm": "5:37",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1183",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Amortized Analysis",
+      "duration_hm": "2:37",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1188",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Aggregate Analysis",
+      "duration_hm": "3:32",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1190",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Example on Aggregate Analysis",
+      "duration_hm": "7:5",
+      "num_of_question": "0"
+    },
+    {
+      "id": "2156",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Data Structure for Disjoint Sets",
+      "duration_hm": "3:32",
+      "num_of_question": "0"
+    },
+    {
+      "id": "4294",
+      "cl_lecture_type": "4",
+      "cl_lecture_name": "Extract max, increase key and insert key into heap",
+      "duration_hm": "22:11",
+      "num_of_question": "0"
+    },
+    {
+      "id": "2157",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Operations on Disjoint Sets",
+      "duration_hm": "4:42",
+      "num_of_question": "0"
+    },
+    {
+      "id": "2159",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": " Linked list representation of disjoint sets",
+      "duration_hm": "5:10",
+      "num_of_question": "0"
+    },
+    {
+      "id": "2161",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Time complexity for linked list representation of Disjoint Sets",
+      "duration_hm": "5:21",
+      "num_of_question": "0"
+    },
+    {
+      "id": "2162",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Amortized analysis of disjoint sets using linked list representation",
+      "duration_hm": "6:37",
+      "num_of_question": "0"
+    },
+    {
+      "id": "2164",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Disjoint set forest",
+      "duration_hm": "4:47",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1191",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Bucket sort",
+      "duration_hm": "6:20",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1193",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Counting sort",
+      "duration_hm": "5:43",
+      "num_of_question": "0"
+    },
+    {
+      "id": "2166",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Union by rank",
+      "duration_hm": "2:37",
+      "num_of_question": "0"
+    },
+    {
+      "id": "2168",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Analysis union by rank",
+      "duration_hm": "11:15",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1195",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Radix-sort(aid)",
+      "duration_hm": "7:31",
+      "num_of_question": "0"
+    },
+    {
+      "id": "1197",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Analysis of time complexity on radix -sort(AID)",
+      "duration_hm": "8:12",
+      "num_of_question": "0"
+    },
+    {
+      "id": "2170",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Path compression",
+      "duration_hm": "6:14",
+      "num_of_question": "0"
+    },
+    {
+      "id": "2171",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Time complexity using the Heuristics",
+      "duration_hm": "5:31",
+      "num_of_question": "0"
+    },
+    {
+      "id": "2179",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Algorithm of selection sort file",
+      "duration_hm": "3:43",
+      "num_of_question": "0"
+    },
+    {
+      "id": "2176",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Connected components using Disjoints",
+      "duration_hm": "4:47",
+      "num_of_question": "0"
+    },
+    {
+      "id": "2180",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Analysis of selection sort file",
+      "duration_hm": "13:36",
+      "num_of_question": "0"
+    },
+    {
+      "id": "2178",
+      "cl_lecture_type": "1",
+      "cl_lecture_name": "Example on connected components using Disjoint sets",
+      "duration_hm": "4:55",
+      "num_of_question": "0"
+    }
+  ]
+}
