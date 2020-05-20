@@ -37,3 +37,37 @@ Array Problems:
 
 Tree Problems:
 - [ ] One -> Size of a Binary Tree
+- [ ] Two -> Identical or not
+- [ ] Three -> Mirror Tree
+- [ ] Four -> Level Order Traversal
+- [ ] Five -> Lowest Common Ancestor (LCA) - BST
+- [ ] Six -> Lowest Common Ancestor (LCA) - Binary Tree
+- [ ] Seven -> Binary Tree into DLL - IN order - InPlace conversion
+- [ ] Eight -> Diameter of the Binary Tree
+- [ ] Nine -> Find the level of a given node
+- [ ] Ten -> Print nodes at k distance form root
+- [ ] Eleven -> Print nodes at K distance form any node in BT
+- [ ] Twelve -> Vertical Tree Order Traversal
+- [ ] Thirteen -> Vertical Sum of the Binary Tree
+- [ ] Fourteen -> Sum Tree or not
+- [ ] Fifteen -> Top View
+- [ ] Sixteen -> Bottom View
+- [ ] Seventeen -> Left View
+- [ ] Eighteen -> Remove all paths whose length < K in BT.
+- [ ] Nineteen -> One BT is a sub tree of another BT or not
+- [ ] Twenty -> Cousin Nodes or not
+- [ ] TwentyOne -> Balanced BST construction from a sorted List
+- [ ] TwentyTwo -> BST into Balanced BST
+- [ ] TwentyThree -> Print all paths possible from root to all leaves
+- [ ] TwentyFour -> Spiral Level Order Traversal
+- [ ] TwentyFive -> BT construction from the given POST and IN Order
+- [ ] TwentySix -> All nodes at K distance from leaf
+- [ ] TwentySeven -> 
+- [ ] TwentyEight -> 
+- [ ] TwentyNine -> 
+- [ ] Thirty -> 
+- [ ] ThirtyOne -> 
+- [ ] ThirtyTwo -> 
+- [ ] ThirtyThree -> 
+- [ ] ThirtyFour -> 
+- [ ] ThirtyFive -> 
