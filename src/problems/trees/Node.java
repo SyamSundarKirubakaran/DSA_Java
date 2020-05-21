@@ -72,4 +72,45 @@ public class Node {
         return zero;
     }
 
+    Node constructBalancedBST() {
+        Node one = new Node(1);
+        Node two = new Node(2);
+        Node three = new Node(3);
+        Node four = new Node(4);
+        Node five = new Node(5);
+        Node six = new Node(6);
+        Node seven = new Node(7);
+        four.left = two;
+        two.left = one;
+        two.right = three;
+        four.right = six;
+        six.left = five;
+        six.right = seven;
+        return four;
+    }
+
+    void preOrderTraversal(Node node) {
+        if (node != null) {
+            System.out.println(node.value + " ");
+            preOrderTraversal(node.left);
+            preOrderTraversal(node.right);
+        }
+    }
+
+    void inOrderTraversal(Node node) {
+        if (node != null) {
+            inOrderTraversal(node.left);
+            System.out.println(node.value + " ");
+            inOrderTraversal(node.right);
+        }
+    }
+
+    void postOrderTraversal(Node node) {
+        if (node != null) {
+            postOrderTraversal(node.left);
+            postOrderTraversal(node.right);
+            System.out.println(node.value + " ");
+        }
+    }
+
 }

@@ -8,21 +8,18 @@ public class One {
 
     public static void main(String[] args) {
         Node head = new Node().constructBalancedTree();
-        performPreOrderTraversal(head);
-        System.out.println();
+        System.out.println(findTreeSize(head));
         Node head1 = new Node().constructUnBalancedTreeLeft();
-        performPreOrderTraversal(head1);
-        System.out.println();
+        System.out.println(findTreeSize(head1));
         Node head2 = new Node().constructUnBalancedTreeRight();
-        performPreOrderTraversal(head2);
+        System.out.println(findTreeSize(head2));
     }
 
-    private static void performPreOrderTraversal(Node node) {
-        if (node != null) {
-            System.out.print(node.value + " ");
-            performPreOrderTraversal(node.left);
-            performPreOrderTraversal(node.right);
-        }
+    private static int findTreeSize(Node node) {
+        if (node == null)
+            return 0;
+        else
+            return findTreeSize(node.left) + findTreeSize(node.right) + 1;
     }
 
 }
