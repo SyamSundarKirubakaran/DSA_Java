@@ -89,6 +89,23 @@ public class Node {
         return four;
     }
 
+    Node constructSumTree() {
+        Node zero = new Node(50);
+        Node one = new Node(15);
+        Node two = new Node(10);
+        Node three = new Node(10);
+        Node four = new Node(5);
+        Node five = new Node(7);
+        Node six = new Node(3);
+        zero.left = one;
+        zero.right = two;
+        one.left = three;
+        one.right = four;
+        two.left = five;
+        two.right = six;
+        return zero;
+    }
+
     void preOrderTraversal(Node node) {
         if (node != null) {
             System.out.println(node.value + " ");
