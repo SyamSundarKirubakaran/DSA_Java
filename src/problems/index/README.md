@@ -62,11 +62,11 @@ Tree Problems:
 - [ ] TwentyFour -> Spiral Level Order Traversal
 - [ ] TwentyFive -> BT construction from the given POST and IN Order
 - [ ] TwentySix -> All nodes at K distance from leaf
-- [ ] TwentySeven -> 
-- [ ] TwentyEight -> 
-- [ ] TwentyNine -> 
-- [ ] Thirty -> 
-- [ ] ThirtyOne -> 
+- [ ] TwentySeven -> Expression Evaluation
+- [ ] TwentyEight -> Extreme nodes of each level in alternating order
+- [ ] TwentyNine -> Diagonal Traversal BT
+- [ ] Thirty -> BT to a BT that holds Child sum property
+- [ ] ThirtyOne -> Multiplication of Sums of data at same level
 - [ ] ThirtyTwo -> 
 - [ ] ThirtyThree -> 
 - [ ] ThirtyFour -> 
