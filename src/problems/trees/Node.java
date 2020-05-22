@@ -34,6 +34,23 @@ public class Node {
         return zero;
     }
 
+    Node constructSmallBalancedTree() {
+        Node zero = new Node(0);
+        Node one = new Node(1);
+        Node two = new Node(2);
+        Node three = new Node(3);
+        Node four = new Node(4);
+        Node five = new Node(5);
+        Node six = new Node(6);
+        zero.left = one;
+        zero.right = two;
+        one.left = three;
+        one.right = four;
+        two.left = five;
+        two.right = six;
+        return two;
+    }
+
     Node constructUnBalancedTreeLeft() {
         Node zero = new Node(0);
         Node one = new Node(1);
@@ -86,6 +103,25 @@ public class Node {
         four.right = six;
         six.left = five;
         six.right = seven;
+        return four;
+    }
+
+    Node constructUnBalancedBST() {
+        Node one = new Node(1);
+        Node two = new Node(2);
+        Node three = new Node(3);
+        Node four = new Node(4);
+        Node five = new Node(5);
+        Node six = new Node(6);
+        Node seven = new Node(7);
+        Node eight = new Node(8);
+        four.left = two;
+        two.left = one;
+        two.right = three;
+        four.right = six;
+        six.left = five;
+        six.right = seven;
+        seven.right = eight;
         return four;
     }
 
