@@ -66,8 +66,19 @@ Tree Problems:
 - [ ] TwentyEight -> Extreme nodes of each level in alternating order
 - [ ] TwentyNine -> Diagonal Traversal BT
 - [ ] Thirty -> BT to a BT that holds Child sum property
-- [ ] ThirtyOne -> Multiplication of Sums of data at same level
-- [ ] ThirtyTwo -> 
-- [ ] ThirtyThree -> 
-- [ ] ThirtyFour -> 
-- [ ] ThirtyFive -> 
+- [ ] ThirtyOne -> Multiplication of Sums of data of leaves at same level
+- [ ] ThirtyTwo -> Multiplication of Sums of data at same level
+- [ ] ThirtyThree -> Max of all differences of a node and it's ancestors BT
+- [ ] ThirtyFour -> Serialization and Deserialization BT
+- [ ] ThirtyFive -> Serialization and Deserialization n-ary Tree
+- [ ] ThirtySix -> Tree from ancestor Matrix
+- [ ] ThirtySeven -> Complete Binary Tree from a LL
+- [ ] ThirtyEight -> Find the next right node of a given node in the same level
+- [ ] ThirtyNine -> Boundary Traversal
+- [ ] Forty -> Convert a given tree into sum tree
+- [ ] FortyOne -> Check if Foldable or not
+- [ ] FortyTwo -> Check if removing an edge will cut into two equal halves
+- [ ] FortyThree -> Locking and Unlocking a Node - Design Problem
+- [ ] FortyFour -> Reverse Alternate Levels of a perfect BT
+- [ ] FortyFive -> Custom Tree Problem
+- [ ] FortySix -> Threaded BT
