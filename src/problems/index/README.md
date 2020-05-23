@@ -80,5 +80,5 @@ Tree Problems:
 - [ ] FortyTwo -> Check if removing an edge will cut into two equal halves
 - [ ] FortyThree -> Locking and Unlocking a Node - Design Problem
 - [ ] FortyFour -> Reverse Alternate Levels of a perfect BT
-- [ ] FortyFive -> Custom Tree Problem
+- [ ] FortyFive -> Custom Tree Print Problem
 - [ ] FortySix -> Threaded BT

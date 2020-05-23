@@ -54,6 +54,7 @@ public class ThirtySix {
                 indexes.removeAll(oldList);
                 if (indexes.size() > 2) {
                     System.out.print("Invalid Input");
+                    break;
                 } else {
                     node = new Node(index[i]);
                     Node leftNode = null, rightNode = null;
