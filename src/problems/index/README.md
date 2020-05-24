@@ -85,3 +85,18 @@ Tree Problems:
 
 Linked List Problems:
 - [ ] One -> Reverse a LL
+- [ ] Two -> Middle of a LL
+- [ ] Three -> Kth node from the end of the LL
+- [ ] Four -> Detect loop in LL
+- [ ] Five -> Find the start of the Loop in the LL with Loop
+- [ ] Six -> 2 LL merge at a point, find that point
+- [ ] Seven -> Alternating Split
+- [ ] Eight -> Clone a LL that contains Random Pointer (Custom LL)
+- [ ] Nine -> Palindrome of a LL
+- [ ] Ten -> Merge 2 Sorted LL into one Sorted LL
+- [ ] Eleven -> Merge K sorted LL of size N into single Sorted LL of size kn
+- [ ] Twelve -> Merge sort on LL
+- [ ] Thirteen -> LL with arb-pointer pointing to greatest in the right side of the current node
+- [ ] Fourteen -> Memory efficient DLL
+- [ ] Fifteen -> Sort a LL with 0s, 1s and 2s
+- [ ] Sixteen -> Add 1 to number represented as LL
