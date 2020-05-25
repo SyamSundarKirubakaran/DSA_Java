@@ -8,9 +8,9 @@ public class One {
 
     public static void main(String[] args) {
         Node.SLLNode head = new Node().constructBasicEvenLengthLL();
-        new Node().print(head);
+        new Node().printSLL(head);
         System.out.println();
-        new Node().print(reverse(head));
+        new Node().printSLL(reverse(head));
     }
 
     private static Node.SLLNode reverse(Node.SLLNode head) {
