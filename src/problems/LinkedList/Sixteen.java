@@ -23,7 +23,7 @@ public class Sixteen {
             carry = (sum == 10) ? 1 : 0;
             sum = sum % 10;
             mainHead.value = sum;
-            temp = head;
+            temp = mainHead;
             mainHead = mainHead.next;
         }
 
