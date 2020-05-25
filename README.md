@@ -101,3 +101,18 @@ Linked List Problems:
 - [ ] Fifteen -> Sort a LL with 0s, 1s and 2s
 - [ ] Sixteen -> Add 1 to number represented as LL
 - [ ] Seventeen -> Merge K sorted LL of size N into single Sorted LL of size kn - Better complexity
+
+Stack Problems:
+- [ ] One -> Stack using Queues
+- [ ] Two -> getMin @ O(1)
+- [ ] Three -> Reverse a Stack
+- [ ] Four -> closest greater element to the right
+- [ ] Five -> Overlapping Intervals
+- [ ] Six -> Balancing Parenthesis
+- [ ] Seven -> Stock Span Problem
+- [ ] Eight -> Min no.of bracket reversals req to make the eqn balanced
+- [ ] Nine -> find duplicate parenthesis present or not
+- [ ] Ten -> Celebrity Problem
+
+Queue Problems:
+- [ ] One -> Petrol Bunk and Distance Problem
