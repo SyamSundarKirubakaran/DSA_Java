@@ -23,6 +23,36 @@ public class Node {
         return zero;
     }
 
+    SLLNode zerosOnesTwosLL() {
+        SLLNode zero = new SLLNode(1);
+        SLLNode one = new SLLNode(1);
+        SLLNode two = new SLLNode(0);
+        SLLNode three = new SLLNode(2);
+        SLLNode four = new SLLNode(2);
+        SLLNode five = new SLLNode(0);
+        zero.next = one;
+        one.next = two;
+        two.next = three;
+        three.next = four;
+        four.next = five;
+        return zero;
+    }
+
+    SLLNode constructBasicUnSortedEvenLengthLL() {
+        SLLNode zero = new SLLNode(4);
+        SLLNode one = new SLLNode(1);
+        SLLNode two = new SLLNode(10);
+        SLLNode three = new SLLNode(0);
+        SLLNode four = new SLLNode(4);
+        SLLNode five = new SLLNode(5);
+        zero.next = one;
+        one.next = two;
+        two.next = three;
+        three.next = four;
+        four.next = five;
+        return zero;
+    }
+
     SLLNode constructHigherOrderEvenLengthLLOne() {
         SLLNode zero = new SLLNode(0);
         SLLNode one = new SLLNode(2);
@@ -155,6 +185,19 @@ public class Node {
             System.out.print(head.value + " ");
             head = head.next;
         }
+    }
+
+    public SLLNode number() {
+        SLLNode zero = new SLLNode(5);
+        SLLNode one = new SLLNode(9);
+        SLLNode two = new SLLNode(3);
+        SLLNode three = new SLLNode(9);
+        SLLNode four = new SLLNode(9);
+        zero.next = one;
+        one.next = two;
+        two.next = three;
+        three.next = four;
+        return zero;
     }
 
     static class SLLNode {
