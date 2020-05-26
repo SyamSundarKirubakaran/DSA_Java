@@ -115,4 +115,4 @@ Stack Problems:
 - [ ] Ten -> Celebrity Problem
 
 Queue Problems:
-- [ ] One -> Petrol Bunk and Distance Problem
+- [ ] One -> Circular tour that visit all gasoline stations before running out of gas
