@@ -24,7 +24,7 @@ Array Problems:
 - [ ] TwentyThree -> Construct a product array such that the ith element in product array contains the product of all the remaining elements but i (Without Division)
 - [ ] TwentyFour -> Construct a product array such that the ith element in product array contains the product of all the remaining elements but i (Without Division) - less time complexity
 - [ ] TwentyFive -> Sort a nearly sorted array, each element can be misplaced by a max of k digits before or after
-- [ ] TwentySix -> Find Duplicates in O(n) time and O(1) space - Array element values are <= Max Index
+- [ ] TwentySix -> Find Duplicates in O(n) time and O(1) space - Array element values are ≤ Max Index
 - [ ] TwentySeven -> Find 2 repeating elements in a given array - XOR - Given (n+2) elements - 1 ≤ a[i] ≤ n - All elements from 1 to n occurs at least once (Except the 2 numbers that occurs twice)
 - [ ] TwentyEight -> Rotate an array of size n by d elements - Left rotation - Beginning to End - Juggling Algorithm
 - [ ] TwentyNine -> Sort array in wave form - Even position number
@@ -33,7 +33,8 @@ Array Problems:
 - [ ] ThirtyTwo -> No.of Triangles that can be formed
 - [ ] ThirtyThree -> Smallest number that can't be formed from the array of given numbers
 - [ ] ThirtyFour -> Rearrange such that a[i] becomes a[a[i]]
-- [ ] ThirtyFive -> Rotate Matrix by 90 degree - anti-clockwise
+- [ ] ThirtyFive -> Rotate Matrix by 90 degree - anti-clockwise 
+- [ ] ThirtySix -> Count number of occurrences (or frequency) in a sorted array
 
 Tree Problems:
 - [ ] One -> Size of a Binary Tree

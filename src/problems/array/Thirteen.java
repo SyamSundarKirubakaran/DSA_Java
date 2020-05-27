@@ -1,5 +1,7 @@
 package problems.array;
 
+import java.util.Arrays;
+
 /**
  * @author SYAM K
  * @problem : 3 elements such that their sum is equal to x.
@@ -15,6 +17,7 @@ class Thirteen {
     static void findTriplet(int[] arr, int left, int right, int size, int key) {
         int sum;
         int req_index_one = -1, req_index_two = -1, req_index_three = -1;
+        Arrays.sort(arr);
         label:
         for (int i = 0; i <= size; i++) {
             req_index_one = i;

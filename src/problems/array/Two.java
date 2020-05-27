@@ -6,10 +6,10 @@ package problems.array;
  */
 
 class Two {
-    static int[] arr = new int[]{22, 33, 11, 55, 99, 77, 66, 88};
+    static int[] arr = new int[]{2, 3, 4, 10, 40};
 
     public static void main(String[] args) {
-        performBinarySearch(88, 0, arr.length - 1);
+        performBinarySearch(10, 0, arr.length - 1);
     }
 
     static void performBinarySearch(int key, int startIndex, int endIndex) {
