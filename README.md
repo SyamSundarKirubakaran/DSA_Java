@@ -36,6 +36,7 @@ Array Problems:
 - [ ] ThirtyFive -> Rotate Matrix by 90 degree - anti-clockwise 
 - [ ] ThirtySix -> Count number of occurrences (or frequency) in a sorted array
 - [ ] ThirtySeven -> Find Sub Array whose sum is equals zero - reduced time complexity
+- [ ] ThirtyEight -> Largest sub array with equal no.of zeros and ones - my way
 
 Tree Problems:
 - [ ] One -> Size of a Binary Tree

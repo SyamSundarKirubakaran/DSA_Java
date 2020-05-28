@@ -13,6 +13,7 @@ public class TwentyOne {
 
     private static void findZeroSumSubArray(int[] arr, int size) {
         int currentSum;
+        // In-efficient check problem `ThirtySeven`
         for (int i = 0; i <= size; i++) {
             currentSum = 0;
             for (int j = i; j <= size; j++) {
