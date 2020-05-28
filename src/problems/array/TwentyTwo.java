@@ -1,5 +1,6 @@
 package problems.array;
 
+import java.util.Arrays;
 import java.util.HashMap;
 
 /**
@@ -17,7 +18,7 @@ public class TwentyTwo {
     private static void findMaxSubArray(int[] arr, int size) {
         HashMap<Integer, Integer> map = new HashMap<>();
         int maxSize = Integer.MIN_VALUE, startIndex = 0, sum = 0;
-        replaceWithMinusOne(arr, size);
+        arr = Arrays.stream(arr).map(entry -> entry == 0 ? -1 : 1).toArray();
         for (int i = 0; i <= size; i++) {
             sum += arr[i];
             if (arr[i] == 0) {
@@ -37,14 +38,6 @@ public class TwentyTwo {
             System.out.println("No Such sub array");
         } else {
             System.out.println("Sub array from " + (startIndex) + " to " + (maxSize + 1));
-        }
-    }
-
-    private static void replaceWithMinusOne(int[] arr, int size) {
-        for (int i = 0; i <= size; i++) {
-            if (arr[i] == 0) {
-                arr[i] = -1;
-            }
         }
     }
 
