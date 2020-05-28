@@ -14,7 +14,7 @@ Array Problems:
 - [ ] Thirteen -> 3 elements such that their sum is equal to x.
 - [ ] Fourteen -> Find the Equilibrium Index .i.e., left sum and right sum of index should be equal.
 - [ ] Fifteen -> Find the Equilibrium Index .i.e., left sum and right sum of index should be equal - Less Space Complexity.
-- [ ] Sixteen -> Array of unknown size.0s followed by 1s find the first index of 1
+- [ ] Sixteen -> Array of unknown size. 0s followed by 1s find the first index of 1
 - [ ] Seventeen -> Maximum of every contiguous sub-array of size k. - Sliding Window.
 - [ ] Eighteen -> count the no.of smaller elements to the right of each element in the array.
 - [ ] Nineteen -> Largest Multiple of 3 with given digits.
