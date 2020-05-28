@@ -35,6 +35,7 @@ Array Problems:
 - [ ] ThirtyFour -> Rearrange such that a[i] becomes a[a[i]]
 - [ ] ThirtyFive -> Rotate Matrix by 90 degree - anti-clockwise 
 - [ ] ThirtySix -> Count number of occurrences (or frequency) in a sorted array
+- [ ] ThirtySeven -> Find Sub Array whose sum is equals zero - reduced time complexity
 
 Tree Problems:
 - [ ] One -> Size of a Binary Tree
