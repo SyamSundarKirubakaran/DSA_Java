@@ -28,7 +28,7 @@ public class Thirty {
                 smallest = j;
         }
         swap(arr, i - 1, smallest);
-        Arrays.sort(arr, i + 1, size);
+        Arrays.sort(arr, i, size + 1);
         printArray(arr);
     }
 
