@@ -1,7 +1,5 @@
 package problems.LinkedList;
 
-import javafx.util.Pair;
-
 /**
  * @author SYAM K
  * @problem : 2 LL merge at a point and become a single List, find that point
@@ -9,9 +7,8 @@ import javafx.util.Pair;
 public class Six {
 
     public static void main(String[] args) {
-        Pair<Node.SLLNode, Node.SLLNode> head = new Node().constructMergingListAtANodeNotEqual();
-        Node.SLLNode head1 = head.getKey();
-        Node.SLLNode head2 = head.getValue();
+        Node.SLLNode head1 = new Node.SLLNode(0);
+        Node.SLLNode head2 = new Node().constructMergingListAtANodeNotEqual(head1);
         Node.SLLNode result = detectNode(head1, head2);
         System.out.print(result.value + " ");
     }

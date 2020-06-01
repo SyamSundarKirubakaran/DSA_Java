@@ -1,7 +1,5 @@
 package problems.LinkedList;
 
-import javafx.util.Pair;
-
 /**
  * @author SYAM K
  * @problem : Singly Linked List Node
@@ -140,8 +138,7 @@ public class Node {
         return zero;
     }
 
-    Pair<SLLNode, SLLNode> constructMergingListAtANodeEqual() {
-        SLLNode zero = new SLLNode(0);
+    SLLNode constructMergingListAtANodeEqual(SLLNode zero) {
         SLLNode one = new SLLNode(1);
         SLLNode two = new SLLNode(2);
         SLLNode three = new SLLNode(3);
@@ -158,11 +155,10 @@ public class Node {
         six.next = seven;
         seven.next = eight;
         eight.next = three;
-        return new Pair<>(zero, six);
+        return six;
     }
 
-    Pair<SLLNode, SLLNode> constructMergingListAtANodeNotEqual() {
-        SLLNode zero = new SLLNode(0);
+    SLLNode constructMergingListAtANodeNotEqual(SLLNode zero) {
         SLLNode one = new SLLNode(1);
         SLLNode two = new SLLNode(2);
         SLLNode three = new SLLNode(3);
@@ -177,7 +173,7 @@ public class Node {
         SLLNode seven = new SLLNode(7);
         six.next = seven;
         seven.next = three;
-        return new Pair<>(zero, six);
+        return six;
     }
 
     void printSLL(SLLNode head) {
