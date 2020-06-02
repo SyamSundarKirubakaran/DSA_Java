@@ -4,8 +4,8 @@ Array Problems:
 - [ ] Three -> Find a pair in an array whose sum is equal to given number (Hash Approach) - Brute Force, Quick Sort and search complement, Hash Table
 - [ ] Four -> Element that occurs more than n/2 times - Unsorted
 - [ ] Five -> Element that occurs more than n/2 times - Sorted
-- [ ] Six -> Largest Difference such that the smaller number appears before larger number - Maximum Sum Sub-array
-- [ ] Seven -> Largest Difference such that the smaller number appears before larger number - Maximum Sum Sub-array - Less space complexity
+- [ ] Six -> Largest Difference such that the smaller number appears before larger number
+- [ ] Seven -> Largest Difference such that the smaller number appears before larger number - Less space complexity
 - [ ] Eight -> Largest Difference such that the smaller number appears before larger number - Min So Far
 - [ ] Nine -> Find the number occurring odd number of times in the given array(Only one element occurs odd number of times)
 - [ ] Ten -> Separate 0's and 1's in an array
@@ -119,3 +119,43 @@ Stack Problems:
 
 Queue Problems:
 - [ ] One -> Circular tour that visit all gasoline stations before running out of gas
+
+Dynamic Programming:
+- [ ] One -> Maximum Sum Sub array
+- [ ] Two -> Maximum Sum Increasing Sub Sequence
+- [ ] Three -> Longest Sub Sequence in an array such that the element are consecutive
+- [ ] Four -> In a Binary Matrix, Max Square Matrix with all 1s
+- [ ] Five -> Kth Ugly Number
+- [ ] Six -> Longest Increasing Sub Sequence
+- [ ] Seven -> Longest Decreasing Sub Sequence
+- [ ] Eight -> Perfect Hill Sequence
+- [ ] Nine -> Edit Distance
+- [ ] Ten -> Largest Sum Independent set in a Binary Tree
+- [ ] Eleven -> Find n-bit integer that doesn't have 2 consecutive zeros
+- [ ] Twelve -> Word breaking problem
+- [ ] Thirteen -> Partition Problem
+- [ ] Fourteen -> Longest Palindromic sub sequence
+- [ ] Fifteen -> Steps 1 or 2 to reach n
+- [ ] Sixteen -> Longest non overlapping repeating sub string
+- [ ] Seventeen -> Min cost to make strings(x and y) equal, del(x) -> S, del(y) -> P
+- [ ] Eighteen -> No.of times a string appeared as Sub Sequence in other string
+- [ ] Nineteen -> No.of ways to fill 2xn with 2x1
+- [ ] Twenty -> Given a Cost matrix, min cost to reach (m-1,n-1) from (0,0), allowed movements -> left, right, diagonally down
+- [ ] TwentyOne -> K palindrome
+- [ ] TwentyTwo -> Longest Common Sub Sequence
+- [ ] TwentyThree -> Sum of all digits from 1 to n
+- [ ] TwentyFour -> Given a string of digits, sub string length = 2k, sum of left k = sum of right k
+- [ ] TwentyFive -> Given a BT, find Largest Independent Set
+- [ ] TwentySix -> Cutting Rod
+- [ ] TwentySeven -> Longest Palindromic sub string
+- [ ] TwentyEight -> Count all Palindromic sub string in a string
+- [ ] TwentyNine -> Count all distinct Palindromic sub string in a string
+- [ ] Thirty -> Rectangular grid 2xn, max sum such that no 2 chosen digit are adj -> vertically, horizontally, diagonally
+- [ ] ThirtyOne -> Arrays A -> m, B -> n, (m>n) insert(m-n) 0s in B such that dot product is max
+- [ ] ThirtyTwo -> Largest Independent Set
+- [ ] ThirtyThree -> Egg Dropping Problem
+- [ ] ThirtyFour -> Non-decreasing number with n digits
+- [ ] ThirtyFive -> Weighted Job Scheduling
+- [ ] ThirtySix -> Count no.of ways to reach a score in a given game
+- [ ] ThirtySeven -> Max coins by busting balloons
+- [ ] ThirtyEight -> Max points in the grid using 2 traversals
