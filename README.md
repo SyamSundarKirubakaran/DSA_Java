@@ -122,7 +122,7 @@ Queue Problems:
 
 Dynamic Programming:
 - [ ] One -> Maximum Sum Sub array
-- [ ] Two -> Maximum Sum Increasing Sub Sequence
+- [ ] Two -> Maximum Sum Increasing Sub Sequence [OR] Longest increasing Sub Sequence
 - [ ] Three -> Longest Sub Sequence in an array such that the element are consecutive
 - [ ] Four -> In a Binary Matrix, Max Square Matrix with all 1s
 - [ ] Five -> Kth Ugly Number

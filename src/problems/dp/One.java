@@ -16,7 +16,7 @@ public class One {
         int currentSum = arr[0];
         int maxSoFar = arr[0];
         int maxIndex = 0;
-        for (int i = 1; i <= length - 1; i++) {
+        for (int i = 1; i < length; i++) {
             currentSum += arr[i];
             if (currentSum > maxSoFar) {
                 maxSoFar = currentSum;
