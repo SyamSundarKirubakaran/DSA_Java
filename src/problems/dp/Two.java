@@ -27,21 +27,21 @@ public class Two {
                         chosenIndex = j;
                     }
                 }
-                if (chosenIndex != -1) {
-                    lis[i] = arr[i] + lis[chosenIndex];
-                } else {
-                    lis[i] = arr[i];
-                }
+            }
+            if (chosenIndex != -1) {
+                lis[i] = arr[i] + lis[chosenIndex];
+            } else {
+                lis[i] = arr[i];
             }
             if (lis[i] > lis[maxSoFarIndex]) {
                 maxSoFarIndex = i;
             }
         }
         System.out.println(Arrays.toString(lis));
-        findElements(arr, length, lis, lis.length, maxSoFarIndex);
+        findElements(arr, lis, maxSoFarIndex);
     }
 
-    private static void findElements(int[] arr, int arrLength, int[] lis, int lisLength, int maxSoFarIndex) {
+    private static void findElements(int[] arr, int[] lis, int maxSoFarIndex) {
         int maxSum = lis[maxSoFarIndex];
         System.out.print(arr[maxSoFarIndex] + " ");
         while (maxSum > 0) {
