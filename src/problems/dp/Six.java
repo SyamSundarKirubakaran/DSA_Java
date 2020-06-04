@@ -26,22 +26,34 @@ public class Six {
                 }
             }
         }
-        int maxLengthIndex = 0;
+        System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(lis));
+        int maxIndex = finMaxIndex(lis, length);
+        System.out.println(maxIndex);
+        findSequence(lis, arr, maxIndex);
+    }
+
+    private static int finMaxIndex(int[] lis, int length) {
+        int maxIndex = 0;
         for (int i = 0; i < length; i++) {
-            if (lis[i] > lis[maxLengthIndex]) {
-                maxLengthIndex = i;
+            if (lis[i] > lis[maxIndex]) {
+                maxIndex = i;
             }
         }
+        return maxIndex;
+    }
+
+    private static void findSequence(int[] lis, int[] arr, int maxIndex) {
         List<Integer> finalResult = new ArrayList<>();
-        finalResult.add(arr[maxLengthIndex]);
-        for (int i = maxLengthIndex - 1; i >= 0; i--) {
-            if (lis[i] < lis[maxLengthIndex] && arr[i] < arr[maxLengthIndex]) {
-                if (lis[maxLengthIndex] - lis[i] > 1) {
+        finalResult.add(arr[maxIndex]);
+        for (int i = maxIndex - 1; i >= 0; i--) {
+            if (lis[i] < lis[maxIndex] && arr[i] < arr[maxIndex]) {
+                if (lis[maxIndex] - lis[i] > 1) {
                     continue;
                 } else {
                     finalResult.add(arr[i]);
                 }
-                maxLengthIndex = i;
+                maxIndex = i;
             }
         }
         System.out.println(finalResult);
