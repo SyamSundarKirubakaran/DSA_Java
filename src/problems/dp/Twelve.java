@@ -53,6 +53,7 @@ public class Twelve {
         return t[s.length()];
     }
 
+    // Not the most optimal way -> should change this
     private static void eliminateSubStringAndPrint(List<String> presentWords) {
         presentWords.sort(Comparator.comparingInt(String::length));
         List<String> removeList = new ArrayList<>();

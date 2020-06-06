@@ -133,7 +133,7 @@ Dynamic Programming:
 - [ ] Ten -> Largest Sum Independent set in a Binary Tree
 - [ ] Eleven -> Find n-bit integer that doesn't have 2 consecutive zeros
 - [ ] Twelve -> Word breaking problem
-- [ ] Thirteen -> Partition Problem
+- [ ] Thirteen -> Partition Problem - Sub Set Sum Problem
 - [ ] Fourteen -> Longest Palindromic sub sequence
 - [ ] Fifteen -> Steps 1 or 2 to reach n
 - [ ] Sixteen -> Longest non overlapping repeating sub string
@@ -159,3 +159,4 @@ Dynamic Programming:
 - [ ] ThirtySix -> Count no.of ways to reach a score in a given game
 - [ ] ThirtySeven -> Max coins by busting balloons
 - [ ] ThirtyEight -> Max points in the grid using 2 traversals
+- [ ] ThirtyNine -> Sub Set Sum Problem
