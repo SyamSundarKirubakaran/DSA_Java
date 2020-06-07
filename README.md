@@ -120,7 +120,7 @@ Stack Problems: (10)
 Queue Problems: (1)
 - [ ] One -> Circular tour that visit all gasoline stations before running out of gas
 
-Dynamic Programming: (45)
+Dynamic Programming: (46)
 - [ ] One -> Maximum Sum Sub array
 - [ ] Two -> Maximum Sum Increasing Sub Sequence [OR] Longest increasing Sub Sequence
 - [ ] Three -> Longest Sub Sequence in an array such that the element are consecutive
@@ -133,8 +133,8 @@ Dynamic Programming: (45)
 - [ ] Ten -> Largest Sum Independent set in a Binary Tree
 - [ ] Eleven -> Find n-bit integer that doesn't have 2 consecutive zeros
 - [ ] Twelve -> Word breaking problem
-- [X] Thirteen -> Partition Problem - Sub Set Sum Problem
-- [ ] Fourteen -> Longest Palindromic sub sequence
+- [ ] Thirteen -> Partition Problem - Sub Set Sum Problem
+- [X] Fourteen -> Longest Palindromic sub sequence
 - [ ] Fifteen -> Steps 1 or 2 to reach n
 - [ ] Sixteen -> Longest non overlapping repeating sub string
 - [ ] Seventeen -> Min cost to make strings(x and y) equal, del(x) -> S, del(y) -> P
@@ -159,13 +159,14 @@ Dynamic Programming: (45)
 - [ ] ThirtySix -> Count no.of ways to reach a score in a given game
 - [ ] ThirtySeven -> Max coins by busting balloons
 - [ ] ThirtyEight -> Max points in the grid using 2 traversals
-- [ ] ThirtyNine -> Sub Set Sum Problem
-- [X] Forty -> Matrix Chaining
-- [X] FortyOne -> Longest Common Sub Sequence
-- [X] FortyTwo -> Multi Stage Graph
+- [x] ThirtyNine -> Sub Set Sum Problem
+- [ ] Forty -> Matrix Chaining - Results Upper triangular Matrix
+- [ ] FortyOne -> Longest Common Sub Sequence
+- [ ] FortyTwo -> Multi Stage Graph
 - [ ] FortyThree -> 0/1 Knapsack
-- [ ] FortyFour -> Travelling Sales man (TSP) - DFS
-- [X] FortyFive -> All Pair Shortest path - Floyd Warshall's
+- [ ] FortyFour -> Travelling Sales man (TSP) - DFS based - Hamiltonian Cycle + MIN Cost
+- [ ] FortyFive -> All Pair Shortest path - Floyd Warshall's
+- [ ] FortySix -> Matrix Chaining - Top Down
 
 Graph Problems:
 - [ ] One -> DFS

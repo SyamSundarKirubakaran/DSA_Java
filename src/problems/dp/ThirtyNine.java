@@ -1,5 +1,7 @@
 package problems.dp;
 
+import java.util.Arrays;
+
 /**
  * @author SYAM K
  * @problem : Sub Set Sum Problem
@@ -27,8 +29,16 @@ public class ThirtyNine {
                 } else {
                     subSet[i][j] = subSet[i - 1][j];
                 }
+                printMatrix(subSet);
             }
         }
         return subSet[length][sum];
+    }
+
+    private static void printMatrix(boolean[][] subSet) {
+        System.out.println();
+        for (boolean[] ints : subSet) {
+            System.out.println(Arrays.toString(ints));
+        }
     }
 }

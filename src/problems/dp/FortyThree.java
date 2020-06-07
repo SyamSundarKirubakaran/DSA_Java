@@ -1,5 +1,7 @@
 package problems.dp;
 
+import java.util.Arrays;
+
 /**
  * @author SYAM K
  * @problem : 0/1 Knapsack
@@ -30,8 +32,17 @@ public class FortyThree {
                 } else {
                     knapSack[i][j] = knapSack[i - 1][j];
                 }
+                printMatrix(knapSack);
             }
         }
+        System.out.println();
         System.out.println(knapSack[n][capacity]);
+    }
+
+    private static void printMatrix(int[][] knapSack) {
+        System.out.println();
+        for (int[] ints : knapSack) {
+            System.out.println(Arrays.toString(ints));
+        }
     }
 }

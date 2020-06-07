@@ -33,10 +33,11 @@ public class Two {
             } else {
                 lis[i] = arr[i];
             }
-            if (lis[i] > lis[maxSoFarIndex]) {
+            if (lis[i] > lis[maxSoFarIndex]) { // just to keep track of max Index
                 maxSoFarIndex = i;
             }
         }
+        System.out.println(Arrays.toString(arr));
         System.out.println(Arrays.toString(lis));
         findElements(arr, lis, maxSoFarIndex);
     }
