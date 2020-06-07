@@ -1,4 +1,4 @@
-Array Problems:
+Array Problems: (38)
 - [ ] One -> Linear Search
 - [ ] Two -> Binary Search
 - [ ] Three -> Find a pair in an array whose sum is equal to given number (Hash Approach) - Brute Force, Quick Sort and search complement, Hash Table
@@ -38,7 +38,7 @@ Array Problems:
 - [ ] ThirtySeven -> Find Sub Array whose sum is equals zero - reduced time complexity
 - [ ] ThirtyEight -> Largest sub array with equal no.of zeros and ones - my way
 
-Tree Problems:
+Tree Problems: (46)
 - [ ] One -> Size of a Binary Tree
 - [ ] Two -> Identical or not
 - [ ] Three -> Mirror Tree
@@ -86,7 +86,7 @@ Tree Problems:
 - [ ] FortyFive -> Custom Tree Print Problem
 - [ ] FortySix -> Threaded BT
 
-Linked List Problems:
+Linked List Problems: (7)
 - [ ] One -> Reverse a LL
 - [ ] Two -> Middle of a LL
 - [ ] Three -> Kth node from the end of the LL
@@ -105,7 +105,7 @@ Linked List Problems:
 - [ ] Sixteen -> Add 1 to number represented as LL
 - [ ] Seventeen -> Merge K sorted LL of size N into single Sorted LL of size kn - Better complexity
 
-Stack Problems:
+Stack Problems: (10)
 - [ ] One -> Stack using Queues
 - [ ] Two -> getMin @ O(1)
 - [ ] Three -> Reverse a Stack
@@ -117,10 +117,10 @@ Stack Problems:
 - [ ] Nine -> find duplicate parenthesis present or not
 - [ ] Ten -> Celebrity Problem
 
-Queue Problems:
+Queue Problems: (1)
 - [ ] One -> Circular tour that visit all gasoline stations before running out of gas
 
-Dynamic Programming:
+Dynamic Programming: (45)
 - [ ] One -> Maximum Sum Sub array
 - [ ] Two -> Maximum Sum Increasing Sub Sequence [OR] Longest increasing Sub Sequence
 - [ ] Three -> Longest Sub Sequence in an array such that the element are consecutive
