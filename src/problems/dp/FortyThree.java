@@ -25,8 +25,8 @@ public class FortyThree {
         }
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= capacity; j++) {
-                if (j >= i) {
-                    knapSack[i][j] = Math.max(profit[i - 1] + knapSack[i - 1][j - i], knapSack[i - 1][j]);
+                if (j >= weight[i - 1]) {
+                    knapSack[i][j] = Math.max(profit[i - 1] + knapSack[i - 1][j - weight[i - 1]], knapSack[i - 1][j]);
                 } else {
                     knapSack[i][j] = knapSack[i - 1][j];
                 }
