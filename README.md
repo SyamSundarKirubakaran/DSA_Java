@@ -133,7 +133,7 @@ Dynamic Programming: (45)
 - [ ] Ten -> Largest Sum Independent set in a Binary Tree
 - [ ] Eleven -> Find n-bit integer that doesn't have 2 consecutive zeros
 - [ ] Twelve -> Word breaking problem
-- [ ] Thirteen -> Partition Problem - Sub Set Sum Problem
+- [X] Thirteen -> Partition Problem - Sub Set Sum Problem
 - [ ] Fourteen -> Longest Palindromic sub sequence
 - [ ] Fifteen -> Steps 1 or 2 to reach n
 - [ ] Sixteen -> Longest non overlapping repeating sub string
@@ -160,9 +160,13 @@ Dynamic Programming: (45)
 - [ ] ThirtySeven -> Max coins by busting balloons
 - [ ] ThirtyEight -> Max points in the grid using 2 traversals
 - [ ] ThirtyNine -> Sub Set Sum Problem
-- [ ] Forty -> Matrix Chaining
-- [ ] FortyOne -> Longest Common Sub Sequence
-- [ ] FortyTwo -> Multi Stage Graph
+- [X] Forty -> Matrix Chaining
+- [X] FortyOne -> Longest Common Sub Sequence
+- [X] FortyTwo -> Multi Stage Graph
 - [ ] FortyThree -> 0/1 Knapsack
-- [ ] FortyFour -> Travelling Sales man (TSP)
-- [ ] FortyFive -> All Pair Shortest path - Floyd Warshall's
+- [ ] FortyFour -> Travelling Sales man (TSP) - DFS
+- [X] FortyFive -> All Pair Shortest path - Floyd Warshall's
+
+Graph Problems:
+- [ ] One -> DFS
+- [ ] Two -> BFS
