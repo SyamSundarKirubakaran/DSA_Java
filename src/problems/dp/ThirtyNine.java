@@ -12,22 +12,23 @@ public class ThirtyNine {
         System.out.println(subSetSum(arr, arr.length, 6));
     }
 
-    private static boolean subSetSum(int[] set, int length, int sum) {
-        boolean[][] subSet = new boolean[sum + 1][length + 1];
+    private static boolean subSetSum(int[] arr, int length, int sum) {
+        boolean[][] subSet = new boolean[length + 1][sum + 1];
         for (int i = 0; i <= length; i++) {
-            subSet[0][i] = true;
+            subSet[i][0] = true;
         }
         for (int i = 0; i <= sum; i++) {
-            subSet[i][0] = false;
+            subSet[0][i] = false;
         }
-        for (int i = 1; i <= sum; i++) {
-            for (int j = 1; j <= length; j++) {
-                subSet[i][j] = subSet[i][j - 1];
-                if (i >= set[j - 1]) {
-                    subSet[i][j] = subSet[i][j] || subSet[i - set[j - 1]][j - 1];
+        for (int i = 1; i <= length; i++) {
+            for (int j = 1; j <= sum; j++) {
+                if (j >= arr[i - 1]) {
+                    subSet[i][j] = subSet[i - 1][j] || subSet[i - 1][j - arr[i - 1]];
+                } else {
+                    subSet[i][j] = subSet[i - 1][j];
                 }
             }
         }
-        return subSet[sum][length];
+        return subSet[length][sum];
     }
 }

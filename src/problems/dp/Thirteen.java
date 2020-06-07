@@ -19,22 +19,23 @@ public class Thirteen {
         int sum = Arrays.stream(arr).sum();
         if (sum % 2 != 0)
             return false;
-        boolean[][] partition = new boolean[sum / 2 + 1][length + 1];
+        boolean[][] partition = new boolean[length + 1][sum / 2 + 1];
         for (int i = 0; i <= length; i++) {
-            partition[0][i] = true;
+            partition[i][0] = true;
         }
         for (int i = 0; i <= sum / 2; i++) {
-            partition[i][0] = false;
+            partition[0][i] = false;
         }
-        for (int i = 1; i <= sum / 2; i++) {
-            for (int j = 1; j <= length; j++) {
-                partition[i][j] = partition[i][j - 1];
-                if (i >= arr[j - 1]) {
-                    partition[i][j] = partition[i][j] || partition[i - arr[j - 1]][j - 1];
+        for (int i = 1; i <= length; i++) {
+            for (int j = 1; j <= sum / 2; j++) {
+                if (j >= arr[i - 1]) {
+                    partition[i][j] = partition[i - 1][j] || partition[i - 1][j - arr[i - 1]];
+                } else {
+                    partition[i][j] = partition[i - 1][j];
                 }
             }
         }
-        return partition[sum / 2][length];
+        return partition[length][sum / 2];
     }
 
 }

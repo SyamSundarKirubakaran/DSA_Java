@@ -160,3 +160,9 @@ Dynamic Programming:
 - [ ] ThirtySeven -> Max coins by busting balloons
 - [ ] ThirtyEight -> Max points in the grid using 2 traversals
 - [ ] ThirtyNine -> Sub Set Sum Problem
+- [ ] Forty -> Matrix Chaining
+- [ ] FortyOne -> Longest Common Sub Sequence
+- [ ] FortyTwo -> Multi Stage Graph
+- [ ] FortyThree -> 0/1 Knapsack
+- [ ] FortyFour -> Travelling Sales man (TSP)
+- [ ] FortyFive -> All Pair Shortest path - Floyd Warshall's
