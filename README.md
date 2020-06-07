@@ -134,7 +134,7 @@ Dynamic Programming: (46)
 - [ ] Eleven -> Find n-bit integer that doesn't have 2 consecutive zeros
 - [ ] Twelve -> Word breaking problem
 - [ ] Thirteen -> Partition Problem - Sub Set Sum Problem
-- [X] Fourteen -> Longest Palindromic sub sequence
+- [ ] Fourteen -> Longest Palindromic sub sequence
 - [ ] Fifteen -> Steps 1 or 2 to reach n
 - [ ] Sixteen -> Longest non overlapping repeating sub string
 - [ ] Seventeen -> Min cost to make strings(x and y) equal, del(x) -> S, del(y) -> P
@@ -159,7 +159,7 @@ Dynamic Programming: (46)
 - [ ] ThirtySix -> Count no.of ways to reach a score in a given game
 - [ ] ThirtySeven -> Max coins by busting balloons
 - [ ] ThirtyEight -> Max points in the grid using 2 traversals
-- [x] ThirtyNine -> Sub Set Sum Problem
+- [X] ThirtyNine -> Sub Set Sum Problem
 - [ ] Forty -> Matrix Chaining - Results Upper triangular Matrix
 - [ ] FortyOne -> Longest Common Sub Sequence
 - [ ] FortyTwo -> Multi Stage Graph
