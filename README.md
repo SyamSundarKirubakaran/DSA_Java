@@ -139,12 +139,12 @@ Dynamic Programming: (46)
 - [ ] Sixteen -> Longest non overlapping repeating sub string
 - [ ] Seventeen -> Min cost to make strings(x and y) equal, del(x) -> S, del(y) -> P
 - [ ] Eighteen -> No.of times a string appeared as Sub Sequence in other string
-- [X] Nineteen -> No.of ways to fill 2xn with 2x1
+- [ ] Nineteen -> No.of ways to fill 2xn with 2x1
 - [ ] Twenty -> Given a Cost matrix, min cost to reach (m-1,n-1) from (0,0), allowed movements -> left, right, diagonally down
-- [ ] TwentyOne -> K palindrome
+- [ ] TwentyOne -> K palindrome - If string becomes palindrome or not by doing atmost k deletions
 - [ ] TwentyTwo -> Longest Common Sub Sequence
 - [ ] TwentyThree -> Sum of all digits from 1 to n
-- [ ] TwentyFour -> Given a string of digits, sub string length = 2k, sum of left k = sum of right k
+- [X] TwentyFour -> Given a string of digits, sub string length = 2k, sum of left k = sum of right k
 - [ ] TwentyFive -> Given a BT, find Largest Independent Set
 - [ ] TwentySix -> Cutting Rod
 - [ ] TwentySeven -> Longest Palindromic sub string

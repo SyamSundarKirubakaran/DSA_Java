@@ -9,7 +9,12 @@ public class One {
     private static final int[] arr = new int[]{10, -5, -3, 4, 2, 12, -8, -12, 19};
 
     public static void main(String[] args) {
+        Long start = System.nanoTime();
+
         construct(arr, arr.length);
+
+        Long end = System.nanoTime();
+        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
     }
 
     private static void construct(int[] arr, int length) {
@@ -25,6 +30,7 @@ public class One {
         }
         System.out.println("Max: " + maxSoFar + ", Index: " + maxIndex);
         findElements(arr, maxSoFar, maxIndex);
+        System.out.println();
     }
 
     private static void findElements(int[] arr, int maxSoFar, int maxIndex) {
