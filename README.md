@@ -139,7 +139,7 @@ Dynamic Programming: (46)
 - [ ] Sixteen -> Longest non overlapping repeating sub string
 - [ ] Seventeen -> Min cost to make strings(x and y) equal, del(x) -> S, del(y) -> P
 - [ ] Eighteen -> No.of times a string appeared as Sub Sequence in other string
-- [ ] Nineteen -> No.of ways to fill 2xn with 2x1
+- [X] Nineteen -> No.of ways to fill 2xn with 2x1
 - [ ] Twenty -> Given a Cost matrix, min cost to reach (m-1,n-1) from (0,0), allowed movements -> left, right, diagonally down
 - [ ] TwentyOne -> K palindrome
 - [ ] TwentyTwo -> Longest Common Sub Sequence
@@ -166,7 +166,8 @@ Dynamic Programming: (46)
 - [ ] FortyThree -> 0/1 Knapsack
 - [ ] FortyFour -> Travelling Sales man (TSP) - DFS based - Hamiltonian Cycle + MIN Cost
 - [ ] FortyFive -> All Pair Shortest path - Floyd Warshall's
-- [ ] FortySix -> Matrix Chaining - Top Down
+- [ ] FortySix -> Matrix Chaining - Top Down 
+- [ ] FortySeven -> Coin Change Problem
 
 Graph Problems:
 - [ ] One -> DFS
