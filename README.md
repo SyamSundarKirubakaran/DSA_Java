@@ -153,13 +153,13 @@ Dynamic Programming: (46)
 - [ ] Thirty -> Rectangular grid 2xn, max sum such that no 2 chosen digit are adj -> vertically, horizontally, diagonally
 - [ ] ThirtyOne -> Arrays A -> m, B -> n, (m>n) insert(m-n) 0s in B such that dot product is max
 - [ ] ThirtyTwo -> Largest Independent Set
-- [X] ThirtyThree -> Egg Dropping Problem
-- [ ] ThirtyFour -> Non-decreasing number with n digits
+- [ ] ThirtyThree -> Egg Dropping Problem
+- [ ] ThirtyFour -> No.of Non-decreasing numbers with n digits
 - [ ] ThirtyFive -> Weighted Job Scheduling
-- [ ] ThirtySix -> Count no.of ways to reach a score in a given game
+- [ ] ThirtySix -> Count no.of ways to reach a score in a given game, player can score 2, 4 or 6 points
 - [ ] ThirtySeven -> Max coins by busting balloons
-- [ ] ThirtyEight -> Max points in the grid using 2 traversals
-- [X] ThirtyNine -> Sub Set Sum Problem
+- [X] ThirtyEight -> Max points in the grid using 2 traversals
+- [ ] ThirtyNine -> Sub Set Sum Problem
 - [ ] Forty -> Matrix Chaining - Results Upper triangular Matrix
 - [ ] FortyOne -> Longest Common Sub Sequence
 - [ ] FortyTwo -> Multi Stage Graph
@@ -169,6 +169,7 @@ Dynamic Programming: (46)
 - [ ] FortySix -> Matrix Chaining - Top Down 
 - [ ] FortySeven -> Coin Change Problem
 - [ ] FortyEight -> Longest Palindromic sub string - Less Space Complexity
+- [ ] FortyNine -> No.of Non-decreasing numbers with n digits - Less space
 
 Graph Problems:
 - [ ] One -> DFS
