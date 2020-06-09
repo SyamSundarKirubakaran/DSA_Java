@@ -148,12 +148,12 @@ Dynamic Programming: (46)
 - [ ] TwentyFive -> Given a BT, find Largest Independent Set
 - [ ] TwentySix -> Cutting Rod
 - [ ] TwentySeven -> Longest Palindromic sub string
-- [X] TwentyEight -> Count all Palindromic sub string in a string
+- [ ] TwentyEight -> Count all Palindromic sub string in a string
 - [ ] TwentyNine -> Count all distinct Palindromic sub string in a string
 - [ ] Thirty -> Rectangular grid 2xn, max sum such that no 2 chosen digit are adj -> vertically, horizontally, diagonally
 - [ ] ThirtyOne -> Arrays A -> m, B -> n, (m>n) insert(m-n) 0s in B such that dot product is max
 - [ ] ThirtyTwo -> Largest Independent Set
-- [ ] ThirtyThree -> Egg Dropping Problem
+- [X] ThirtyThree -> Egg Dropping Problem
 - [ ] ThirtyFour -> Non-decreasing number with n digits
 - [ ] ThirtyFive -> Weighted Job Scheduling
 - [ ] ThirtySix -> Count no.of ways to reach a score in a given game
