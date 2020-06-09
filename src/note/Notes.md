@@ -30,3 +30,5 @@ value: (0,5)
 value: (1,6)
 value: (0,6)
 ```
+
+- Learn how end index can Influence a Sub String result in java. Kinda tricky when dealing with inclusive and exclusive counting.

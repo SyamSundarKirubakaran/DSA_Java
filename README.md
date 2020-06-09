@@ -144,11 +144,11 @@ Dynamic Programming: (46)
 - [ ] TwentyOne -> K palindrome - If string becomes palindrome or not by doing atmost k deletions
 - [ ] TwentyTwo -> Longest Common Sub Sequence
 - [ ] TwentyThree -> Sum of all digits from 1 to n
-- [X] TwentyFour -> Given a string of digits, sub string length = 2k, sum of left k = sum of right k
+- [ ] TwentyFour -> Given a string of digits, sub string length = 2k, sum of left k = sum of right k
 - [ ] TwentyFive -> Given a BT, find Largest Independent Set
 - [ ] TwentySix -> Cutting Rod
 - [ ] TwentySeven -> Longest Palindromic sub string
-- [ ] TwentyEight -> Count all Palindromic sub string in a string
+- [X] TwentyEight -> Count all Palindromic sub string in a string
 - [ ] TwentyNine -> Count all distinct Palindromic sub string in a string
 - [ ] Thirty -> Rectangular grid 2xn, max sum such that no 2 chosen digit are adj -> vertically, horizontally, diagonally
 - [ ] ThirtyOne -> Arrays A -> m, B -> n, (m>n) insert(m-n) 0s in B such that dot product is max
@@ -168,6 +168,7 @@ Dynamic Programming: (46)
 - [ ] FortyFive -> All Pair Shortest path - Floyd Warshall's
 - [ ] FortySix -> Matrix Chaining - Top Down 
 - [ ] FortySeven -> Coin Change Problem
+- [ ] FortyEight -> Longest Palindromic sub string - Less Space Complexity
 
 Graph Problems:
 - [ ] One -> DFS
