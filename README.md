@@ -158,7 +158,7 @@ Dynamic Programming: (46)
 - [ ] ThirtyFive -> Weighted Job Scheduling
 - [ ] ThirtySix -> Count no.of ways to reach a score in a given game, player can score 2, 4 or 6 points
 - [ ] ThirtySeven -> Max coins by busting balloons
-- [X] ThirtyEight -> Max points in the grid using 2 traversals
+- [ ] ThirtyEight -> Max points in the grid using 2 traversals
 - [ ] ThirtyNine -> Sub Set Sum Problem
 - [ ] Forty -> Matrix Chaining - Results Upper triangular Matrix
 - [ ] FortyOne -> Longest Common Sub Sequence
@@ -174,3 +174,6 @@ Dynamic Programming: (46)
 Graph Problems:
 - [ ] One -> DFS
 - [ ] Two -> BFS
+
+Greedy Problems:
+- [ ] One -> n different ropes of different length, tie them up into a single rope with Min cost.
