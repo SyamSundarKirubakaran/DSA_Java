@@ -177,3 +177,6 @@ Graph Problems:
 
 Greedy Problems:
 - [ ] One -> n different ropes of different length, tie them up into a single rope with Min cost.
+- [ ] Twp -> Maximum Non Overlapping Intervals
+- [ ] Three -> Min no.of platforms required to station all trains without collision
+- [ ] Four -> Rearrange the characters in the string such that same characters become d-distance away from each other.
