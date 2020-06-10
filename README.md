@@ -180,3 +180,20 @@ Greedy Problems:
 - [ ] Twp -> Maximum Non Overlapping Intervals
 - [ ] Three -> Min no.of platforms required to station all trains without collision
 - [ ] Four -> Rearrange the characters in the string such that same characters become d-distance away from each other.
+
+Divide and Conquer:
+- [ ] One -> Find the element that occurs more than n/2 times.
+- [ ] Two -> Bolt and Nuts
+- [ ] Three -> Implement pow()
+- [ ] Four -> Search an element in a sorted Rotated Array
+- [ ] Five -> Count Inversions in an array
+- [ ] Six -> Missing number in arithmetic progression
+- [ ] Seven -> Array containing 0s before 1s, count 1s
+- [ ] Eight -> Array has 2n elements -> `a1, a2, a3, .., an, b1, b2, .. , bn` -> shuffle -> `a1, b1, a2, b2, .., an, bn`
+- [ ] Nine -> Sorted Array of non-repeating elements, find if there's `i` for which `a[i] = i`
+- [ ] Ten -> `a[0]..a[i]` -> increasing, `a[i+1]..a[n]` -> decreasing
+- [ ] Eleven -> search for an element in a row-wise and column-wise 2d array.
+- [ ] Twelve -> External Sorting
+- [ ] Thirteen -> Find median of 2 sorted arrays
+- [ ] Fourteen -> Find Peek Element
+- [ ] Fifteen -> Get first 1.
