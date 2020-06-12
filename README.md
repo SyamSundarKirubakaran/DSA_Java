@@ -182,7 +182,7 @@ Greedy Problems:
 - [ ] Four -> Rearrange the characters in the string such that same characters become d-distance away from each other.
 
 Divide and Conquer:
-- [ ] One -> Find the element that occurs more than n/2 times.
+- [ ] One -> Find the element that occurs more than n/2 times - Sorted Array.
 - [ ] Two -> Bolt and Nuts
 - [ ] Three -> Implement pow()
 - [ ] Four -> Search an element in a sorted Rotated Array
