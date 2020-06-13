@@ -1,4 +1,4 @@
-Array Problems: (38)
+Array Problems:
 - [ ] One -> Linear Search
 - [ ] Two -> Binary Search
 - [ ] Three -> Find a pair in an array whose sum is equal to given number (Hash Approach) - Brute Force, Quick Sort and search complement, Hash Table
@@ -38,7 +38,7 @@ Array Problems: (38)
 - [ ] ThirtySeven -> Find Sub Array whose sum is equals zero - reduced time complexity
 - [ ] ThirtyEight -> Largest sub array with equal no.of zeros and ones - my way
 
-Tree Problems: (46)
+Tree Problems:
 - [ ] One -> Size of a Binary Tree
 - [ ] Two -> Identical or not
 - [ ] Three -> Mirror Tree
@@ -86,7 +86,7 @@ Tree Problems: (46)
 - [ ] FortyFive -> Custom Tree Print Problem
 - [ ] FortySix -> Threaded BT
 
-Linked List Problems: (7)
+Linked List Problems:
 - [ ] One -> Reverse a LL
 - [ ] Two -> Middle of a LL
 - [ ] Three -> Kth node from the end of the LL
@@ -105,7 +105,7 @@ Linked List Problems: (7)
 - [ ] Sixteen -> Add 1 to number represented as LL
 - [ ] Seventeen -> Merge K sorted LL of size N into single Sorted LL of size kn - Better complexity
 
-Stack Problems: (10)
+Stack Problems:
 - [ ] One -> Stack using Queues
 - [ ] Two -> getMin @ O(1)
 - [ ] Three -> Reverse a Stack
@@ -117,10 +117,10 @@ Stack Problems: (10)
 - [ ] Nine -> find duplicate parenthesis present or not
 - [ ] Ten -> Celebrity Problem
 
-Queue Problems: (1)
+Queue Problems:
 - [ ] One -> Circular tour that visit all gasoline stations before running out of gas
 
-Dynamic Programming: (46)
+Dynamic Programming:
 - [ ] One -> Maximum Sum Sub array
 - [ ] Two -> Maximum Sum Increasing Sub Sequence [OR] Longest increasing Sub Sequence
 - [ ] Three -> Longest Sub Sequence in an array such that the element are consecutive
@@ -197,3 +197,14 @@ Divide and Conquer:
 - [ ] Thirteen -> Find median of 2 sorted arrays
 - [ ] Fourteen -> Find Peek Element
 - [ ] Fifteen -> Get first 1.
+
+Bit Manipulation:
+- [ ] One -> Kth bit is set or not
+- [ ] Two -> set Kth Bit of a number
+- [ ] Three -> clear Kth bit of a number
+- [ ] Four -> Toggle Kth bit of a number
+- [ ] Five -> count the no.of set bits of a number
+- [ ] Six -> power of 2 or not
+- [ ] Seven -> next higher number of the given number which is a power of 2
+- [ ] Eight -> power of 4 or not
+- [ ] Nine -> Multiply with 7 without using `*`
