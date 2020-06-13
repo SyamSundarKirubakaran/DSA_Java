@@ -171,10 +171,6 @@ Dynamic Programming:
 - [ ] FortyEight -> Longest Palindromic sub string - Less Space Complexity
 - [ ] FortyNine -> No.of Non-decreasing numbers with n digits - Less space
 
-Graph Problems:
-- [ ] One -> DFS
-- [ ] Two -> BFS
-
 Greedy Problems:
 - [ ] One -> n different ropes of different length, tie them up into a single rope with Min cost.
 - [ ] Twp -> Maximum Non Overlapping Intervals
@@ -208,3 +204,84 @@ Bit Manipulation:
 - [ ] Seven -> next higher number of the given number which is a power of 2
 - [ ] Eight -> power of 4 or not
 - [ ] Nine -> Multiply with 7 without using `*`
+
+Hashing:
+- [ ] One -> check if the array has duplicate entries at K distance or not
+- [ ] Two -> check if 2 sets are disjoint or not
+- [ ] Three -> Group all occurrences of elements order by their 1st occurrence.
+- [ ] Four -> Given an array A, count the distinct elements in all windows of size K
+- [ ] Five -> Given an array and a range (low, high). Find the elements that are in the range but not in the array.
+- [ ] Six -> Find the no.of sub arrays with sum zero
+- [ ] Seven -> Find 4 elements i, j, k & l -> such that `i + j = k + l`
+
+Strings:
+- [ ] One -> Find a max occurring character in a given array.
+- [ ] Two -> Remove duplicates in a given string
+- [ ] Three -> Check if given 2 strings are rotations of each other
+- [ ] Four -> Reverse the words in the given sentence
+- [ ] Five -> Reverse a given string
+- [ ] Six -> Check if palindrome
+- [ ] Seven -> Find 1st non-repeating character in the given string
+- [ ] Eight -> Run length encoding
+- [ ] Nine -> Anagrams
+- [ ] Ten -> Excel column name for a given excel column number (MS Excel)
+- [ ] Eleven -> Find a smallest window in a string containing all characters of another string
+- [ ] Twelve -> Find 1s non-repeating character in a stream of characters
+- [ ] Thirteen -> All combinations of strings used to dail a number (Old Phone Key pad)
+- [ ] Fourteen -> Min no.of palindromic sub-sequences to be removed to empty a binary string
+- [ ] Fifteen -> Check if given sequence of moves for robot is circular or not
+- [ ] Sixteen -> Min and Max of an array using min no.of comparisons
+- [ ] Seventeen -> Convert one string to another using min no.of given operations
+- [ ] Eighteen -> Print concatenation of zig-zack string in k-rows
+- [ ] Nineteen -> Remove adj duplicate characters in a given string
+
+Pattern Matching:
+- [ ] One -> Find all occurrences of str2 in str1 - Brute force
+- [ ] Two -> Finite Automata
+- [ ] Three -> Knuth Morris Pratt Algorithm
+- [ ] Four -> Boyer's Moore String Matching Algorithm
+- [ ] Five -> Rabin-Karp String Matching Algorithm
+- [ ] Six -> Find all occurrences of a given word in a matrix
+
+Mathematical:
+- [ ] One -> Prime or not
+- [ ] Two -> Print prime upto n
+- [ ] Three -> Lucky number or not
+
+Heaps:
+- [ ] One -> Finding the max element in MIN heap
+- [ ] Two -> Deleting arb element in MIN heap
+- [ ] Three -> K-Largest elements from an array
+- [ ] Four -> Median in a stream of numbers
+- [ ] Five -> Given K-sorted list, find minimum range to which at least on number belongs from every list.
+- [ ] Six -> Convert MAX heap into MIN Heap
+- [ ] Seven -> Print out all integers of the form `a^3+b^3` where a & b are integers b/w 0 & n in sorted order.
+- [ ] Eight -> Convert BST to MAX Heap
+- [ ] Nine -> Find the Kth largest element in a stream
+- [ ] Ten -> Tournament Tree
+- [ ] Eleven -> Print all elements in sorted order in row wise and column wise sorted matrix
+- [ ] Twelve -> Sort a nearly sorted array
+- [ ] Thirteen -> Given n ropes with different length, connect with minimum cost.
+- [ ] Fourteen -> Check if the given binary tree is a max heap or not.
+- [ ] Fifteen -> Given K-sorted arrays of size n-each, merge them. 
+
+Back Tracking:
+- [ ] One -> Print all permutations of given string
+- [ ] Two -> Print all the strings of n-bits
+- [ ] Three -> N-Queens Problem
+- [ ] Four -> Rat in Maze
+- [ ] Five -> Knight Tour Problem
+- [ ] Six -> Find subset of elements that are selecyed from a given set whose sum adds upto a given number `k`
+- [ ] Seven -> SUDOKU
+
+Graph Problems:
+- [ ] One -> DFS
+- [ ] Two -> BFS
+- [ ] Three -> Find if there's a path between vi and vj in a directed graph
+- [ ] Four -> Undirected Graph, cycle or not
+- [ ] Five -> Bipartite or not
+- [ ] Six -> Detect a cycle in a directed graph
+- [ ] Seven -> Print all jumping numbers smaller than or equal to given value(k)
+- [ ] Eight -> Single source shortest path - DAG
+- [ ] Nine -> Longest Path in DAG
+- [ ] Ten -> Find Articulation Point
