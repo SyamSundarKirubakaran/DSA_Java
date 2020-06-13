@@ -192,7 +192,7 @@ Divide and Conquer:
 - [ ] Eight -> Array has 2n elements -> `a1, a2, a3, .., an, b1, b2, .. , bn` -> shuffle -> `a1, b1, a2, b2, .., an, bn`
 - [ ] Nine -> Sorted Array of non-repeating elements, find if there's `i` for which `a[i] = i`
 - [ ] Ten -> `a[0]..a[i]` -> increasing, `a[i+1]..a[n]` -> decreasing, find i
-- [ ] Eleven -> search for an element in a row-wise and column-wise 2d array.
+- [ ] Eleven -> search for an element in a row-wise and column-wise sorted 2d array.
 - [ ] Twelve -> External Sorting
 - [ ] Thirteen -> Find median of 2 sorted arrays
 - [ ] Fourteen -> Find Peek Element
