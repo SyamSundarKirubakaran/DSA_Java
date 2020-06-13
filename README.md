@@ -1,4 +1,4 @@
-Array Problems:
+**Array Problems:**
 - [ ] One -> Linear Search
 - [ ] Two -> Binary Search
 - [ ] Three -> Find a pair in an array whose sum is equal to given number (Hash Approach) - Brute Force, Quick Sort and search complement, Hash Table
@@ -38,7 +38,7 @@ Array Problems:
 - [ ] ThirtySeven -> Find Sub Array whose sum is equals zero - reduced time complexity
 - [ ] ThirtyEight -> Largest sub array with equal no.of zeros and ones - my way
 
-Tree Problems:
+**Tree Problems:**
 - [ ] One -> Size of a Binary Tree
 - [ ] Two -> Identical or not
 - [ ] Three -> Mirror Tree
@@ -86,7 +86,7 @@ Tree Problems:
 - [ ] FortyFive -> Custom Tree Print Problem
 - [ ] FortySix -> Threaded BT
 
-Linked List Problems:
+**Linked List Problems:**
 - [ ] One -> Reverse a LL
 - [ ] Two -> Middle of a LL
 - [ ] Three -> Kth node from the end of the LL
@@ -105,7 +105,7 @@ Linked List Problems:
 - [ ] Sixteen -> Add 1 to number represented as LL
 - [ ] Seventeen -> Merge K sorted LL of size N into single Sorted LL of size kn - Better complexity
 
-Stack Problems:
+**Stack Problems:**
 - [ ] One -> Stack using Queues
 - [ ] Two -> getMin @ O(1)
 - [ ] Three -> Reverse a Stack
@@ -117,10 +117,10 @@ Stack Problems:
 - [ ] Nine -> find duplicate parenthesis present or not
 - [ ] Ten -> Celebrity Problem
 
-Queue Problems:
+**Queue Problems:**
 - [ ] One -> Circular tour that visit all gasoline stations before running out of gas
 
-Dynamic Programming:
+**Dynamic Programming:**
 - [ ] One -> Maximum Sum Sub array
 - [ ] Two -> Maximum Sum Increasing Sub Sequence [OR] Longest increasing Sub Sequence
 - [ ] Three -> Longest Sub Sequence in an array such that the element are consecutive
@@ -171,13 +171,13 @@ Dynamic Programming:
 - [ ] FortyEight -> Longest Palindromic sub string - Less Space Complexity
 - [ ] FortyNine -> No.of Non-decreasing numbers with n digits - Less space
 
-Greedy Problems:
+**Greedy Problems:**
 - [ ] One -> n different ropes of different length, tie them up into a single rope with Min cost.
 - [ ] Twp -> Maximum Non Overlapping Intervals
 - [ ] Three -> Min no.of platforms required to station all trains without collision
 - [ ] Four -> Rearrange the characters in the string such that same characters become d-distance away from each other.
 
-Divide and Conquer:
+**Divide and Conquer:**
 - [ ] One -> Find the element that occurs more than n/2 times - Sorted Array.
 - [ ] Two -> Bolt and Nuts
 - [ ] Three -> Implement pow()
@@ -194,8 +194,8 @@ Divide and Conquer:
 - [ ] Fourteen -> Find Peek Element
 - [ ] Fifteen -> Get first 1.
 
-Bit Manipulation:
-- [ ] One -> Kth bit is set or not
+**Bit Manipulation:**
+- [X] One -> Kth bit is set or not
 - [ ] Two -> set Kth Bit of a number
 - [ ] Three -> clear Kth bit of a number
 - [ ] Four -> Toggle Kth bit of a number
@@ -204,8 +204,9 @@ Bit Manipulation:
 - [ ] Seven -> next higher number of the given number which is a power of 2
 - [ ] Eight -> power of 4 or not
 - [ ] Nine -> Multiply with 7 without using `*`
+- [ ] Ten -> Check if a Number is Odd or Even using Bitwise Operators
 
-Hashing:
+**Hashing:**
 - [ ] One -> check if the array has duplicate entries at K distance or not
 - [ ] Two -> check if 2 sets are disjoint or not
 - [ ] Three -> Group all occurrences of elements order by their 1st occurrence.
@@ -214,7 +215,7 @@ Hashing:
 - [ ] Six -> Find the no.of sub arrays with sum zero
 - [ ] Seven -> Find 4 elements i, j, k & l -> such that `i + j = k + l`
 
-Strings:
+**Strings:**
 - [ ] One -> Find a max occurring character in a given array.
 - [ ] Two -> Remove duplicates in a given string
 - [ ] Three -> Check if given 2 strings are rotations of each other
@@ -235,7 +236,7 @@ Strings:
 - [ ] Eighteen -> Print concatenation of zig-zack string in k-rows
 - [ ] Nineteen -> Remove adj duplicate characters in a given string
 
-Pattern Matching:
+**Pattern Matching:**
 - [ ] One -> Find all occurrences of str2 in str1 - Brute force
 - [ ] Two -> Finite Automata
 - [ ] Three -> Knuth Morris Pratt Algorithm
@@ -243,12 +244,12 @@ Pattern Matching:
 - [ ] Five -> Rabin-Karp String Matching Algorithm
 - [ ] Six -> Find all occurrences of a given word in a matrix
 
-Mathematical:
+**Mathematical:**
 - [ ] One -> Prime or not
 - [ ] Two -> Print prime upto n
 - [ ] Three -> Lucky number or not
 
-Heaps:
+**Heaps:**
 - [ ] One -> Finding the max element in MIN heap
 - [ ] Two -> Deleting arb element in MIN heap
 - [ ] Three -> K-Largest elements from an array
@@ -265,16 +266,16 @@ Heaps:
 - [ ] Fourteen -> Check if the given binary tree is a max heap or not.
 - [ ] Fifteen -> Given K-sorted arrays of size n-each, merge them. 
 
-Back Tracking:
+**Back Tracking:**
 - [ ] One -> Print all permutations of given string
 - [ ] Two -> Print all the strings of n-bits
 - [ ] Three -> N-Queens Problem
 - [ ] Four -> Rat in Maze
 - [ ] Five -> Knight Tour Problem
-- [ ] Six -> Find subset of elements that are selecyed from a given set whose sum adds upto a given number `k`
+- [ ] Six -> Find subset of elements that are selected from a given set whose sum adds upto a given number `k`
 - [ ] Seven -> SUDOKU
 
-Graph Problems:
+**Graph Problems:**
 - [ ] One -> DFS
 - [ ] Two -> BFS
 - [ ] Three -> Find if there's a path between vi and vj in a directed graph
