@@ -1,3 +1,4 @@
+- Traversal in upper triangular matrix, very much prevalent in Dynamic Programming.
 ```
 for (int ls = 2; ls <= len; ls++) {
     for (int i = 0; i < len - ls + 1; i++) {
@@ -31,11 +32,13 @@ value: (1,6)
 value: (0,6)
 ```
 
-- Learn how end index can Influence a Sub String result in java. Kinda tricky when dealing with inclusive and exclusive counting.
+- Check HashMap if !present -> init to `1` else sum of `1` and value in hashmap
 
 ```
-hashMap.merge(ch, 1, Integer::sum); -> Check HashMap if !present -> init to `1` else sum of `1` and value in hashmap.
+hashMap.merge(ch, 1, Integer::sum);
 ```
+
+- Heaps using Standard Library -> MIN Heap
 
 ```
 PriorityQueue<Node> pq = new PriorityQueue<>((Node o1, Node o2) -> {
@@ -43,12 +46,13 @@ PriorityQueue<Node> pq = new PriorityQueue<>((Node o1, Node o2) -> {
             if(o1.freq > o2.freq) return 1;
             return 0;
         });
-
-The above represents MIN Heap: which can also be written as,
-
-PriorityQueue<Node> pq = new PriorityQueue<>(Comparator.comparingInt((Node o) -> o.freq));
-
 ```
+- The above represents MIN Heap: which can also be written as,
+```
+PriorityQueue<Node> pq = new PriorityQueue<>(Comparator.comparingInt((Node o) -> o.freq));
+```
+
+- Heaps using Standard Library -> MAX Heap
 
 ```
 PriorityQueue<Node> pq = new PriorityQueue<>((Node o1, Node o2) -> {
@@ -56,9 +60,10 @@ PriorityQueue<Node> pq = new PriorityQueue<>((Node o1, Node o2) -> {
             if(o1.freq < o2.freq) return 1;
             return 0;
         });
-
-The above represents MAX Heap: which can also be written as,
-
-PriorityQueue<Node> pq = new PriorityQueue<>((Node o1, Node o2) -> Integer.compare(o2.freq, o1.freq));
-
 ```
+- The above represents MAX Heap: which can also be written as,
+```
+PriorityQueue<Node> pq = new PriorityQueue<>((Node o1, Node o2) -> Integer.compare(o2.freq, o1.freq));
+```
+
+- Learn how end index can Influence a `String.substring()` result in java. Kinda tricky when dealing with inclusive and exclusive counting.
