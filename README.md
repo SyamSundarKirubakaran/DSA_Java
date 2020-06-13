@@ -195,7 +195,7 @@
 - [ ] Fifteen -> Get first 1.
 
 **Bit Manipulation:**
-- [X] One -> Kth bit is set or not
+- [ ] One -> Kth bit is set or not
 - [ ] Two -> set Kth Bit of a number
 - [ ] Three -> clear Kth bit of a number
 - [ ] Four -> Toggle Kth bit of a number
@@ -205,6 +205,11 @@
 - [ ] Eight -> power of 4 or not
 - [ ] Nine -> Multiply with 7 without using `*`
 - [ ] Ten -> Check if a Number is Odd or Even using Bitwise Operators
+
+**Mathematical:**
+- [ ] One -> Prime or not
+- [ ] Two -> Print prime upto n - Sieve of Eratosthenes Algorithm
+- [ ] Three -> Lucky number or not
 
 **Hashing:**
 - [ ] One -> check if the array has duplicate entries at K distance or not
@@ -243,11 +248,6 @@
 - [ ] Four -> Boyer's Moore String Matching Algorithm
 - [ ] Five -> Rabin-Karp String Matching Algorithm
 - [ ] Six -> Find all occurrences of a given word in a matrix
-
-**Mathematical:**
-- [ ] One -> Prime or not
-- [ ] Two -> Print prime upto n
-- [ ] Three -> Lucky number or not
 
 **Heaps:**
 - [ ] One -> Finding the max element in MIN heap
