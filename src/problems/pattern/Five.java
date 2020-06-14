@@ -9,6 +9,8 @@ public class Five {
     static final int ROW = 3;
     static final int COL = 5;
 
+    // all possible movements along (i, j) from a given matrix element -> above, below, left, right, all possible diagonals
+    // totally 8 movements possible
     static int[] rowNum = {-1, -1, -1, 0, 0, 1, 1, 1};
     static int[] colNum = {-1, 0, 1, -1, 1, -1, 0, 1};
 
