@@ -244,11 +244,10 @@
 
 **Pattern Matching:**
 - [ ] One -> Find all occurrences of str2 in str1 - Brute force
-- [ ] Two -> Finite Automata
-- [ ] Three -> Knuth Morris Pratt Algorithm
-- [ ] Four -> Boyer's Moore String Matching Algorithm
-- [ ] Five -> Rabin-Karp String Matching Algorithm
-- [ ] Six -> Find all occurrences of a given word in a matrix
+- [ ] Two -> Knuth Morris Pratt Algorithm
+- [ ] Three -> Boyer's Moore String Matching Algorithm
+- [ ] Four -> Rabin-Karp String Matching Algorithm
+- [ ] Five -> Find all occurrences of a given word in a matrix
 
 **Heaps:**
 - [ ] One -> Finding the max element in MIN heap
