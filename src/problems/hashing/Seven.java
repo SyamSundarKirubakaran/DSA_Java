@@ -29,8 +29,7 @@ public class Seven {
                     map.put(sum, new pair(i, j));
                 else {
                     pair p = map.get(sum);
-                    System.out.println("(" + arr[p.first] + ", " + arr[p.second] +
-                            ") and (" + arr[i] + ", " + arr[j] + ")");
+                    System.out.println("(" + arr[p.first] + ", " + arr[p.second] + ") and (" + arr[i] + ", " + arr[j] + ")");
                     return true;
                 }
             }

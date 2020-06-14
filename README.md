@@ -231,15 +231,16 @@
 - [ ] Eight -> Run length encoding
 - [ ] Nine -> Anagrams
 - [ ] Ten -> Excel column name for a given excel column number (MS Excel)
-- [ ] Eleven -> Find a smallest window in a string containing all characters of another string
+- [X] Eleven -> Find a smallest window in a string containing all characters of another string
 - [ ] Twelve -> Find 1s non-repeating character in a stream of characters
-- [ ] Thirteen -> All combinations of strings used to dail a number (Old Phone Key pad)
+- [X] Thirteen -> All combinations of strings used to dail a number (Old Phone Key pad)
 - [ ] Fourteen -> Min no.of palindromic sub-sequences to be removed to empty a binary string
 - [ ] Fifteen -> Check if given sequence of moves for robot is circular or not
 - [ ] Sixteen -> Min and Max of an array using min no.of comparisons
 - [ ] Seventeen -> Convert one string to another using min no.of given operations
 - [ ] Eighteen -> Print concatenation of zig-zack string in k-rows
-- [ ] Nineteen -> Remove adj duplicate characters in a given string
+- [X] Nineteen -> Remove adj duplicate characters in a given string
+- [ ] Twenty -> Min no.of palindromic sub-sequences to be removed to empty a binary string - Tournament Method
 
 **Pattern Matching:**
 - [ ] One -> Find all occurrences of str2 in str1 - Brute force

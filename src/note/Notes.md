@@ -68,3 +68,4 @@ PriorityQueue<Node> pq = new PriorityQueue<>((Node o1, Node o2) -> Integer.compa
 
 - Learn how end index can Influence a `String.substring()` result in java. Kinda tricky when dealing with inclusive and exclusive counting.
 - Try to use Java streams when ever possible - makes the code look elegant, but there should be trade-offs with run time.
+- `str.substring(1)` - if 2nd arg is not specified it takes till end of string.
