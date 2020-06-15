@@ -265,6 +265,7 @@
 - [ ] Thirteen -> Given n ropes with different length, connect with minimum cost.
 - [ ] Fourteen -> Check if the given binary tree is a max heap or not.
 - [ ] Fifteen -> Given K-sorted arrays of size n-each, merge them. 
+- [ ] Sixteen -> Delete root from a heap.
 
 **Back Tracking:**
 - [ ] One -> Print all permutations of given string
