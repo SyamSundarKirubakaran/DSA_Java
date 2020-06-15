@@ -268,13 +268,13 @@
 - [ ] Sixteen -> Delete root from a heap.
 
 **Back Tracking:**
-- [ ] One -> Print all permutations of given string
-- [ ] Two -> Print all the strings of n-bits
-- [ ] Three -> N-Queens Problem
-- [ ] Four -> Rat in Maze
-- [ ] Five -> Knight Tour Problem
-- [ ] Six -> Find subset of elements that are selected from a given set whose sum adds upto a given number `k`
-- [ ] Seven -> SUDOKU
+- [X] One -> Print all permutations of given string
+- [X] Two -> Print all the strings of n-bits
+- [X] Three -> N-Queens Problem
+- [X] Four -> Rat in Maze
+- [X] Five -> Knight Tour Problem
+- [X] Six -> Find subset of elements that are selected from a given set whose sum adds upto a given number `k`
+- [X] Seven -> SUDOKU
 
 **Graph Problems:**
 - [ ] One -> DFS
@@ -282,8 +282,8 @@
 - [ ] Three -> Find if there's a path between vi and vj in a directed graph
 - [ ] Four -> Undirected Graph, cycle or not
 - [X] Five -> Bipartite or not
-- [ ] Six -> Detect a cycle in a directed graph
-- [ ] Seven -> Print all jumping numbers smaller than or equal to given value(k)
-- [ ] Eight -> Single source shortest path - DAG
-- [ ] Nine -> Longest Path in DAG
-- [ ] Ten -> Find Articulation Point
+- [X] Six -> Detect a cycle in a directed graph
+- [X] Seven -> Print all jumping numbers smaller than or equal to given value(k)
+- [X] Eight -> Single source shortest path - DAG
+- [X] Nine -> Longest Path in DAG
+- [X] Ten -> Find Articulation Point
