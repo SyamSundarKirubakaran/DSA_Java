@@ -176,6 +176,13 @@
 - [ ] Twp -> Maximum Non Overlapping Intervals
 - [ ] Three -> Min no.of platforms required to station all trains without collision
 - [ ] Four -> Rearrange the characters in the string such that same characters become d-distance away from each other.
+- [ ] Five -> Dijkstra's Algorithm
+- [ ] Six -> Fractional Knapsack
+- [ ] Seven -> Huffman's Coding
+- [X] Eight -> Job Sequencing with Deadlines
+- [X] Nine -> Spanning Trees and kirchhoff's theorem
+- [X] Ten -> Minimum Spanning Tree - Prim's
+- [X] Eleven -> Kruskal's Algorithm
 
 **Divide and Conquer:**
 - [ ] One -> Find the element that occurs more than n/2 times - Sorted Array.
