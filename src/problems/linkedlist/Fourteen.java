@@ -1,4 +1,4 @@
-package problems.LinkedList;
+package problems.linkedlist;
 
 import java.util.LinkedHashMap;
 
@@ -12,7 +12,7 @@ public class Fourteen {
     // This will increase the space complexity anyway.
     // So what is the point of memory efficient DLL, you might ask, I say fu*k Java.
     // Code in C++.
-    private static LinkedHashMap<Integer, MemNode> hashMap = new LinkedHashMap<>();
+    private static final LinkedHashMap<Integer, MemNode> hashMap = new LinkedHashMap<>();
 
     public static void main(String[] args) {
         MemNode head = inflate();

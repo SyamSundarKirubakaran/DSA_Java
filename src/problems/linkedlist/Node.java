@@ -1,4 +1,4 @@
-package problems.LinkedList;
+package problems.linkedlist;
 
 /**
  * @author SYAM K
