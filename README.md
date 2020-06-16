@@ -288,9 +288,10 @@
 - [ ] Two -> BFS
 - [ ] Three -> Find if there's a path between vi and vj in a directed graph
 - [ ] Four -> Undirected Graph, cycle or not
-- [X] Five -> Bipartite or not
-- [X] Six -> Detect a cycle in a directed graph
-- [X] Seven -> Print all jumping numbers smaller than or equal to given value(k)
-- [X] Eight -> Single source shortest path - DAG
-- [X] Nine -> Longest Path in DAG
-- [X] Ten -> Find Articulation Point
+- [ ] Five -> Bipartite or not
+- [ ] Six -> Detect a cycle in a directed graph
+- [ ] Seven -> Print all jumping numbers smaller than or equal to given value(k)
+- [ ] Eight -> Single source shortest path - DAG
+- [ ] Nine -> Longest Path in DAG, no weights
+- [ ] Ten -> Find Articulation Point / Cut Vertex, Undirected
+- [ ] Eleven -> Longest Path in DAG, with weights

@@ -13,14 +13,14 @@ public class Seven {
         Long start = System.nanoTime();
 
         int x = 40;
-        Seven obj = new Seven();
-        obj.printJumping(x);
+        printJumping(x);
+        System.out.println();
 
         Long end = System.nanoTime();
         System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
     }
 
-    public void bfs(int x, int num) {
+    public static void bfs(int x, int num) {
         Queue<Integer> q = new LinkedList<>();
         q.add(num);
 
@@ -31,9 +31,9 @@ public class Seven {
                 System.out.print(num + " ");
                 int last_digit = num % 10;
 
-                if (last_digit == 0) {
+                if (last_digit == 0) { // If last digit is 0, append next digit only, because can't go negative
                     q.add((num * 10) + (last_digit + 1));
-                } else if (last_digit == 9) {
+                } else if (last_digit == 9) { // If last digit is 9, append previous digit only, because going beyond 9 gives 2 digit number
                     q.add((num * 10) + (last_digit - 1));
                 } else {
                     q.add((num * 10) + (last_digit - 1));
@@ -43,10 +43,10 @@ public class Seven {
         }
     }
 
-    public void printJumping(int x) {
+    public static void printJumping(int x) {
         System.out.print("0 ");
         for (int i = 1; i <= 9 && i <= x; i++) {
-            this.bfs(x, i);
+            bfs(x, i);
         }
     }
 

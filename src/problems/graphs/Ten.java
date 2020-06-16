@@ -4,14 +4,14 @@ import java.util.LinkedList;
 
 /**
  * @author SYAM K
- * @problem : Find Articulation Point
+ * @problem : Find Articulation Point / Cut Vertex, Undirected
  */
 public class Ten {
 
     static final int NIL = -1;
     private final int V;
     private final LinkedList<Integer>[] adj;
-    int time = 0;
+    int time = 0; // runs upto the number of vertices
 
     Ten(int v) {
         V = v;
@@ -64,7 +64,18 @@ public class Ten {
         adj[w].add(v);
     }
 
-    void APUtil(int u, boolean[] visited, int[] disc, int[] low, int[] parent, boolean[] ap) {
+    // A recursive function that find articulation points using DFS
+    // u --> The vertex to be visited next
+    // visited[] --> keeps tract of visited vertices
+    // disc[] --> Stores discovery times of visited vertices
+    // parent[] --> Stores parent vertices in DFS tree
+    // ap[] --> Store articulation points
+    void APUtil(int u,
+                boolean[] visited,
+                int[] disc,
+                int[] low,
+                int[] parent,
+                boolean[] ap) {
         int children = 0;
 
         visited[u] = true;
@@ -76,11 +87,11 @@ public class Ten {
                 parent[v] = u;
                 APUtil(v, visited, disc, low, parent, ap);
                 low[u] = Math.min(low[u], low[v]);
-                if (parent[u] == NIL && children > 1)
+                if (parent[u] == NIL && children > 1) // (1) u is root of DFS tree and has two or more chilren.
                     ap[u] = true;
-                if (parent[u] != NIL && low[v] >= disc[u])
+                if (parent[u] != NIL && low[v] >= disc[u]) // (2) If u is not root and low value of one of its child is more than discovery value of u.
                     ap[u] = true;
-            } else if (v != parent[u])
+            } else if (v != parent[u]) // Update low value of u for parent function calls.
                 low[u] = Math.min(low[u], disc[v]);
         }
     }

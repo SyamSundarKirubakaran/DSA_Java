@@ -58,7 +58,8 @@ public class Four {
             if (!visited[i]) {
                 if (isCyclicUtil(i, visited, v))
                     return true;
-            } else if (i != parent)
+            } else if (i != parent) // remember this traversal can go both ways, to it's parent and it's children,
+                // if not parent and visited return `true` else if visited and parent -> false which is handled outside for loop
                 return true;
         }
         return false;

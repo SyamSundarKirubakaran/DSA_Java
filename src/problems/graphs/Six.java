@@ -49,7 +49,6 @@ public class Six {
             return false;
 
         visited[i] = true;
-
         recStack[i] = true;
         List<Integer> children = adj.get(i);
 
@@ -58,7 +57,6 @@ public class Six {
                 return true;
 
         recStack[i] = false;
-
         return false;
     }
 

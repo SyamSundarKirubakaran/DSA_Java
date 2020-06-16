@@ -6,16 +6,16 @@ import java.util.Stack;
 
 /**
  * @author SYAM K
- * @problem : Single source shortest path - DAG
+ * @problem : Longest Path in DAG, with weights
  */
-public class Eight {
+public class Eleven {
 
-    static final int INF = Integer.MAX_VALUE;
+    static final int MIN = Integer.MIN_VALUE;
 
     public static void main(String[] args) {
         Long start = System.nanoTime();
 
-        Eight t = new Eight();
+        Eleven t = new Eleven();
         Graph g = t.newGraph(6);
         g.addEdge(0, 1, 5);
         g.addEdge(0, 2, 3);
@@ -24,6 +24,7 @@ public class Eight {
         g.addEdge(2, 4, 4);
         g.addEdge(2, 5, 2);
         g.addEdge(2, 3, 7);
+        g.addEdge(3, 5, 1);
         g.addEdge(3, 4, -1);
         g.addEdge(4, 5, -2);
 
@@ -100,24 +101,24 @@ public class Eight {
 
 
             for (int i = 0; i < V; i++)
-                dist[i] = INF;
+                dist[i] = MIN;
             dist[s] = 0;
 
             while (!stack.empty()) {
                 int u = stack.pop();
                 Iterator<AdjListNode> it;
-                if (dist[u] != INF) {
+                if (dist[u] != MIN) {
                     it = adj[u].iterator();
                     while (it.hasNext()) {
                         AdjListNode i = it.next();
-                        if (dist[u] + i.getWeight() < dist[i.getV()])
+                        if (dist[u] + i.getWeight() > dist[i.getV()])
                             dist[i.getV()] = dist[u] + i.getWeight();
                     }
                 }
             }
 
             for (int i = 0; i < V; i++) {
-                if (dist[i] == INF)
+                if (dist[i] == MIN)
                     System.out.print("INF ");
                 else
                     System.out.print(dist[i] + " ");

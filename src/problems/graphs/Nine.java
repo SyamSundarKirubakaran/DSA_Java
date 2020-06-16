@@ -1,10 +1,11 @@
 package problems.graphs;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  * @author SYAM K
- * @problem : Longest Path in DAG
+ * @problem : Longest Path in DAG, no weights
  */
 public class Nine {
 
@@ -29,7 +30,6 @@ public class Nine {
         graph.addEdge(3, 2);
         graph.addEdge(2, 4);
         graph.addEdge(3, 4);
-        graph.findLongestPath(n);
         System.out.println(graph.findLongestPath(n));
 
         Long end = System.nanoTime();
@@ -60,6 +60,8 @@ public class Nine {
             if (!visited[i])
                 dfs(i, adj, dp, visited);
         }
+
+        System.out.println(Arrays.toString(dp));
 
         int ans = 0;
         for (int i = 1; i <= n; i++) {
