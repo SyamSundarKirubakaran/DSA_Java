@@ -17,13 +17,6 @@ public class Two {
         System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
     }
 
-    static void printTheArray(int[] arr, int n) {
-        for (int i = 0; i < n; i++) {
-            System.out.print(arr[i] + " ");
-        }
-        System.out.println();
-    }
-
     static void generateAllBinaryStrings(int n, int[] arr, int i) {
         if (i == n) {
             printTheArray(arr, n);
@@ -35,6 +28,13 @@ public class Two {
 
         arr[i] = 1;
         generateAllBinaryStrings(n, arr, i + 1);
+    }
+
+    static void printTheArray(int[] arr, int n) {
+        for (int i = 0; i < n; i++) {
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println();
     }
 
 }

@@ -23,8 +23,10 @@ public class One {
         else {
             for (int i = l; i <= r; i++) {
                 str = swap(str, l, i);
+                System.out.println("Before: " + str + ", " + l + ", " + i);
                 permute(str, l + 1, r);
-                str = swap(str, l, i);
+                str = swap(str, l, i); // to get back up the tree, to form original string
+                System.out.println("After: " + str + ", " + l + ", " + i + " (reversing)");
             }
         }
     }

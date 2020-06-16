@@ -35,18 +35,22 @@ public class Seven {
     public static boolean isSafe(int[][] board,
                                  int row, int col,
                                  int num) {
+        // row has the unique (row-clash)
         for (int d = 0; d < board.length; d++) {
             if (board[row][d] == num) {
                 return false;
             }
         }
 
+        // column has the unique numbers (column-clash)
         for (int[] ints : board) {
             if (ints[col] == num) {
                 return false;
             }
         }
 
+        // corresponding square has
+        // unique number (box-clash)
         int sqrt = (int) Math.sqrt(board.length);
         int boxRowStart = row - row % sqrt;
         int boxColStart = col - col % sqrt;
@@ -87,13 +91,13 @@ public class Seven {
             return true;
         }
 
-        for (int num = 1; num <= n; num++) {
+        for (int num = 1; num <= n; num++) { // to find a possible number that can fit in that place
             if (isSafe(board, row, col, num)) {
                 board[row][col] = num;
                 if (solveSudoku(board, n)) {
                     return true;
                 } else {
-                    board[row][col] = 0;
+                    board[row][col] = 0; // backtrack
                 }
             }
         }
@@ -108,10 +112,6 @@ public class Seven {
                 System.out.print(" ");
             }
             System.out.print("\n");
-
-            if ((r + 1) % (int) Math.sqrt(N) == 0) {
-                System.out.print("");
-            }
         }
     }
 

@@ -25,17 +25,8 @@ public class Four {
         System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
     }
 
-    static void printSolution(int[][] sol) {
-        for (int i = 0; i < N; i++) {
-            for (int j = 0; j < N; j++)
-                System.out.print(" " + sol[i][j] + " ");
-            System.out.println();
-        }
-    }
-
     static boolean isSafe(int[][] maze, int x, int y) {
-        return (x >= 0 && x < N && y >= 0
-                && y < N && maze[x][y] == 1);
+        return (x >= 0 && x < N && y >= 0 && y < N && maze[x][y] == 1);
     }
 
     static void solveMaze(int[][] maze) {
@@ -49,10 +40,11 @@ public class Four {
         printSolution(sol);
     }
 
-    static boolean solveMazeUtil(int[][] maze, int x, int y,
+    static boolean solveMazeUtil(int[][] maze,
+                                 int x,
+                                 int y,
                                  int[][] sol) {
-        if (x == N - 1 && y == N - 1
-                && maze[x][y] == 1) {
+        if (x == N - 1 && y == N - 1 && maze[x][y] == 1) {
             sol[x][y] = 1;
             return true;
         }
@@ -71,6 +63,15 @@ public class Four {
         }
 
         return false;
+    }
+
+
+    static void printSolution(int[][] sol) {
+        for (int i = 0; i < N; i++) {
+            for (int j = 0; j < N; j++)
+                System.out.print(" " + sol[i][j] + " ");
+            System.out.println();
+        }
     }
 
 }

@@ -179,10 +179,11 @@
 - [ ] Five -> Dijkstra's Algorithm
 - [ ] Six -> Fractional Knapsack
 - [ ] Seven -> Huffman's Coding
-- [X] Eight -> Job Sequencing with Deadlines
-- [X] Nine -> Spanning Trees and kirchhoff's theorem
-- [X] Ten -> Minimum Spanning Tree - Prim's
-- [X] Eleven -> Kruskal's Algorithm
+- [ ] Eight -> Job Sequencing with Deadlines
+- [ ] Nine -> Spanning Trees and kirchhoff's theorem
+- [ ] Ten -> Minimum Spanning Tree - Prim's
+- [ ] Eleven -> Kruskal's Algorithm
+- [ ] Twelve -> Optimal Merge Patterns
 
 **Divide and Conquer:**
 - [ ] One -> Find the element that occurs more than n/2 times - Sorted Array.
@@ -275,13 +276,14 @@
 - [ ] Sixteen -> Delete root from a heap.
 
 **Back Tracking:**
-- [X] One -> Print all permutations of given string
-- [X] Two -> Print all the strings of n-bits
-- [X] Three -> N-Queens Problem
-- [X] Four -> Rat in Maze
-- [X] Five -> Knight Tour Problem
-- [X] Six -> Find subset of elements that are selected from a given set whose sum adds upto a given number `k`
-- [X] Seven -> SUDOKU
+- [ ] One -> Print all permutations of given string
+- [ ] Two -> Print all the strings of n-bits
+- [ ] Three -> N-Queens Problem
+- [ ] Four -> Rat in Maze
+- [ ] Five -> Knight Tour Problem
+- [ ] Six -> Find subset of elements that are selected from a given set whose sum adds upto a given number `k` // Subset Sum Problem - Using Backtracking
+- [ ] Seven -> SUDOKU
+- [ ] Eight -> N-Queens Problem - Easy way
 
 **Graph Problems:**
 - [ ] One -> DFS
