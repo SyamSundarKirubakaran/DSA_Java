@@ -1,3 +1,4 @@
+**Notes - Java**
 - Traversal in upper triangular matrix, very much prevalent in Dynamic Programming.
 ```
 for (int ls = 2; ls <= len; ls++) {
