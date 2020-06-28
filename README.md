@@ -2,8 +2,8 @@
 ![image](./img/Java_banner.jpg)
 
 ## Note:
-The best way to prepare would be to clone this repo and mark the problems as completed as you progress along. If you're interested in explanations,
-check out [DSA_Kotlin Repo](https://github.com/SyamSundarKirubakaran/DSA_Kotlin), which has video explanations for every problem in this problem set.
+- The best way to prepare would be to clone this repo and mark the problems as completed as you progress along. 
+- If you're interested in explanations, check out [DSA_Kotlin Repo](https://github.com/SyamSundarKirubakaran/DSA_Kotlin), which has video explanations for every problem in this problem set.
 
 ## Topics:
 - [Arrays](#Array-Problems)
