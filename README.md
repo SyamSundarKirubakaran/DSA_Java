@@ -1,6 +1,9 @@
-**My Problem Set for cracking Technical Interviews in Java**<br>
-<br>
-**Total no.of Problems**: 268
+
+![image](./img/Java_banner.jpg)
+
+**Note:**<br>
+The best way to prepare would be to clone this repo and mark the problems as completed as you progress along. If you're interested in explanations
+check out [DSA_Kotlin Repo](https://github.com/SyamSundarKirubakaran/DSA_Kotlin), they have video explanations for every problem in this problem set.
 
 **Topics:**
 - Arrays
