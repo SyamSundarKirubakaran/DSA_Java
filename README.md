@@ -1,29 +1,29 @@
 
 ![image](./img/Java_banner.jpg)
 
-**Note:**<br>
+## Note:
 The best way to prepare would be to clone this repo and mark the problems as completed as you progress along. If you're interested in explanations,
 check out [DSA_Kotlin Repo](https://github.com/SyamSundarKirubakaran/DSA_Kotlin), which has video explanations for every problem in this problem set.
 
-**Topics:**
-- Arrays
-- Trees
-- Linked List
-- Stack
-- Queue
-- Dynamic Programming
-- Greedy Problems
-- Divide and Conquer
-- Bit Manipulation
-- Mathematical
-- Hashing
-- String
-- Pattern Matching
-- Heaps
-- Back Tracking
-- Graphs
+## Topics:
+- [Arrays](#Array-Problems)
+- [Trees](#Tree-Problems)
+- [Linked List](#Linked-List-Problems)
+- [Stack](#Stack-Problems)
+- [Queue](#Queue-Problems)
+- [Dynamic Programming](#Dynamic-Programming)
+- [Greedy Problems](#Greedy-Problems)
+- [Divide and Conquer](#Divide-and-Conquer)
+- [Bit Manipulation](#Bit-Manipulation)
+- [Mathematical](#Mathematical)
+- [Hashing](#Hashing)
+- [String](#Strings)
+- [Pattern Matching](#Pattern-Matching)
+- [Heaps](#Heaps)
+- [Back Tracking](#Back-Tracking)
+- [Graphs](#Graph-Problems)
 
-**Array Problems:** (38)
+## Array Problems
 - [ ] One -> Linear Search
 - [ ] Two -> Binary Search
 - [ ] Three -> Find a pair in an array whose sum is equal to given number (Hash Approach) - Brute Force, Quick Sort and search complement, Hash Table
@@ -63,7 +63,7 @@ check out [DSA_Kotlin Repo](https://github.com/SyamSundarKirubakaran/DSA_Kotlin)
 - [ ] ThirtySeven -> Find Sub Array whose sum is equals zero - reduced time complexity
 - [ ] ThirtyEight -> Largest sub array with equal no.of zeros and ones - my way
 
-**Tree Problems:** (46)
+## Tree Problems
 - [ ] One -> Size of a Binary Tree
 - [ ] Two -> Identical or not
 - [ ] Three -> Mirror Tree
@@ -111,7 +111,7 @@ check out [DSA_Kotlin Repo](https://github.com/SyamSundarKirubakaran/DSA_Kotlin)
 - [ ] FortyFive -> Custom Tree Print Problem
 - [ ] FortySix -> Threaded BT
 
-**Linked List Problems:** (17)
+## Linked List Problems
 - [ ] One -> Reverse a LL
 - [ ] Two -> Middle of a LL
 - [ ] Three -> Kth node from the end of the LL
@@ -130,7 +130,7 @@ check out [DSA_Kotlin Repo](https://github.com/SyamSundarKirubakaran/DSA_Kotlin)
 - [ ] Sixteen -> Add 1 to number represented as LL
 - [ ] Seventeen -> Merge K sorted LL of size N into single Sorted LL of size kn - Better complexity
 
-**Stack Problems:** (10)
+## Stack Problems
 - [ ] One -> Stack using Queues
 - [ ] Two -> getMin @ O(1)
 - [ ] Three -> Reverse a Stack
@@ -142,10 +142,10 @@ check out [DSA_Kotlin Repo](https://github.com/SyamSundarKirubakaran/DSA_Kotlin)
 - [ ] Nine -> find duplicate parenthesis present or not
 - [ ] Ten -> Celebrity Problem
 
-**Queue Problems:** (1)
+## Queue Problems
 - [ ] One -> Circular tour that visit all gasoline stations before running out of gas
 
-**Dynamic Programming:** (49)
+## Dynamic Programming
 - [ ] One -> Maximum Sum Sub array
 - [ ] Two -> Maximum Sum Increasing Sub Sequence [OR] Longest increasing Sub Sequence
 - [ ] Three -> Longest Sub Sequence in an array such that the element are consecutive
@@ -196,7 +196,7 @@ check out [DSA_Kotlin Repo](https://github.com/SyamSundarKirubakaran/DSA_Kotlin)
 - [ ] FortyEight -> Longest Palindromic sub string - Less Space Complexity
 - [ ] FortyNine -> No.of Non-decreasing numbers with n digits - Less space
 
-**Greedy Problems:** (12)
+## Greedy Problems
 - [ ] One -> n different ropes of different length, tie them up into a single rope with Min cost.
 - [ ] Twp -> Maximum Non Overlapping Intervals
 - [ ] Three -> Min no.of platforms required to station all trains without collision
@@ -210,7 +210,7 @@ check out [DSA_Kotlin Repo](https://github.com/SyamSundarKirubakaran/DSA_Kotlin)
 - [ ] Eleven -> Kruskal's Algorithm
 - [ ] Twelve -> Optimal Merge Patterns
 
-**Divide and Conquer:** (15)
+## Divide and Conquer
 - [ ] One -> Find the element that occurs more than n/2 times - Sorted Array.
 - [ ] Two -> Bolt and Nuts
 - [ ] Three -> Implement pow()
@@ -227,7 +227,7 @@ check out [DSA_Kotlin Repo](https://github.com/SyamSundarKirubakaran/DSA_Kotlin)
 - [ ] Fourteen -> Find Peek Element
 - [ ] Fifteen -> Get first 1.
 
-**Bit Manipulation:** (10)
+## Bit Manipulation
 - [ ] One -> Kth bit is set or not
 - [ ] Two -> set Kth Bit of a number
 - [ ] Three -> clear Kth bit of a number
@@ -239,12 +239,12 @@ check out [DSA_Kotlin Repo](https://github.com/SyamSundarKirubakaran/DSA_Kotlin)
 - [ ] Nine -> Multiply with 7 without using `*`
 - [ ] Ten -> Check if a Number is Odd or Even using Bitwise Operators
 
-**Mathematical:** (3)
+## Mathematical
 - [ ] One -> Prime or not
 - [ ] Two -> Print prime upto n - Sieve of Eratosthenes Algorithm
 - [ ] Three -> Lucky number or not
 
-**Hashing:** (7)
+## Hashing
 - [ ] One -> check if the array has duplicate entries at K distance or not
 - [ ] Two -> check if 2 sets are disjoint or not
 - [ ] Three -> Group all occurrences of elements order by their 1st occurrence.
@@ -253,7 +253,7 @@ check out [DSA_Kotlin Repo](https://github.com/SyamSundarKirubakaran/DSA_Kotlin)
 - [ ] Six -> Find the no.of sub arrays with sum zero
 - [ ] Seven -> Find 4 elements i, j, k & l -> such that `i + j = k + l`
 
-**Strings:** (20)
+## Strings
 - [ ] One -> Find a max occurring character in a given array.
 - [ ] Two -> Remove duplicates in a given string
 - [ ] Three -> Check if given 2 strings are rotations of each other
@@ -275,14 +275,14 @@ check out [DSA_Kotlin Repo](https://github.com/SyamSundarKirubakaran/DSA_Kotlin)
 - [X] Nineteen -> Remove adj duplicate characters in a given string
 - [ ] Twenty -> Min no.of palindromic sub-sequences to be removed to empty a binary string - Tournament Method
 
-**Pattern Matching:** (5)
+## Pattern Matching
 - [ ] One -> Find all occurrences of str2 in str1 - Brute force
 - [ ] Two -> Knuth Morris Pratt Algorithm
 - [ ] Three -> Boyer's Moore String Matching Algorithm
 - [ ] Four -> Rabin-Karp String Matching Algorithm
 - [ ] Five -> Find all occurrences of a given word in a matrix
 
-**Heaps:** (16)
+## Heaps
 - [ ] One -> Finding the max element in MIN heap
 - [ ] Two -> Deleting arb element in MIN heap
 - [ ] Three -> K-Largest elements from an array
@@ -300,7 +300,7 @@ check out [DSA_Kotlin Repo](https://github.com/SyamSundarKirubakaran/DSA_Kotlin)
 - [ ] Fifteen -> Given K-sorted arrays of size n-each, merge them. - different sized inner lists
 - [ ] Sixteen -> Delete root from a heap.
 
-**Back Tracking:** (8)
+## Back Tracking
 - [ ] One -> Print all permutations of given string
 - [ ] Two -> Print all the strings of n-bits
 - [ ] Three -> N-Queens Problem
@@ -310,7 +310,7 @@ check out [DSA_Kotlin Repo](https://github.com/SyamSundarKirubakaran/DSA_Kotlin)
 - [ ] Seven -> SUDOKU
 - [ ] Eight -> N-Queens Problem - Easy way
 
-**Graph Problems:** (11)
+## Graph Problems
 - [ ] One -> DFS
 - [ ] Two -> BFS
 - [ ] Three -> Find if there's a path between vi and vj in a directed graph
