@@ -6,5 +6,5 @@ package kt
  */
 
 fun main() {
-    println("dub dub")
+    print("dub dub")
 }
