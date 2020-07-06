@@ -2,7 +2,7 @@ package problems.trees;
 
 /**
  * @author SYAM K
- * @problem : Print nodes at K distance form any node in BT
+ * @problem : Print nodes at K distance from any node in BT
  */
 public class Eleven {
     public static void main(String[] args) {

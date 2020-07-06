@@ -74,14 +74,14 @@
 - [ ] Eight -> Diameter of the Binary Tree
 - [ ] Nine -> Find the level of a given node
 - [ ] Ten -> Print nodes at k distance form root
-- [ ] Eleven -> Print nodes at K distance form any node in BT
+- [ ] Eleven -> Print nodes at K distance from any node in BT
 - [ ] Twelve -> Vertical Tree Order Traversal
 - [ ] Thirteen -> Vertical Sum of the Binary Tree
 - [ ] Fourteen -> Sum Tree or not
 - [ ] Fifteen -> Top View
 - [ ] Sixteen -> Bottom View
 - [ ] Seventeen -> Left View
-- [ ] Eighteen -> Remove all paths whose length < K in BT.
+- [ ] Eighteen -> Remove all paths whose length = K in BT.
 - [ ] Nineteen -> One BT is a sub tree of another BT or not
 - [ ] Twenty -> Cousin Nodes or not
 - [ ] TwentyOne -> Balanced BST construction from a sorted List
@@ -110,6 +110,7 @@
 - [ ] FortyFour -> Reverse Alternate Levels of a perfect BT
 - [ ] FortyFive -> Custom Tree Print Problem
 - [ ] FortySix -> Threaded BT
+- [ ] FortySeven -> Remove all paths whose length < K in BT.
 
 ## Linked List Problems
 - [ ] One -> Reverse a LL
