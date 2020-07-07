@@ -2,7 +2,7 @@ package problems.trees;
 
 /**
  * @author SYAM K
- * @problem : Remove all paths whose length = K in BT.
+ * @problem : Remove all nodes whose length = K in BT.
  */
 public class Eighteen {
 

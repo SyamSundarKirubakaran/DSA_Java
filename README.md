@@ -110,7 +110,7 @@
 - [ ] FortyFour -> Reverse Alternate Levels of a perfect BT
 - [ ] FortyFive -> Custom Tree Print Problem
 - [ ] FortySix -> Threaded BT
-- [ ] FortySeven -> Remove all paths whose length < K in BT.
+- [ ] FortySeven -> Remove all paths whose length < K in BT. -> Subsection of 18th Problem
 
 ## Linked List Problems
 - [ ] One -> Reverse a LL
