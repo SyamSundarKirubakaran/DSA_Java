@@ -81,7 +81,7 @@
 - [ ] Fifteen -> Top View
 - [ ] Sixteen -> Bottom View
 - [ ] Seventeen -> Left View
-- [ ] Eighteen -> Remove all paths whose length = K in BT.
+- [ ] Eighteen -> Remove all nodes whose length = K in BT.
 - [ ] Nineteen -> One BT is a sub tree of another BT or not
 - [ ] Twenty -> Cousin Nodes or not
 - [ ] TwentyOne -> Balanced BST construction from a sorted List
