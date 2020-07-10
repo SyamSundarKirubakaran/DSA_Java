@@ -3,7 +3,9 @@
 
 ## Note:
 - The best way to prepare would be to clone this repo and mark the problems as completed as you progress along. 
-- If you're interested in explanations, check out [DSA_Kotlin Repo](https://github.com/SyamSundarKirubakaran/DSA_Kotlin), which has video explanations for every problem in this problem set.
+- Every problem in this repo will be linked to a youtube video which explains how to solve it.
+- If you're interested in kotlin code, check out [DSA_Kotlin Repo](https://github.com/SyamSundarKirubakaran/DSA_Kotlin).
+- Give it a :star: if you like my work.
 
 ## Topics:
 - [Arrays](#Array-Problems)
