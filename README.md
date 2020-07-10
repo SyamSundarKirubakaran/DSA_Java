@@ -85,7 +85,7 @@
 - [ ] Nineteen -> [One BT is a sub tree of another BT or not](https://youtu.be/8xOvb1_rGbg)
 - [ ] Twenty -> [Cousin Nodes or not](https://youtu.be/xkCNEu27R8M)
 - [ ] TwentyOne -> [Balanced BST construction from a sorted List](https://youtu.be/-aGezpat2E0)
-- [ ] TwentyTwo -> BST into Balanced BST
+- [ ] TwentyTwo -> [Unbalanced BST into Balanced BST](https://youtu.be/UvCgOtx8n3k)
 - [ ] TwentyThree -> Print all paths possible from root to all leaves
 - [ ] TwentyFour -> Spiral Level Order Traversal
 - [ ] TwentyFive -> BT construction from the given POST and IN Order
