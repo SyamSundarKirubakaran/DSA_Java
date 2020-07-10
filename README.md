@@ -64,27 +64,27 @@
 - [ ] ThirtyEight -> Largest sub array with equal no.of zeros and ones - my way
 
 ## Tree Problems
-- [ ] One -> Size of a Binary Tree
-- [ ] Two -> Identical or not
-- [ ] Three -> Mirror Tree
-- [ ] Four -> Level Order Traversal
-- [ ] Five -> Lowest Common Ancestor (LCA) - BST
-- [ ] Six -> Lowest Common Ancestor (LCA) - Binary Tree
-- [ ] Seven -> Binary Tree into DLL - IN order - InPlace conversion
-- [ ] Eight -> Diameter of the Binary Tree
-- [ ] Nine -> Find the level of a given node
-- [ ] Ten -> Print nodes at k distance form root
-- [ ] Eleven -> Print nodes at K distance from any node in BT
-- [ ] Twelve -> Vertical Tree Order Traversal
-- [ ] Thirteen -> Vertical Sum of the Binary Tree
-- [ ] Fourteen -> Sum Tree or not
-- [ ] Fifteen -> Top View
-- [ ] Sixteen -> Bottom View
-- [ ] Seventeen -> Left View
-- [ ] Eighteen -> Remove all nodes whose length = K in BT.
-- [ ] Nineteen -> One BT is a sub tree of another BT or not
-- [ ] Twenty -> Cousin Nodes or not
-- [ ] TwentyOne -> Balanced BST construction from a sorted List
+- [ ] One -> [Size of a Binary Tree](https://youtu.be/T8KyS9JZpCU)
+- [ ] Two -> [Identical or not](https://youtu.be/oxgOo4vT4CI)
+- [ ] Three -> [Mirror Tree](https://youtu.be/bW4EdiMm05M)
+- [ ] Four -> [Level Order Traversal](https://youtu.be/c5IwTf1h3Nc)
+- [ ] Five -> [Lowest Common Ancestor (LCA) - BST](https://youtu.be/fd_wVjtItIY)
+- [ ] Six -> [Lowest Common Ancestor (LCA) - Binary Tree](https://youtu.be/b0eZmFKHI1s)
+- [ ] Seven -> [Binary Tree into DLL - IN order - InPlace conversion](https://youtu.be/jE1LFxa-Uaw)
+- [ ] Eight -> [Diameter of the Binary Tree](https://youtu.be/_gd5x2EjYgk)
+- [ ] Nine -> [Find the level of a given node](https://youtu.be/Wq3wnxq_hpQ)
+- [ ] Ten -> [Print nodes at k distance form root](https://youtu.be/2oF5MuBH9r8)
+- [ ] Eleven -> [Print nodes at K distance from any node in BT](https://youtu.be/uQgkmWievXM)
+- [ ] Twelve -> [Vertical Tree Order Traversal](https://youtu.be/52ZnowIt1jI)
+- [ ] Thirteen -> [Vertical Sum of the Binary Tree](https://youtu.be/p0c5ACJLBPk)
+- [ ] Fourteen -> [Sum Tree or not](https://www.youtube.com/watch?v=aRTzFnsynas)
+- [ ] Fifteen -> [Top View](https://youtu.be/ftQ6ucy7XFM)
+- [ ] Sixteen -> [Bottom View](https://youtu.be/MaOR6405WHg)
+- [ ] Seventeen -> [Left View](https://youtu.be/x0GL9Iz_iik)
+- [ ] Eighteen -> [Remove all nodes whose length = K in BT.](https://youtu.be/cOIDvjdRvKE)
+- [ ] Nineteen -> [One BT is a sub tree of another BT or not](https://youtu.be/8xOvb1_rGbg)
+- [ ] Twenty -> [Cousin Nodes or not](https://youtu.be/xkCNEu27R8M)
+- [ ] TwentyOne -> [Balanced BST construction from a sorted List](https://youtu.be/-aGezpat2E0)
 - [ ] TwentyTwo -> BST into Balanced BST
 - [ ] TwentyThree -> Print all paths possible from root to all leaves
 - [ ] TwentyFour -> Spiral Level Order Traversal
