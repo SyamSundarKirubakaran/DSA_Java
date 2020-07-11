@@ -88,7 +88,7 @@
 - [ ] Twenty -> [Cousin Nodes or not](https://youtu.be/xkCNEu27R8M)
 - [ ] TwentyOne -> [Balanced BST construction from a sorted List](https://youtu.be/-aGezpat2E0)
 - [ ] TwentyTwo -> [Unbalanced BST into Balanced BST](https://youtu.be/UvCgOtx8n3k)
-- [ ] TwentyThree -> Print all paths possible from root to all leaves
+- [ ] TwentyThree -> [Print all paths possible from root to all leaves](https://youtu.be/2tRF4GSDWeU)
 - [ ] TwentyFour -> Spiral Level Order Traversal
 - [ ] TwentyFive -> BT construction from the given POST and IN Order
 - [ ] TwentySix -> All nodes at K distance from leaf
