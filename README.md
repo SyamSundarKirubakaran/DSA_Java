@@ -95,7 +95,7 @@
 - [ ] TwentySeven -> [Expression Evaluation](https://youtu.be/e74fPzgWJ5g)
 - [ ] TwentyEight -> [Extreme nodes of each level in alternating order](https://youtu.be/9jM3Bqj5phE)
 - [ ] TwentyNine -> [Diagonal Traversal BT](https://youtu.be/N1hHwhtu-ss)
-- [ ] Thirty -> BT to a BT that holds Child sum property
+- [ ] Thirty -> [BT to a BT that holds Child sum property](https://youtu.be/jko8H5J6yZM)
 - [ ] ThirtyOne -> Multiplication of Sums of data of leaves at same level
 - [ ] ThirtyTwo -> Multiplication of Sums of data at same level
 - [ ] ThirtyThree -> Max of all differences of a node and it's ancestors BT

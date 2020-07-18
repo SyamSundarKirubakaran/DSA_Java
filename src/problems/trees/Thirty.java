@@ -14,8 +14,7 @@ public class Thirty {
 
     private static void convertTree(Node node) {
         int leftData = 0, rightData = 0, diff;
-        if (node == null || node.left == null || node.right == null) {
-        } else {
+        if (node != null && !(node.left == null && node.right == null)) {
             convertTree(node.left);
             convertTree(node.right);
             if (node.left != null)
