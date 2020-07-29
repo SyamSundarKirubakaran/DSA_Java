@@ -100,7 +100,7 @@
 - [ ] ThirtyTwo -> [Multiplication of Sums of data at same level](https://youtu.be/auq3GG6fxTU)
 - [ ] ThirtyThree -> [Max of all differences of a node and it's ancestors BT](https://youtu.be/bF35gZXcbuY)
 - [ ] ThirtyFour -> [Serialization and Deserialization BT](https://youtu.be/e5cZ8Ie_fzI)
-- [ ] ThirtyFive -> Serialization and Deserialization n-ary Tree
+- [ ] ThirtyFive -> [Serialization and Deserialization n-ary Tree](https://youtu.be/7uGy7JeM_5k)
 - [ ] ThirtySix -> Tree from ancestor Matrix
 - [ ] ThirtySeven -> Complete Binary Tree from a LL
 - [ ] ThirtyEight -> Find the next right node of a given node in the same level

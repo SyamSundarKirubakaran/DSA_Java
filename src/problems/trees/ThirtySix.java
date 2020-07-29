@@ -9,13 +9,14 @@ import java.util.List;
  */
 public class ThirtySix {
 
-    private static int[][] ancestorMatrix = {
+    private static final int[][] ancestorMatrix = {
             {0, 1, 1, 1, 1, 1},
             {0, 0, 0, 0, 0, 1},
             {0, 0, 0, 1, 1, 0},
             {0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0},
-            {0, 0, 0, 0, 0, 0}};
+            {0, 0, 0, 0, 0, 0}
+    };
 
     public static void main(String[] args) {
         Node result = constructTree();
