@@ -6,7 +6,7 @@ package problems.array;
  */
 public class TwentySix {
 
-    private static int[] arr = new int[]{4, 3, 1, 2, 2, 3, 4};
+    private static final int[] arr = new int[]{4, 3, 1, 2, 2, 3, 4};
 
     public static void main(String[] args) {
         findRepeating(arr, arr.length - 1);
@@ -14,8 +14,9 @@ public class TwentySix {
 
     private static void findRepeating(int[] arr, int size) {
         for (int i = 0; i <= size; i++) {
-            if (arr[Math.abs(arr[i])] >= 0) {
-                arr[Math.abs(arr[i])] = -arr[Math.abs(arr[i])];
+            int absoluteValue = Math.abs(arr[i]);
+            if (arr[absoluteValue] >= 0) {
+                arr[absoluteValue] = -arr[absoluteValue];
             } else {
                 System.out.print(Math.abs(arr[i]) + " ");
             }

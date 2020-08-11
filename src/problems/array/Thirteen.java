@@ -11,7 +11,7 @@ class Thirteen {
     static int[] arr = new int[]{1, 2, 5, 6, 9, 10};
 
     public static void main(String[] args) {
-        findTriplet(arr, 0, arr.length - 1, arr.length - 1, 15);
+        findTriplet(arr, 1, arr.length - 1, arr.length - 1, 15);
     }
 
     static void findTriplet(int[] arr, int left, int right, int size, int key) {

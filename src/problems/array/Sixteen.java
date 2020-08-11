@@ -2,7 +2,7 @@ package problems.array;
 
 /**
  * @author SYAM K
- * @problem : Array of unknown size.0s followed by 1s find the first index of 1
+ * @problem : Array of unknown size. 0s followed by 1s find the first index of 1
  */
 
 class Sixteen {

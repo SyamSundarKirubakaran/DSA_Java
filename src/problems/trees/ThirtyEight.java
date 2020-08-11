@@ -18,14 +18,14 @@ public class ThirtyEight {
             System.out.println("No node to its right");
     }
 
-    private static Node nextRight(Node first, int k) {
-        if (first == null)
+    private static Node nextRight(Node head, int k) {
+        if (head == null)
             return null;
         Queue<Node> qn = new LinkedList<Node>();
         Queue<Integer> ql = new LinkedList<Integer>();
 
         int level = 0;
-        qn.add(first);
+        qn.add(head);
         ql.add(level);
 
         while (qn.size() != 0) {

@@ -29,11 +29,11 @@
 - [ ] One -> Linear Search
 - [ ] Two -> Binary Search
 - [ ] Three -> Find a pair in an array whose sum is equal to given number (Hash Approach) - Brute Force, Quick Sort and search complement, Hash Table
-- [ ] Four -> Element that occurs more than n/2 times - Unsorted
+- [ ] Four -> Element that occurs more than n/2 times - Unsorted - Moore's Voting Algorithm, but using quick sort followed by count [or] HashMap
 - [ ] Five -> Element that occurs more than n/2 times - Sorted
-- [ ] Six -> Largest Difference such that the smaller number appears before larger number
-- [ ] Seven -> Largest Difference such that the smaller number appears before larger number - Less space complexity
-- [ ] Eight -> Largest Difference such that the smaller number appears before larger number - Min So Far
+- [X] Six -> Largest Difference such that the smaller number appears before larger number
+- [X] Seven -> Largest Difference such that the smaller number appears before larger number - Less space complexity
+- [X] Eight -> Largest Difference such that the smaller number appears before larger number - Min So Far
 - [ ] Nine -> Find the number occurring odd number of times in the given array(Only one element occurs odd number of times)
 - [ ] Ten -> Separate 0's and 1's in an array
 - [ ] Eleven -> Separate Even and Odd numbers in an array
@@ -43,7 +43,7 @@
 - [ ] Fifteen -> Find the Equilibrium Index .i.e., left sum and right sum of index should be equal - Less Space Complexity.
 - [ ] Sixteen -> Array of unknown size. 0s followed by 1s find the first index of 1
 - [ ] Seventeen -> Maximum of every contiguous sub-array of size k. - Sliding Window.
-- [ ] Eighteen -> count the no.of smaller elements to the right of each element in the array.
+- [X] Eighteen -> count the no.of smaller elements to the right of each element in the array.
 - [ ] Nineteen -> Largest Multiple of 3 with given digits.
 - [ ] Twenty -> Sub Array Sum equal to x
 - [ ] TwentyOne -> Find Sub Array whose sum is equals zero
@@ -53,17 +53,19 @@
 - [ ] TwentyFive -> Sort a nearly sorted array, each element can be misplaced by a max of k digits before or after
 - [ ] TwentySix -> Find Duplicates in O(n) time and O(1) space - Array element values are ≤ Max Index
 - [ ] TwentySeven -> Find 2 repeating elements in a given array - XOR - Given (n+2) elements - 1 ≤ a[i] ≤ n - All elements from 1 to n occurs at least once (Except the 2 numbers that occurs twice)
-- [ ] TwentyEight -> Rotate an array of size n by d elements - Left rotation - Beginning to End - Juggling Algorithm
+- [X] TwentyEight -> Rotate an array of size n by d elements - Left rotation - Beginning to End - Juggling Algorithm
 - [ ] TwentyNine -> Sort array in wave form - Even position number
 - [ ] Thirty -> Next least greater number to the given number, input as digit array - with same digits
 - [ ] ThirtyOne -> Trapping Rain Water Problem
 - [ ] ThirtyTwo -> No.of Triangles that can be formed
-- [ ] ThirtyThree -> Smallest number that can't be formed from the array of given numbers
-- [ ] ThirtyFour -> Rearrange such that a[i] becomes a[a[i]]
+- [ ] ThirtyThree -> Smallest number that can't be formed by sum of given numbers
+- [X] ThirtyFour -> Rearrange such that a[i] becomes a[a[i]]
 - [ ] ThirtyFive -> Rotate Matrix by 90 degree - anti-clockwise 
 - [ ] ThirtySix -> Count number of occurrences (or frequency) in a sorted array
 - [ ] ThirtySeven -> Find Sub Array whose sum is equals zero - reduced time complexity
 - [ ] ThirtyEight -> Largest sub array with equal no.of zeros and ones - my way
+- [ ] ThirtyNine -> Find Duplicates in O(n) time and O(1) space - Array element values are ≤ Max Index - GFG
+- [ ] Forty -> Rotate an array of size n by d elements - Left rotation - Beginning to End 
 
 ## Tree Problems
 - [ ] One -> [Size of a Binary Tree](https://youtu.be/T8KyS9JZpCU)
@@ -73,7 +75,7 @@
 - [ ] Five -> [Lowest Common Ancestor (LCA) - BST](https://youtu.be/fd_wVjtItIY)
 - [ ] Six -> [Lowest Common Ancestor (LCA) - Binary Tree](https://youtu.be/b0eZmFKHI1s)
 - [ ] Seven -> [Binary Tree into DLL - IN order - InPlace conversion](https://youtu.be/jE1LFxa-Uaw)
-- [ ] Eight -> [Diameter of the Binary Tree](https://youtu.be/_gd5x2EjYgk)
+- [X] Eight -> [Diameter of the Binary Tree](https://youtu.be/_gd5x2EjYgk)
 - [ ] Nine -> [Find the level of a given node](https://youtu.be/Wq3wnxq_hpQ)
 - [ ] Ten -> [Print nodes at k distance form root](https://youtu.be/2oF5MuBH9r8)
 - [ ] Eleven -> [Print nodes at K distance from any node in BT](https://youtu.be/uQgkmWievXM)
@@ -112,7 +114,7 @@
 - [ ] FortyFour -> Reverse Alternate Levels of a perfect BT
 - [ ] FortyFive -> Custom Tree Print Problem
 - [ ] FortySix -> Threaded BT
-- [ ] FortySeven -> Remove all paths whose length < K in BT. -> Subsection of 18th Problem - Unsolved
+- [ ] FortySeven -> Remove all paths whose length < K in BT. -> Subsection of 18th Problem
 - [ ] FortyEight -> BT construction from the given PRE and IN Order -> Subsection of 25th Problem
 
 ## Linked List Problems

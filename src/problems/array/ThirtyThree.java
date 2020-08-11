@@ -4,11 +4,11 @@ import java.util.Arrays;
 
 /**
  * @author SYAM K
- * @problem : Smallest number that can't be formed from the array of given numbers
+ * @problem : Smallest number that can't be formed by sum of given numbers
  */
 public class ThirtyThree {
 
-    private static int[] arr = new int[]{1, 3, 6, 10, 11, 15};
+    private static final int[] arr = new int[]{1, 2, 3, 6, 10, 11, 15};
 
     public static void main(String[] args) {
         int result = findSmallest(arr, arr.length - 1);
@@ -17,8 +17,9 @@ public class ThirtyThree {
 
     private static int findSmallest(int[] arr, int size) {
         Arrays.sort(arr);
-        int res = 1;
-        for (int i = 0; i <= size && arr[i] <= res; i++) {
+        int res = 1; // One more than possible sum by summing up from arr[0] to arr[i]
+        for (int i = 0; i <= size && res >= arr[i]; i++) {
+            System.out.println(arr[i] + ", " + res);
             res += arr[i];
         }
         return res;

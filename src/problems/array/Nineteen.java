@@ -1,6 +1,5 @@
 package problems.array;
 
-import java.util.Collections;
 import java.util.LinkedList;
 
 /**
@@ -45,8 +44,8 @@ public class Nineteen {
         }
         LinkedList<Integer> result = new LinkedList<>();
         inflateIntoSingleResult(result, q1, q2, q3);
-        Collections.sort(result);
-        printInReverse(result);
+        result.sort((o1, o2) -> o2 - o1);
+        print(result);
     }
 
     private static void removeTwoElements(LinkedList<Integer> q) {
@@ -59,8 +58,8 @@ public class Nineteen {
         }
     }
 
-    private static void printInReverse(LinkedList<Integer> result) {
-        for (int i = result.size() - 1; i >= 0; i--) {
+    private static void print(LinkedList<Integer> result) {
+        for (int i = 0; i <= result.size() - 1; i++) {
             System.out.print(result.get(i) + " ");
         }
     }

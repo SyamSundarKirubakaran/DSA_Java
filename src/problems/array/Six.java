@@ -27,13 +27,9 @@ class Six {
             if (diff[i - 1] > 0) {
                 diff[i] += diff[i - 1];
             }
-            currentMax = max(currentMax, diff[i]);
+            currentMax = Math.max(currentMax, diff[i]);
         }
         return currentMax;
-    }
-
-    static int max(int val1, int val2) {
-        return Math.max(val1, val2);
     }
 
 }

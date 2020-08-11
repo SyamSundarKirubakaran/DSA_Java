@@ -19,6 +19,7 @@ public class Seven {
     }
 
     private static Node convertToDLL(Node head) {
+        if (head == null) return null;
         if (head.left != null) {
             Node leftTree = convertToDLL(head.left);
             while (leftTree.right != null) {

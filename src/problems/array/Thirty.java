@@ -7,7 +7,7 @@ import java.util.Arrays;
  * @problem : Next least greater number to the given number, input as digit array - with same digits
  */
 public class Thirty {
-    private static int[] arr = new int[]{2, 1, 8, 7, 6, 5};
+    private static final int[] arr = new int[]{2, 1, 8, 7, 6, 5};
 
     public static void main(String[] args) {
         findNextLeast(arr, arr.length - 1);
@@ -15,7 +15,7 @@ public class Thirty {
 
     private static void findNextLeast(int[] arr, int size) {
         int i, j;
-        for (i = size - 1; i >= 0; i--) {
+        for (i = size - 1; i > 0; i--) {
             if (arr[i] > arr[i - 1])
                 break;
         }
