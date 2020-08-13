@@ -14,19 +14,16 @@ public class Five {
 
     private static void findUglyNumber(int k) {
         int[] finalResult = new int[k];
-        int two = 2;
         int twoPtr = 1;
-        int three = 3;
         int threePtr = 1;
-        int five = 5;
         int fivePtr = 1;
         int twoResult, threeResult, fiveResult, pickedResult;
         finalResult[0] = 1;
         int finalResultPtr = 1;
         for (int i = 1; i < k; i++) {
-            twoResult = two * twoPtr;
-            threeResult = three * threePtr;
-            fiveResult = five * fivePtr;
+            twoResult = 2 * twoPtr;
+            threeResult = 3 * threePtr;
+            fiveResult = 5 * fivePtr;
             pickedResult = Math.min(twoResult, Math.min(threeResult, fiveResult));
             if (pickedResult == twoResult) {
                 twoPtr += 1;

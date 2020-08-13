@@ -2,7 +2,7 @@ package problems.array;
 
 /**
  * @author SYAM K
- * @problem : Element that occurs more than n/2 times - Unsorted
+ * @problem : Element that occurs more than n/2 times - Unsorted - Moore's Voting Algorithm, but using quick sort followed by count [or] HashMap
  */
 
 class Four {

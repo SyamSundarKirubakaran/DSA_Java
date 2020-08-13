@@ -105,7 +105,7 @@
 - [ ] ThirtyFive -> [Serialization and Deserialization n-ary Tree](https://youtu.be/7uGy7JeM_5k)
 - [ ] ThirtySix -> Tree from ancestor Matrix
 - [ ] ThirtySeven -> [Complete Binary Tree from a LL](https://youtu.be/4LAW7sYwCbA)
-- [ ] ThirtyEight -> Find the next right node of a given node in the same level
+- [ ] ThirtyEight -> [Find the next right node of a given node in the same level](https://youtu.be/Tqq7vINv5Eo)
 - [ ] ThirtyNine -> Boundary Traversal
 - [ ] Forty -> Convert a given tree into sum tree
 - [ ] FortyOne -> Check if Foldable or not

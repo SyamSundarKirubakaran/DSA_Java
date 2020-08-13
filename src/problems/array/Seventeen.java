@@ -22,7 +22,7 @@ public class Seventeen {
         LinkedList<Integer> window = new LinkedList<>();
         window.add(arr[0]);
         for (int i = 0; i < k; i++) {
-            while (!window.isEmpty() && arr[i] >= window.getLast()) {
+            while (!window.isEmpty() && window.getLast() <= arr[i]) {
                 window.removeLast();
             }
             window.addLast(arr[i]);
@@ -32,7 +32,7 @@ public class Seventeen {
             if (window.getFirst() == arr[i - k]) {
                 window.removeFirst();
             }
-            while (!window.isEmpty() && arr[i] >= window.getLast()) {
+            while (!window.isEmpty() && window.getLast() <= arr[i]) {
                 window.removeLast();
             }
             window.addLast(arr[i]);
