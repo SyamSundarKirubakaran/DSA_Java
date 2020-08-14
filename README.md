@@ -152,7 +152,7 @@
 - [ ] One -> Circular tour that visit all gasoline stations before running out of gas
 
 ## Dynamic Programming
-- [ ] One -> Maximum Sum Sub array
+- [ ] One -> [Maximum Sum Sub array](https://youtu.be/2MRsqeRunrE)
 - [ ] Two -> Maximum Sum Increasing Sub Sequence [OR] Longest increasing Sub Sequence
 - [ ] Three -> Longest Sub Sequence in an array such that the element are consecutive
 - [ ] Four -> In a Binary Matrix, Max Square Matrix with all 1s
