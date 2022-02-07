@@ -56,7 +56,7 @@ public class Tree {
         child2.right = child6;
     }
 
-    static class Node {
+    public static class Node {
         int value;
         Node left, right;
 

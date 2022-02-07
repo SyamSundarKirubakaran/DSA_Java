@@ -60,7 +60,7 @@ public class Eleven {
         }
     }
 
-    static class Graph {
+    public static class Graph {
         private final int V;
         private final LinkedList<AdjListNode>[] adj;
 

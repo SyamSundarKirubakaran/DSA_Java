@@ -55,7 +55,7 @@ public class Queue {
         System.out.println();
     }
 
-    static class Node {
+    public static class Node {
         int value;
         Node next;
 

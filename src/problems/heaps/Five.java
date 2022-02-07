@@ -63,7 +63,7 @@ public class Five {
         System.out.println("The smallest range is [" + start + ", " + end + "]");
     }
 
-    static class Node {
+    public static class Node {
         int element;
         int i;
         int j;

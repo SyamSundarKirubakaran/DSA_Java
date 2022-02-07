@@ -108,7 +108,7 @@ public class Eighteen {
         countSmallerArray(input, input.length);
     }
 
-    static class Node {
+    public static class Node {
         int data, height, size;
         Node left, right;
 

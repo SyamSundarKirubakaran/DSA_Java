@@ -145,7 +145,7 @@ public class SinglyLinkedList {
         node3.next = node4;
     }
 
-    static class Node {
+    public static class Node {
         public int value;
         public Node next;
 

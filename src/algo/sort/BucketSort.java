@@ -61,7 +61,7 @@ class BucketSort {
         return head;
     }
 
-    static class Node {
+    public static class Node {
         int value;
         Node next;
 

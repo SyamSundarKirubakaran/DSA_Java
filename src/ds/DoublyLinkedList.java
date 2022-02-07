@@ -168,7 +168,7 @@ public class DoublyLinkedList {
         return head;
     }
 
-    static class Node {
+    public static class Node {
         public int value;
         public Node previous;
         public Node next;

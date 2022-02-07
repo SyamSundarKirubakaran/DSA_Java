@@ -46,7 +46,7 @@ public class One {
         return zero;
     }
 
-    static class Node {
+    public static class Node {
         int value;
         LinkedList<Node> adj;
 

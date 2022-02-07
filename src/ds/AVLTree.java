@@ -105,7 +105,7 @@ public class AVLTree {
         countSmallerArray(input, input.length);
     }
 
-    static class Node {
+    public static class Node {
         int data, height;
         Node left, right;
 

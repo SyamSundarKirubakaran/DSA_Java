@@ -50,7 +50,7 @@ public class Seven {
 
     }
 
-    static class Node {
+    public static class Node {
         int element;
         int i;
         int j;

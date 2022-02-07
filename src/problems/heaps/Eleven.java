@@ -45,7 +45,7 @@ public class Eleven {
 
     }
 
-    static class Node {
+    public static class Node {
         int element;
         int i;
         int j;

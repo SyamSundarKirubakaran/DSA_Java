@@ -59,7 +59,7 @@ public class TwentyFive {
         return one;
     }
 
-    static class Node {
+    public static class Node {
         int value;
         int lis;
         Node left, right;

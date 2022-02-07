@@ -45,7 +45,7 @@ public class TwentySeven {
         return root;
     }
 
-    static class Node {
+    public static class Node {
         String value;
         Node left, right;
 

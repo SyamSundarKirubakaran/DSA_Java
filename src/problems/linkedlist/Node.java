@@ -196,7 +196,7 @@ public class Node {
         return zero;
     }
 
-    static class SLLNode {
+    public static class SLLNode {
         int value;
         SLLNode next;
 

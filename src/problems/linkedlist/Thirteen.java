@@ -63,7 +63,7 @@ public class Thirteen {
         return zero;
     }
 
-    static class Node {
+    public static class Node {
         int value;
         Node arb, next;
 
