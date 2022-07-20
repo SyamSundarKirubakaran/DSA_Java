@@ -7,12 +7,11 @@ package problems.bits;
 public class Eight {
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         System.out.println(power(16));
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     private static boolean power(int n) {

@@ -9,12 +9,7 @@ import java.util.Arrays;
 public class Nineteen {
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
-
         findTileFit(7);
-
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
     }
 
     private static void findTileFit(int n) {

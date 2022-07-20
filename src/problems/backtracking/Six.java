@@ -10,14 +10,13 @@ public class Six {
 
     // Subset Sum Problem - Using Backtracking
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         int[] list = {1, 3, 5, 2};
         subsetSum(list, 0, 0, 6);
         System.out.println(subsetCount);
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+
     }
 
     static void subsetSum(int[] list, int sum, int startingIndex, int targetSum) {

@@ -7,14 +7,13 @@ package problems.backtracking;
 public class One {
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         String str = "ABC";
         int n = str.length();
         permute(str, 0, n - 1);
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     private static void permute(String str, int l, int r) {

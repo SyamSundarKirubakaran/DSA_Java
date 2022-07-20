@@ -9,12 +9,11 @@ import java.util.Arrays;
 public class ThirtyFour {
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         countNonDecreasing(3);
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     private static void countNonDecreasing(int n) {

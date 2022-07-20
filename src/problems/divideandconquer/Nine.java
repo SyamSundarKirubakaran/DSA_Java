@@ -11,12 +11,11 @@ public class Nine {
     // returns first encounter .ie., middle
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+
 
         System.out.println(binarySearch(arr, 0, arr.length - 1));
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+
     }
 
     private static int binarySearch(int[] arr, int low, int high) {

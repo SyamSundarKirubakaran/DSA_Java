@@ -11,12 +11,11 @@ public class One {
     private static final int[] arr = {2, 3, 5, 7, 9, 13};
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         perform(arr, arr.length);
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     private static void perform(int[] arr, int length) {

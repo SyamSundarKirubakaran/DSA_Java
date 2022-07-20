@@ -9,15 +9,14 @@ public class Four {
     public final static int d = 256;
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         String txt = "SYAM SUNDAR K";
         String pat = "SUNDAR";
         int q = 101;
         search(pat, txt, q);
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     static void search(String pat, String txt, int q) {

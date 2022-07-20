@@ -12,12 +12,11 @@ public class Eleven {
     private static final String str = "aabcbcdbca";
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         System.out.println(findSubString(str));
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     static String findSubString(String str) {

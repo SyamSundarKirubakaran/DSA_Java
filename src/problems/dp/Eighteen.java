@@ -9,7 +9,7 @@ import java.util.Arrays;
 public class Eighteen {
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         String s1 = "abbab";
         int m = s1.length();
@@ -18,8 +18,7 @@ public class Eighteen {
 
         findCount(s1.toCharArray(), m, s2.toCharArray(), n);
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     private static void findCount(char[] s1, int m, char[] s2, int n) {

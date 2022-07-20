@@ -13,7 +13,7 @@ public class Eleven {
     static final int MIN = Integer.MIN_VALUE;
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         Eleven t = new Eleven();
         Graph g = t.newGraph(6);
@@ -34,8 +34,7 @@ public class Eleven {
 
         System.out.println();
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     Graph newGraph(int number) {

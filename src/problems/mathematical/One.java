@@ -7,12 +7,11 @@ package problems.mathematical;
 public class One {
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         check(13);
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     private static void check(int n) {

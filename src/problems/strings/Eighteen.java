@@ -12,12 +12,11 @@ public class Eighteen {
     private static final int n = 3;
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+
 
         printZigZagConcat(str, n);
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+
     }
 
     static void printZigZagConcat(String str, int n) {

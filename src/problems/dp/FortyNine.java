@@ -7,12 +7,11 @@ package problems.dp;
 public class FortyNine {
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         countNonDecreasing(3);
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     private static void countNonDecreasing(int n) { // N * (N+1)/2 * (N+2)/3 * .... * (N+n-1)/n, Where N = 10

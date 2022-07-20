@@ -9,12 +9,11 @@ public class Fifteen {
     private static final String path = "GLGLGLG";
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+
 
         System.out.println(isCircular(path.toCharArray()));
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     static boolean isCircular(char[] path) {

@@ -12,12 +12,11 @@ public class Two {
     private static final int[] arr2 = new int[]{8, 7, 9, 3};
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         System.out.println(areDisjoint(arr1, arr2));
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     private static boolean areDisjoint(int[] arr1, int[] arr2) {

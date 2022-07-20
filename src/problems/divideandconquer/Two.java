@@ -12,14 +12,13 @@ public class Two {
     private static final char[] nuts = new char[]{'$', '*', '#', '@', '!'};
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+
 
         matchNutsBolts(nuts, bolts, 0, bolts.length - 1);
         System.out.println("Bolts: " + Arrays.toString(bolts));
         System.out.println("Nuts: " + Arrays.toString(nuts));
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+
     }
 
     private static void matchNutsBolts(char[] nuts, char[] bolts, int start, int end) {

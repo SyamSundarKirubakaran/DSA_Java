@@ -23,12 +23,11 @@ public class Three {
     static int[] cl = new int[10];
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         solveNQ();
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+
     }
 
     static boolean solveNQUtil(int[][] board, int col) {

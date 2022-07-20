@@ -7,15 +7,14 @@ package problems.strings;
 public class Fourteen {
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
 
         System.out.println(minRemovals("010010"));
         System.out.println(minRemovals("0100101"));
 
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     static boolean isPalindrome(String str) {

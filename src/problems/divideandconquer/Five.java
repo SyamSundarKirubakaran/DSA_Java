@@ -10,12 +10,11 @@ public class Five {
     private static final int[] temp = new int[arr.length];
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         System.out.println(mergeSort(arr, temp, 0, arr.length - 1));
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     private static int merge(int[] arr, int[] temp, int left, int middle, int right) {

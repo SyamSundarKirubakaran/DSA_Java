@@ -9,15 +9,14 @@ import java.util.Arrays;
 public class TwentySeven {
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+
 
         String s = "esass";
         int length = s.length();
 
         lpss(s, s.toCharArray(), length);
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+
     }
 
     private static void lpss(String str, char[] s, int length) {

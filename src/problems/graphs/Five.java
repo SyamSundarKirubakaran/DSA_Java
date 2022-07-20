@@ -11,7 +11,7 @@ public class Five {
     static final int V = 4;
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         int[][] G = {
                 {0, 1, 0, 1},
@@ -25,8 +25,7 @@ public class Five {
         else
             System.out.println("No");
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     static boolean colorGraph(int[][] G,

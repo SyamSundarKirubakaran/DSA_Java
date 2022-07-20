@@ -7,7 +7,7 @@ package problems.heaps;
 public class Seven {
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+
 
         int n = 5, count = 0;
         for (int i = 0; i < n; i++) {
@@ -23,8 +23,7 @@ public class Seven {
         printSorted(n);
 
         System.out.println();
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+
     }
 
     private static void printSorted(int n) {

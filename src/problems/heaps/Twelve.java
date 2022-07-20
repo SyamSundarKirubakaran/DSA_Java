@@ -11,7 +11,7 @@ import java.util.PriorityQueue;
 public class Twelve {
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+
 
         int k = 3;
         int[] arr = {2, 6, 3, 12, 56, 8};
@@ -19,8 +19,7 @@ public class Twelve {
         kSort(arr, n, k);
         System.out.println(Arrays.toString(arr));
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+
     }
 
     private static void kSort(int[] arr, int n, int k) {

@@ -20,12 +20,11 @@ public class Three {
     private static final int heapSize = heap.length;
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         deleteKLargest(heap, heapSize, 3);
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     private static void deleteKLargest(int[] heap, int heapSize, int k) {

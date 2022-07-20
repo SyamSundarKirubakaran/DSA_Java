@@ -9,14 +9,13 @@ import java.util.Arrays;
 public class Sixteen {
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         String str = "runjogrun";
 
         longestRepeatingSubString(str.toCharArray(), str.length());
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+
     }
 
     private static void longestRepeatingSubString(char[] str, int length) {

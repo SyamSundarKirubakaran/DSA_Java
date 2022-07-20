@@ -7,7 +7,7 @@ package problems.heaps;
 public class One {
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+
 
         // Number of nodes
         int n = 10;
@@ -24,8 +24,7 @@ public class One {
 
         System.out.println(findMaximumElement(heap, n));
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+
     }
 
     private static int findMaximumElement(int[] heap, int n) {

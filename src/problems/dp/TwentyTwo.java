@@ -7,15 +7,14 @@ package problems.dp;
 public class TwentyTwo {
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         String s1 = "aabab";
         String s2 = "abab";
 
         lcs(s1.toCharArray(), s2.toCharArray(), s1.length(), s2.length());
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     private static void lcs(char[] s1, char[] s2, int m, int n) {

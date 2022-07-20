@@ -9,12 +9,11 @@ public class Four {
     private static final int[] arr = new int[]{7, 8, 9, 10, 1, 2, 3, 4, 5, 6};
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         System.out.println(performSearch(arr, 0, arr.length - 1, 4));
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     private static int performSearch(int[] arr, int start, int end, int key) {

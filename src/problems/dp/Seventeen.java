@@ -7,7 +7,7 @@ package problems.dp;
 public class Seventeen {
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         String s1 = "aasam";
         String s2 = "sama";
@@ -20,8 +20,7 @@ public class Seventeen {
 
         System.out.println((s1Length - lcsLength) * s1Cost + (s2Length - lcsLength) * s2Cost);
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     private static int lcs(char[] s1, char[] s2, int s1Length, int s2Length) {

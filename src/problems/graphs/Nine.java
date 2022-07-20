@@ -21,7 +21,7 @@ public class Nine {
     }
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         int n = 5;
         Nine graph = new Nine(n);
@@ -32,8 +32,7 @@ public class Nine {
         graph.addEdge(3, 4);
         System.out.println(graph.findLongestPath(n));
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     void addEdge(int a, int b) {

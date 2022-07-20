@@ -7,13 +7,12 @@ package problems.dp;
 public class FortyEight {
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         String str = "esass";
         lpss(str, str.toCharArray(), str.length());
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     private static void lpss(String s, char[] str, int length) {

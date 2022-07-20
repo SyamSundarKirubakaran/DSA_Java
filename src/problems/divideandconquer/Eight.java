@@ -11,13 +11,12 @@ public class Eight {
     private static final int[] arr = new int[]{1, 2, 3, 4, 5, 6, 7, 8};
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         shuffleArray(arr, 0, arr.length - 1);
         System.out.println(Arrays.toString(arr));
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     private static void shuffleArray(int[] arr, int left, int right) {

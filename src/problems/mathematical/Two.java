@@ -8,12 +8,11 @@ package problems.mathematical;
 public class Two {
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         printPrime(50);
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     private static void printPrime(int n) {

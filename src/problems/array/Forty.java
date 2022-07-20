@@ -9,12 +9,11 @@ public class Forty {
     private static final int[] arr = new int[]{1, 2, 3, 4, 5, 6};
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         rotateByK(arr, 2, arr.length);
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     private static void rotateByK(int[] arr, int k, int size) {

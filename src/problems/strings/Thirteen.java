@@ -9,13 +9,12 @@ import java.util.HashMap;
 public class Thirteen {
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+
 
         printStringForNumber("23");
         System.out.println();
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+
     }
 
     static void printStrings(String phNo, int i,

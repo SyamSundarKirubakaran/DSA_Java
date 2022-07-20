@@ -10,13 +10,12 @@ import java.util.PriorityQueue;
 public class Four {
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         int[] arr = new int[]{5, 15, 10, 20, 3};
         printMedian(arr);
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     public static void printMedian(int[] a) {

@@ -9,12 +9,11 @@ public class Eight {
     private static final int N = 4;
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         solveNQ();
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     private static boolean isSafe(int[][] board, int row, int col) {

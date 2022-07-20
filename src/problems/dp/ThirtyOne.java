@@ -12,12 +12,11 @@ public class ThirtyOne {
     private static final int[] b = {3, 6};
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         maxDotProduct(a, a.length, b, b.length);
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     private static void maxDotProduct(int[] a, int aLength, int[] b, int bLength) {

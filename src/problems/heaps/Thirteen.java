@@ -22,14 +22,13 @@ public class Thirteen {
     }
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         int[] len = {4, 3, 2, 6};
         int size = len.length;
         System.out.println("Total cost for connecting ropes is " + minCost(len, size));
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     static int minCost(int[] len, int n) {

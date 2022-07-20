@@ -9,7 +9,7 @@ public class Ten {
     private static final int V = 5;
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         /* Let us create the following graph
            2     3
@@ -29,8 +29,7 @@ public class Ten {
 
         primMST(graph);
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     private static int minKey(int[] key, Boolean[] mstSet) {

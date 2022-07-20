@@ -9,7 +9,7 @@ public class Five {
     static final int V = 9;
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         int[][] graph = new int[][]{{0, 4, 0, 0, 0, 0, 0, 8, 0},
                 {4, 0, 8, 0, 0, 0, 0, 11, 0},
@@ -22,8 +22,7 @@ public class Five {
                 {0, 0, 2, 0, 0, 0, 6, 7, 0}};
         dijkstra(graph, 0);
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     static int minDistance(int[] dist, Boolean[] sptSet) {

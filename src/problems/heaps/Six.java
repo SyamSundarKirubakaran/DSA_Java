@@ -7,7 +7,7 @@ package problems.heaps;
 public class Six {
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         int[] arr = {20, 18, 10, 12, 9, 9, 3, 5, 6, 8};
         int n = arr.length;
@@ -20,8 +20,7 @@ public class Six {
         System.out.print("Min Heap array : ");
         printArray(arr, n);
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     static void MinHeapify(int[] arr, int i, int n) {

@@ -19,7 +19,7 @@ public class Four {
     }
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         Four g1 = new Four(5);
         g1.addEdge(1, 0);
@@ -40,8 +40,7 @@ public class Four {
         else
             System.out.println("Graph doesn't contains cycle");
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     void addEdge(int v, int w) {

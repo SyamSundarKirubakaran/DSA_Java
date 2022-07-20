@@ -18,14 +18,13 @@ public class Two {
     private static int heapSize = heap.length;
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         deleteArb(heap, heapSize, 25);
 
         printHeap(heap, heapSize);
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+
     }
 
     private static void printHeap(int[] heap, int heapSize) {

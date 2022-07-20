@@ -13,7 +13,7 @@ public class Eight {
     static final int INF = Integer.MAX_VALUE;
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+
 
         Eight t = new Eight();
         Graph g = t.newGraph(6);
@@ -33,8 +33,7 @@ public class Eight {
 
         System.out.println();
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+
     }
 
     Graph newGraph(int number) {

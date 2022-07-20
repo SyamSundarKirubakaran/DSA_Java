@@ -13,7 +13,7 @@ public class Seven {
     static HashMap<Character, CountIndex> hm = new HashMap<>(NO_OF_CHARS);
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
         int result = firstNonRepeating(str);
 
         System.out.println(
@@ -22,8 +22,7 @@ public class Seven {
                         : "First non-repeating character is " + str.charAt(result)
         );
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     private static void getCharCountArray(String str) {

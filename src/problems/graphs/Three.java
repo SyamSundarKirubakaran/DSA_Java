@@ -20,7 +20,7 @@ public class Three {
     }
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         Three g = new Three(4);
         g.addEdge(0, 1);
@@ -44,8 +44,7 @@ public class Three {
         else
             System.out.println("There is no path from " + u + " to " + v);
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     void addEdge(int v, int w) {

@@ -22,7 +22,7 @@ public class Six {
     }
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+
 
         Six graph = new Six(4);
         graph.addEdge(0, 1);
@@ -37,8 +37,7 @@ public class Six {
         else
             System.out.println("Graph doesn't contain cycle");
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+
     }
 
     private boolean isCyclicUtil(int i, boolean[] visited, boolean[] recStack) {

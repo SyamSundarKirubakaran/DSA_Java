@@ -34,6 +34,18 @@ public class One {
         }
     }
 
+    /**
+     *          0 -> 1
+     *            -> 2
+     *
+     *          1 -> 2
+     *
+     *          2 -> 0
+     *            -> 3
+     *
+     *          3 -> 3
+     * **/
+
     private static Node constructGraph() {
         Node zero = new Node(0);
         Node one = new Node(1);

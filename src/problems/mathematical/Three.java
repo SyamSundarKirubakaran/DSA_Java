@@ -9,12 +9,11 @@ public class Three {
     private static int count = 2; // This is a bit misleading
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         System.out.println(lucky(7));
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     private static boolean lucky(int n) {

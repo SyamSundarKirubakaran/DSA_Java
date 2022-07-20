@@ -12,13 +12,12 @@ import java.util.List;
 public class TwentyFour {
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         int[] arr = new int[]{3, 1, 2, 5, 3, 0, 8};
         split(arr, arr.length);
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     private static void split(int[] arr, int n) {

@@ -7,7 +7,7 @@ package problems.heaps;
 public class Five {
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         int[][] arr = {
                 {4, 7, 9, 12, 15},
@@ -19,8 +19,7 @@ public class Five {
 
         findSmallestRange(arr, k);
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     static void findSmallestRange(int[][] arr, int k) {

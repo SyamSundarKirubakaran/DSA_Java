@@ -7,14 +7,13 @@ package problems.backtracking;
 public class Two {
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         int n = 4;
         int[] arr = new int[n];
         generateAllBinaryStrings(n, arr, 0);
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     static void generateAllBinaryStrings(int n, int[] arr, int i) {

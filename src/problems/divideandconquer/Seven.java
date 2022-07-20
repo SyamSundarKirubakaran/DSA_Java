@@ -9,12 +9,11 @@ public class Seven {
     private static final int[] arr = new int[]{0, 0, 0, 0, 0, 1, 1, 1, 1, 1};
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         System.out.println(countNoOfOnes(arr, arr.length));
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     private static int getFirstOne(int[] arr, int start, int end) {

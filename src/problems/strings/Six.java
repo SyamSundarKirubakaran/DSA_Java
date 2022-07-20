@@ -9,12 +9,11 @@ public class Six {
     private static final String str = "madam";
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+
 
         System.out.println(checkPalindrome(str.toCharArray()));
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     private static boolean checkPalindrome(char[] str) {

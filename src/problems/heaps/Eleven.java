@@ -7,7 +7,7 @@ package problems.heaps;
 public class Eleven {
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         int[][] mat = {
                 {10, 20, 30, 40},
@@ -18,8 +18,7 @@ public class Eleven {
         printSorted(mat, mat.length);
         System.out.println();
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     private static void printSorted(int[][] arr, int n) {

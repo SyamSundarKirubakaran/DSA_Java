@@ -9,7 +9,7 @@ public class TwentyOne {
     private static final int K = 5;
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         String s1 = "axba";
         String sReverse = reverse(s1);
@@ -24,8 +24,7 @@ public class TwentyOne {
             System.out.println("Not Possible");
         }
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     private static int lcs(char[] s1, char[] s2, int s1Length, int s2Length) {

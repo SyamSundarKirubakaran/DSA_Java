@@ -7,7 +7,7 @@ package problems.backtracking;
 public class Seven {
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         int[][] board = new int[][]{
                 {3, 0, 6, 5, 0, 8, 4, 0, 0},
@@ -28,8 +28,7 @@ public class Seven {
             System.out.println("No solution");
         }
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     public static boolean isSafe(int[][] board,

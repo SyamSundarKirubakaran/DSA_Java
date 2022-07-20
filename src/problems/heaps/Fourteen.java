@@ -7,7 +7,7 @@ package problems.heaps;
 public class Fourteen {
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+
 
         int[] arr = {90, 15, 10, 7, 12, 2, 7, 3};
         int n = arr.length - 1;
@@ -17,8 +17,7 @@ public class Fourteen {
             System.out.println("No");
         }
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+
     }
 
     static boolean isHeap(int[] arr, int i, int n) {

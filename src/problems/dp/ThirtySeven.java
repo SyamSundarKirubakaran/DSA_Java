@@ -11,12 +11,11 @@ public class ThirtySeven {
     private static final int[] arr = new int[]{1, 2, 3, 4, 5};
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         getMax(arr, arr.length); // incorrect solution in explanation
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     private static void getMax(int[] A, int N) {

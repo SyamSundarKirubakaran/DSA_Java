@@ -11,12 +11,11 @@ public class One {
     private static final int[] arr = new int[]{10, 5, 3, 4, 3, 1, 6};
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         System.out.println(check(arr, arr.length, 3));
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     private static boolean check(int[] arr, int length, int k) {

@@ -9,7 +9,7 @@ import java.util.Vector;
 public class Eight {
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         //   4
         //   /\
@@ -27,8 +27,7 @@ public class Eight {
 
         convertToMaxHeapUtil(root);
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     static void reverseInorderTraversal(Node root, Vector<Integer> arr) {

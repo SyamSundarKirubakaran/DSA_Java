@@ -7,15 +7,14 @@ package problems.pattern;
 public class One {
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         String str1 = "SyamSundarK";
         String str2 = "Sundar";
         printIndex(str1, str2);
         System.out.println();
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     private static void printIndex(String str1, String str2) {

@@ -15,7 +15,7 @@ public class Five {
     static int[] colNum = {-1, 0, 1, -1, 1, -1, 0, 1};
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         char[][] mat = {
                 {'B', 'N', 'E', 'Y', 'S'},
@@ -27,8 +27,7 @@ public class Five {
 
         findWords(mat, word, word.length - 1);
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     static boolean isvalid(int row, int col, int prevRow, int prevCol) {

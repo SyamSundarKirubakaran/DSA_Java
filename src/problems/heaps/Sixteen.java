@@ -7,7 +7,7 @@ package problems.heaps;
 public class Sixteen {
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         // Array representation of Max-Heap
         //     10
@@ -20,8 +20,7 @@ public class Sixteen {
         n = deleteRoot(arr, n);
         printArray(arr, n);
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     static void maxHeapify(int[] arr, int n, int i) {

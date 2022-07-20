@@ -12,14 +12,13 @@ import java.util.PriorityQueue;
 public class Four {
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         String str = "abcdada";
 
         rearrange(str.toCharArray(), str.length(), 3);
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     private static void rearrange(char[] str, int length, int d) {

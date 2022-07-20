@@ -21,7 +21,7 @@ public class Ten {
     }
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         System.out.println("Articulation points in first graph ");
         Ten g1 = new Ten(5);
@@ -55,8 +55,7 @@ public class Ten {
 
         System.out.println();
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     void addEdge(int v, int w) {

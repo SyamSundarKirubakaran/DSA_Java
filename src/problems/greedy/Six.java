@@ -9,7 +9,7 @@ import java.util.Arrays;
 public class Six {
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         int[] wt = {10, 40, 20, 30};
         int[] val = {60, 40, 100, 120};
@@ -19,8 +19,7 @@ public class Six {
         System.out.println("Maximum value we can obtain = " +
                 maxValue);
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     private static double getMaxValue(int[] wt,

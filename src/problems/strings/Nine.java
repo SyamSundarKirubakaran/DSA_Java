@@ -13,12 +13,11 @@ public class Nine {
     private static final char[] str2 = ("silent").toCharArray();
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         System.out.println(areAnagram(str1, str2));
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     private static boolean areAnagram(char[] str1, char[] str2) {

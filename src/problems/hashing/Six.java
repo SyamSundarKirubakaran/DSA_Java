@@ -12,12 +12,11 @@ public class Six {
     private static final int[] arr = new int[]{6, 3, -1, -3, 4, -2, 2, 4, 6, -12, -7};
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+
 
         System.out.println(findSubArrays(arr, arr.length));
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+
     }
 
     private static ArrayList<Pair> findSubArrays(int[] arr, int n) {

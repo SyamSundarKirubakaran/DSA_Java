@@ -9,13 +9,12 @@ public class Six {
     private static final int[] arr = new int[]{-2, 0, 2, 6, 8, 10, 12, 14, 16, 18, 20};
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         int difference = (arr[arr.length - 1] - arr[0]) / arr.length;
         System.out.println(findMissingElement(arr, 0, arr.length - 1, difference));
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     private static int findMissingElement(int[] arr, int start, int end, int difference) {

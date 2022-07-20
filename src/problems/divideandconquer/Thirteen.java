@@ -10,7 +10,7 @@ public class Thirteen {
     private static final int[] arr2 = new int[]{2, 13, 17, 30, 45};
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+
 
         int n1 = arr1.length;
         int n2 = arr2.length;
@@ -26,8 +26,7 @@ public class Thirteen {
             );
         }
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     private static int findMedian(int[] arr, int start, int end) {

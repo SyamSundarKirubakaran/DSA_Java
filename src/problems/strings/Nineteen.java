@@ -7,7 +7,7 @@ package problems.strings;
 public class Nineteen {
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+
 
         String str1 = "geeksforgeeg";
         System.out.println(str1 + ": " + remove(str1));
@@ -33,8 +33,7 @@ public class Nineteen {
         String str8 = "acaaabbbacdddd";
         System.out.println(str8 + ": " + remove(str8));
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+
     }
 
     static String removeUtil(String str, char lastRemoved) {

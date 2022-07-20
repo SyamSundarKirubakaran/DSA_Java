@@ -11,12 +11,11 @@ public class Four {
     private static final int[] arr = new int[]{1, 2, 1, 3, 4, 2, 3};
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         count(arr, arr.length, 4);
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     private static void count(int[] arr, int length, int k) {

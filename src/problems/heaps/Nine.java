@@ -10,13 +10,12 @@ import java.util.Scanner;
 public class Nine {
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+
 
         int[] stream = new int[]{10, 20, 11, 70, 50, 40, 100, 5};
         kthLargestStream(stream, 3);
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+
     }
 
     private static void kthLargestStream(int[] stream, int k) {

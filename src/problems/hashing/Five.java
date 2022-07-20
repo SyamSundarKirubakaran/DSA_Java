@@ -11,12 +11,11 @@ public class Five {
     private static final int[] arr = new int[]{1, 3, 5, 4};
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         printMissing(arr, 0, 10);
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     private static void printMissing(int[] arr, int low, int high) {

@@ -7,7 +7,7 @@ package problems.strings;
 public class Ten {
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         printString(26);
         printString(51);
@@ -17,8 +17,7 @@ public class Ten {
         printString(702);
         printString(705);
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     private static void printString(int columnNumber) {

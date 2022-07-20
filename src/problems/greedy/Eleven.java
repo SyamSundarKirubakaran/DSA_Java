@@ -20,7 +20,7 @@ public class Eleven {
     }
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
          /* Let us create following weighted graph
                  10
@@ -61,8 +61,7 @@ public class Eleven {
 
         g.KruskalMST();
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     int find(subset[] subsets, int i) {

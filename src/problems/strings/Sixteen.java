@@ -10,12 +10,11 @@ public class Sixteen {
     private static final int arrSize = 6;
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         System.out.println(getMinMax(arr, arrSize));
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
 

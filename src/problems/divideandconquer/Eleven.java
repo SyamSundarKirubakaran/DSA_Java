@@ -14,12 +14,11 @@ public class Eleven {
     };
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         search(arr, arr.length, 37);
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     private static void search(int[][] arr, int n, int x) {

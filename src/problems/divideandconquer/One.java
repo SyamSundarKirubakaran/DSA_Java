@@ -9,12 +9,11 @@ public class One {
     private static final int[] arr = new int[]{1, 2, 3, 4, 4, 4};
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         System.out.println(isMajority(arr, arr.length, 4));
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     private static boolean isMajority(int[] arr, int size, int checkElement) {

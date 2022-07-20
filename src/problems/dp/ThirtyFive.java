@@ -16,12 +16,11 @@ public class ThirtyFive {
     };
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         findMaxProfit(jobs, jobs.length);
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
 //    private static Job[] jobs = new Job[]{

@@ -10,12 +10,11 @@ public class Twenty {
     private static final int arrSize = 6;
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         System.out.println(getMinMax(arr, 0, arrSize - 1));
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     static Pair getMinMax(int[] arr, int low, int high) {

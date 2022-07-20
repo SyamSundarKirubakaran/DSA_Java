@@ -10,7 +10,7 @@ import java.util.TreeSet;
 public class Eight {
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         int n = 5;
         Job[] jobs = new Job[n];
@@ -24,8 +24,7 @@ public class Eight {
         printJobScheduling(jobs, n);
         System.out.println();
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     // Function to print job scheduling

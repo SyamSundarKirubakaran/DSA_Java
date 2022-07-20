@@ -10,14 +10,13 @@ import java.util.Queue;
 public class Seven {
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         int x = 40;
         printJumping(x);
         System.out.println();
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     public static void bfs(int x, int num) {

@@ -9,7 +9,7 @@ import java.util.PriorityQueue;
 public class Twelve {
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+
 
         // no of files
         int size = 6;
@@ -18,8 +18,7 @@ public class Twelve {
 
         System.out.println("Minimum Computations = " + minComputation(size, files));
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+
     }
 
     static int minComputation(int size, int[] files) {

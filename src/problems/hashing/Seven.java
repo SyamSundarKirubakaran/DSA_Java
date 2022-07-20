@@ -11,12 +11,11 @@ public class Seven {
     private static final int[] arr = new int[]{3, 4, 7, 1, 2, 9, 8};
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         System.out.println(findPairs(arr));
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     private static boolean findPairs(int[] arr) {

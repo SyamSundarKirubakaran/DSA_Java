@@ -12,12 +12,11 @@ public class Twelve {
     private static final int MAX_CHAR = 256;
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+        
 
         findFirstNonRepeating("geeksforgeeksandgeeksquizfor");
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     static void findFirstNonRepeating(String stream) {

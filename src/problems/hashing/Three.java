@@ -12,12 +12,11 @@ public class Three {
     private static final int[] arr = new int[]{10, 5, 3, 10, 10, 4, 1, 3};
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+
 
         performGrouping(arr, arr.length);
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+
     }
 
     private static void performGrouping(int[] arr, int length) {

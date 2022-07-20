@@ -9,7 +9,7 @@ public class Four {
     static int N;
 
     public static void main(String[] args) {
-        Long start = System.nanoTime();
+
 
         int[][] maze = {
                 {1, 0, 0, 0},
@@ -21,8 +21,7 @@ public class Four {
         N = maze.length;
         solveMaze(maze);
 
-        Long end = System.nanoTime();
-        System.out.println("Runtime:" + (end - start) / 1.0e9 + " seconds");
+        
     }
 
     static boolean isSafe(int[][] maze, int x, int y) {
