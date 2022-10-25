@@ -7,7 +7,7 @@ import java.util.Stack;
 public class Twelve {
 
     public static void main(String[] args) {
-        Twelve g = new Twelve(7);
+        Twelve g = new Twelve(6);
         g.addEdge(5, 2);
         g.addEdge(5, 0);
         g.addEdge(4, 0);
