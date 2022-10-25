@@ -74,3 +74,21 @@ PriorityQueue<Node> pq = new PriorityQueue<>((Node o1, Node o2) -> Integer.compa
 --------------------------------------------------
 
 - Converting a decimal to binary will take `O(nlogn)` complexity
+
+- LL number into reverse int
+```java
+    private static int appendToInt(ListNode head) {
+        // LL number into reverse int
+        // eg: 2 -> 4 -> 3 => 342
+        if (head != null && head.next == null)
+            return head.val;
+        int result = 0;
+        int count = 0;
+        while (head != null) {
+            result = (head.val * (int) Math.pow(10, count)) + result;
+            count += 1;
+            head = head.next;
+        }
+        return result;
+    }
+```
