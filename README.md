@@ -24,6 +24,7 @@
 - [Heaps](#Heaps)
 - [Back Tracking](#Back-Tracking)
 - [Graphs](#Graph-Problems)
+- [Workouts](#Workouts)
 
 ## Array Problems
 - [ ] One -> Linear Search
