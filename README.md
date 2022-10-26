@@ -335,6 +335,6 @@
 ## Workouts
 - [ ] A: https://leetcode.com/problems/add-two-numbers/
 - [ ] B: https://leetcode.com/problems/longest-substring-without-repeating-characters/
-- [ ] BOptimized: https://leetcode.com/problems/longest-substring-without-repeating-characters/
 - [ ] C: https://leetcode.com/problems/longest-palindromic-substring/
-- [ ] COptimized: https://leetcode.com/problems/longest-palindromic-substring/
+- [ ] D: https://leetcode.com/problems/reverse-integer/
+- [ ] E: 
