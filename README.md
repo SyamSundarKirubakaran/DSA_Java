@@ -334,4 +334,6 @@
 
 ## Workouts
 - [ ] A: https://leetcode.com/problems/add-two-numbers/
-- [ ] B: 
+- [ ] B: https://leetcode.com/problems/longest-substring-without-repeating-characters/
+- [ ] BOptimized: https://leetcode.com/problems/longest-substring-without-repeating-characters/
+- [ ] C: 
