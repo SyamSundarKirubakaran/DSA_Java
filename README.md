@@ -337,4 +337,5 @@
 - [ ] B: https://leetcode.com/problems/longest-substring-without-repeating-characters/
 - [ ] C: https://leetcode.com/problems/longest-palindromic-substring/
 - [ ] D: https://leetcode.com/problems/reverse-integer/
-- [ ] E: 
+- [ ] E: https://www.geeksforgeeks.org/program-generate-possible-valid-ip-addresses-given-string/
+- [ ] F: https://leetcode.com/problems/zigzag-conversion/
