@@ -31,16 +31,9 @@ public class E {
                  j < size - 1; j++) {
                 for (int k = j + 1;
                      k < size; k++) {
-                    snew
-                            = snew.substring(0, k) + "."
-                            + snew.substring(k);
-                    snew
-                            = snew.substring(0, j) + "."
-                            + snew.substring(j);
-                    snew
-                            = snew.substring(0, i) + "."
-                            + snew.substring(i);
-
+                    snew = snew.substring(0, k) + "." + snew.substring(k);
+                    snew = snew.substring(0, j) + "." + snew.substring(j);
+                    snew = snew.substring(0, i) + "." + snew.substring(i);
                     if (isValid(snew)) {
                         l.add(snew);
                     }
@@ -54,9 +47,7 @@ public class E {
             String[] a2 = o2.split("[.]");
 
             int result = -1;
-            for (int i = 0; i < 4
-                    && result != 0;
-                 i++) {
+            for (int i = 0; i < 4 && result != 0; i++) {
                 result = a1[i].compareTo(a2[i]);
             }
             return result;
@@ -73,8 +64,7 @@ public class E {
             }
             if (s.length() > 1 && i == 0)
                 return false;
-            if (s.length() > 1 && i != 0
-                    && s.charAt(0) == '0')
+            if (s.length() > 1 && i != 0 && s.charAt(0) == '0')
                 return false;
         }
 
