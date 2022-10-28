@@ -340,3 +340,5 @@
 - [ ] E: https://www.geeksforgeeks.org/program-generate-possible-valid-ip-addresses-given-string/
 - [ ] F: https://leetcode.com/problems/zigzag-conversion/
 - [ ] G: https://leetcode.com/problems/string-to-integer-atoi/
+- [ ] H: https://leetcode.com/problems/stock-price-fluctuation/
+- [ ] I: 
