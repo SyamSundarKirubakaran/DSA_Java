@@ -4,6 +4,15 @@ package workout;
 
 public class I {
 
+    /**
+     * Remember that we're converting the inputs to negative numbers.
+     * This is because we don't want separate code for all the possible combinations of positive/negative divisor and dividend.
+     * We converted them to negative instead of positive because the range of valid negative numbers is bigger, and therefore overflows can be cleanly avoided.
+     * ---
+     * The looping condition is while (dividend - divisor <= 0) because the difference is moving towards zero from the negative side.
+     * Therefore, we want to continue while it is still under it. Once it goes over, we know we're done.
+     * **/
+
     public static void main(String[] args) {
         System.out.println(divide(10, 3));
     }
