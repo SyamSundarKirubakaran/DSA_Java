@@ -342,3 +342,13 @@
 - [ ] G: https://leetcode.com/problems/string-to-integer-atoi/
 - [ ] H: https://leetcode.com/problems/stock-price-fluctuation/
 - [ ] I: https://leetcode.com/problems/divide-two-integers/
+- [ ] J: https://leetcode.com/problems/count-and-say/description/
+- [ ] K: https://leetcode.com/problems/subsets/description/
+- [ ] L: https://leetcode.com/problems/subsets-ii/description/
+- [ ] M: https://leetcode.com/problems/permutations/description/
+- [ ] N: https://leetcode.com/problems/permutations-ii/description/
+- [ ] O: https://leetcode.com/problems/combinations/description/
+- [ ] P: https://leetcode.com/problems/combination-sum/description/
+- [ ] Q: https://leetcode.com/problems/combination-sum-ii/description/
+- [ ] R: https://leetcode.com/problems/combination-sum-iii/description/
+- [ ] S: https://leetcode.com/problems/palindrome-partitioning/description/
