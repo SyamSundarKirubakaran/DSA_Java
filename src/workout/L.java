@@ -22,7 +22,8 @@ public class L {
         return subsets;
     }
 
-    private static void subsetsWithDupHelper(List<List<Integer>> subsets, List<Integer> currentSubset, int[] nums, int index) {
+    private static void subsetsWithDupHelper(List<List<Integer>> subsets,
+                                             List<Integer> currentSubset, int[] nums, int index) {
         // Add the subset formed so far to the subsets list.
         subsets.add(new ArrayList<>(currentSubset));
 

@@ -52,7 +52,7 @@ public class Q {
 
         for (int nextCurr = curr; nextCurr < counter.size(); ++nextCurr) {
             int[] entry = counter.get(nextCurr);
-            Integer candidate = entry[0], freq = entry[1];
+            int candidate = entry[0], freq = entry[1];
 
             if (freq <= 0)
                 continue;

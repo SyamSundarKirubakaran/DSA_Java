@@ -6,6 +6,7 @@ public class J {
 
     public static void main(String[] args) {
         System.out.println(countAndSay(4));
+        System.out.println(countAndSay(5));
     }
 
     public static String countAndSay(int n) {

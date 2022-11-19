@@ -34,7 +34,7 @@ public class M {
 
     public static List<List<Integer>> permute(int[] nums) {
         // init output list
-        List<List<Integer>> output = new LinkedList();
+        List<List<Integer>> output = new LinkedList<>();
 
         // convert nums into list since the output is a list of lists
         ArrayList<Integer> nums_lst = new ArrayList<Integer>();

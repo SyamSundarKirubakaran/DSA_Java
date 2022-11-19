@@ -27,7 +27,7 @@ public class N {
         return results;
     }
 
-    protected static void backtrack(
+    public static void backtrack(
             LinkedList<Integer> comb,
             Integer N,
             HashMap<Integer, Integer> counter,

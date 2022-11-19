@@ -34,6 +34,8 @@ public class K {
         int n = nums.length;
         List<List<Integer>> output = new ArrayList<>();
         for (int k = 0; k <= n; k++) {
+            // not including `n` will not add `[1, 2, 3]` ie., the actual array to the output
+            // k basically denotes the length of the to-be created subset
             backtrack(output, 0, new ArrayList<Integer>(), nums, k, n);
         }
         return output;
