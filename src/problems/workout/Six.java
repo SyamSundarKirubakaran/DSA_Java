@@ -4,7 +4,7 @@ public class Six {
 
     public static void main(String[] args) {
         double x = 2.00000;
-        int n = 10;
+        int n = -2;
         System.out.println(exponent(x, n));
     }
 
