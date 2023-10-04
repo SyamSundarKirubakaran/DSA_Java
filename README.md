@@ -1,12 +1,6 @@
 
 ![image](./img/Java_banner.jpg)
 
-## Note:
-- The best way to prepare would be to clone this repo and mark the problems as completed as you progress along. 
-- Every problem in this repo will be linked to a youtube video which explains how to solve it.
-- If you're interested in kotlin code, check out [DSA_Kotlin Repo](https://github.com/SyamSundarKirubakaran/DSA_Kotlin).
-- Show some :heart: by giving this repo a :star:
-
 ## Topics:
 - [Arrays](#Array-Problems)
 - [Trees](#Tree-Problems)
@@ -330,25 +324,3 @@
 - [ ] Ten -> Find Articulation Point / Cut Vertex, Undirected
 - [ ] Eleven -> Longest Path in DAG, with weights
 - [ ] Twelve -> Topological sort
-
-
-## Workouts
-- [ ] A: https://leetcode.com/problems/add-two-numbers/
-- [ ] B: https://leetcode.com/problems/longest-substring-without-repeating-characters/
-- [ ] C: https://leetcode.com/problems/longest-palindromic-substring/
-- [ ] D: https://leetcode.com/problems/reverse-integer/
-- [ ] E: https://www.geeksforgeeks.org/program-generate-possible-valid-ip-addresses-given-string/
-- [ ] F: https://leetcode.com/problems/zigzag-conversion/
-- [ ] G: https://leetcode.com/problems/string-to-integer-atoi/
-- [ ] H: https://leetcode.com/problems/stock-price-fluctuation/
-- [ ] I: https://leetcode.com/problems/divide-two-integers/
-- [ ] J: https://leetcode.com/problems/count-and-say/description/
-- [ ] K: https://leetcode.com/problems/subsets/description/
-- [ ] L: https://leetcode.com/problems/subsets-ii/description/
-- [ ] M: https://leetcode.com/problems/permutations/description/
-- [ ] N: https://leetcode.com/problems/permutations-ii/description/
-- [ ] O: https://leetcode.com/problems/combinations/description/
-- [ ] P: https://leetcode.com/problems/combination-sum/description/
-- [ ] Q: https://leetcode.com/problems/combination-sum-ii/description/
-- [ ] R: https://leetcode.com/problems/combination-sum-iii/description/
-- [ ] S: https://leetcode.com/problems/palindrome-partitioning/description/
