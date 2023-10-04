@@ -33,7 +33,10 @@ public class TwentyFive {
      * / \   / \ / \  / \
      */
 
-    private static Node construct(List<Integer> inOrder, List<Integer> postOrder, int inStart, int inEnd) {
+    private static Node construct(List<Integer> inOrder,
+                                  List<Integer> postOrder,
+                                  int inStart,
+                                  int inEnd) {
         if (inStart > inEnd || postOrderIndex < 0) return null;
         Node node = new Node(postOrder.get(postOrderIndex));
         postOrderIndex -= 1;

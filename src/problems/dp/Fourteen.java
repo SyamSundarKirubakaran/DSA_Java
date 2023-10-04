@@ -27,11 +27,21 @@ public class Fourteen {
                 } else if (str[i] == str[j]) {
                     lps[i][j] = lps[i + 1][j - 1] + 2;
                 } else {
-                    lps[i][j] = Math.max(lps[i][j - 1], lps[j - 1][i]);
+                    lps[i][j] = Math.max(lps[i][j - 1], lps[i + 1][j]);
                 }
             }
         }
+        printArr(lps);
         System.out.println(lps[0][len - 1]);
+    }
+
+    public static void printArr(int[][] arr) {
+        for (int[] ints : arr) {
+            for (int j = 0; j < arr.length; j++) {
+                System.out.print(ints[j]);
+            }
+            System.out.println();
+        }
     }
 
 }

@@ -29,7 +29,7 @@ public class TwentyFour {
         for (int ls = 2; ls <= n; ls++) {
             for (int i = 0; i < n - ls + 1; i++) {
                 j = i + ls - 1;
-                temp[i][j] = temp[i + 1][j] + temp[i][j - (ls - 1)]; // after `+` similar to temp[i][i]
+                temp[i][j] = temp[i + 1][j] + temp[i][j - (ls - 1)]; // after `+` similar to workout.temp[i][i]
             }
         }
         for (int i = 0; i < n; i++) {
