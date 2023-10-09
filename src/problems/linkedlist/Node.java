@@ -6,7 +6,7 @@ package problems.linkedlist;
  */
 public class Node {
 
-    SLLNode constructBasicEvenLengthLL() {
+    public SLLNode constructBasicEvenLengthLL() {
         SLLNode zero = new SLLNode(0);
         SLLNode one = new SLLNode(1);
         SLLNode two = new SLLNode(2);
@@ -51,7 +51,7 @@ public class Node {
         return zero;
     }
 
-    SLLNode constructHigherOrderEvenLengthLLOne() {
+    public SLLNode constructHigherOrderEvenLengthLLOne() {
         SLLNode zero = new SLLNode(0);
         SLLNode one = new SLLNode(2);
         SLLNode two = new SLLNode(4);
@@ -66,7 +66,7 @@ public class Node {
         return zero;
     }
 
-    SLLNode constructHigherOrderEvenLengthLLTwo() {
+    public SLLNode constructHigherOrderEvenLengthLLTwo() {
         SLLNode zero = new SLLNode(1);
         SLLNode one = new SLLNode(3);
         SLLNode two = new SLLNode(5);
@@ -125,7 +125,7 @@ public class Node {
         return zero;
     }
 
-    SLLNode constructBasicOddLengthLL() {
+    public SLLNode constructBasicOddLengthLL() {
         SLLNode zero = new SLLNode(0);
         SLLNode one = new SLLNode(1);
         SLLNode two = new SLLNode(2);
@@ -176,7 +176,7 @@ public class Node {
         return six;
     }
 
-    void printSLL(SLLNode head) {
+    public void printSLL(SLLNode head) {
         while (head != null) {
             System.out.print(head.value + " ");
             head = head.next;
@@ -197,8 +197,8 @@ public class Node {
     }
 
     public static class SLLNode {
-        int value;
-        SLLNode next;
+        public int value;
+        public SLLNode next;
 
         SLLNode(int value) {
             this.value = value;
