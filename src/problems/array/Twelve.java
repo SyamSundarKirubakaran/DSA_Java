@@ -18,6 +18,7 @@ class Twelve {
         // Arrays.sort internally uses dual-pivot quick sort for primitive data types
         // and MergeSort for iterative objects.
         Arrays.sort(arr);
+        System.out.println(Arrays.toString(arr));
         int sum, closestSum = Integer.MAX_VALUE;
         int minLeft = left, minRight = right;
         while (left < right) {

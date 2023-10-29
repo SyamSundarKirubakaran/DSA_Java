@@ -13,7 +13,7 @@ class Sixteen {
     }
 
     static void findFirstIndexOfOne(int[] arr) {
-        int pointer = 0, i = 1;
+        int pointer = 0;
         // potential array out of bounds exception, since endIndex is not known
         while (arr[pointer] == 0) {
             pointer += 5;

@@ -1,5 +1,7 @@
 package problems.array;
 
+import java.util.Arrays;
+
 /**
  * @author SYAM K
  * @problem : Largest Difference such that the smaller number appears before larger number - Maximum Sum Sub-array
@@ -11,6 +13,7 @@ class Six {
     public static void main(String[] args) {
         int[] diff = new int[arr.length - 1];
         constructDiffArray(arr, arr.length - 1, diff);
+        System.out.println(Arrays.toString(diff));
         int result = maxSumSubArray(diff, diff.length - 1);
         System.out.println(result);
     }
@@ -26,6 +29,7 @@ class Six {
         for (int i = 1; i < size; i++) {
             if (diff[i - 1] > 0) {
                 diff[i] += diff[i - 1];
+                System.out.println(Arrays.toString(diff));
             }
             currentMax = Math.max(currentMax, diff[i]);
         }

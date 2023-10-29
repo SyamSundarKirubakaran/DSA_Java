@@ -10,11 +10,7 @@ public class Seventeen {
     static int[] arr = new int[]{10, 4, 2, 11, 3, 15, 12, 8, 7, 9, 21, 14};
 
     public static void main(String[] args) {
-        
-
         findMaxInWindowK(arr, arr.length - 1, 3);
-
-        
     }
 
     static void findMaxInWindowK(int[] arr, int size, int k) {

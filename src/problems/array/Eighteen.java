@@ -1,6 +1,10 @@
 package problems.array;
 
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 /**
  * @author SYAM K
  * @problem : count the no.of smaller elements to the right of each element in the array.
@@ -103,9 +107,26 @@ public class Eighteen {
         System.out.println();
     }
 
+    public static List<Integer> constructLowerArray(int[] arr) {
+        List<Integer> ans = new ArrayList<>();
+        List<Integer> temp = new ArrayList<>();
+        int n = arr.length;
+        for (int i = n - 1; i >= 0; i--) {
+            int insertionPoint = Collections.binarySearch(temp, arr[i]);
+            if (insertionPoint < 0) insertionPoint = -insertionPoint - 1;
+            ans.add(insertionPoint);
+            System.out.println("ans: " + ans);
+            temp.add(insertionPoint, arr[i]);
+            System.out.println("temp: " + temp);
+        }
+        Collections.reverse(ans);
+        return ans;
+    }
+
     public static void main(String[] args) {
         int[] input = new int[]{10, 3, 4, 5, 7, 1, 3, 2};
-        countSmallerArray(input, input.length);
+//        countSmallerArray(input, input.length);
+        System.out.println(constructLowerArray(input));
     }
 
     public static class Node {
