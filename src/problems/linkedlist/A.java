@@ -4,7 +4,7 @@ package problems.linkedlist;
  * @author SYAM K
  * @problem : Reverse a LL
  */
-public class One {
+public class A {
 
     public static void main(String[] args) {
         Node.SLLNode head = new Node().constructBasicEvenLengthLL();

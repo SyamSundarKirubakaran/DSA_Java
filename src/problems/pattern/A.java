@@ -4,7 +4,7 @@ package problems.pattern;
  * @author SYAM K
  * @problem : Find all occurrences of str2 in str1 - Brute force
  */
-public class One {
+public class A {
 
     public static void main(String[] args) {
         

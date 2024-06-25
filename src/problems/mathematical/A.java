@@ -4,7 +4,7 @@ package problems.mathematical;
  * @author SYAM K
  * @problem : Prime or not
  */
-public class One {
+public class A {
 
     public static void main(String[] args) {
         

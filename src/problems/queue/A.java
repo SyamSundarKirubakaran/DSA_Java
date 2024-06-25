@@ -7,7 +7,7 @@ import java.util.Queue;
  * @author SYAM K
  * @problem : Circular tour that visit all gasoline stations before running out of gas.
  */
-public class One {
+public class A {
 
     // can be done in-place without using queue
     private static Queue<PetrolPump> queue = new LinkedList<>();

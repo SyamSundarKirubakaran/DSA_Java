@@ -4,7 +4,7 @@ package problems.trees;
  * @author SYAM K
  * @problem : Size of a Binary Tree
  */
-public class One {
+public class A {
 
     public static void main(String[] args) {
         Node head = new Node().constructBalancedTree();

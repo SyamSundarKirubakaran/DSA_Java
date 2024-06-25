@@ -1,14 +1,13 @@
 package problems.graphs;
 
 import java.util.Arrays;
-import java.util.Iterator;
 import java.util.LinkedList;
 
 /**
  * @author SYAM K
  * @problem : DFS
  */
-public class One {
+public class A {
 
     public static void main(String[] args) {
         Node node = constructGraph();

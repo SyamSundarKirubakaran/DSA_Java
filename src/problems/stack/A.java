@@ -7,7 +7,7 @@ import java.util.Queue;
  * @author SYAM K
  * @problem : Stack using Queues
  */
-public class One {
+public class A {
 
     private static Queue<Integer> queue1 = new LinkedList<>();
     private static Queue<Integer> queue2 = new LinkedList<>();

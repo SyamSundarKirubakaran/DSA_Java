@@ -4,7 +4,7 @@ package problems.dp;
  * @author SYAM K
  * @problem : Maximum Sum Sub Array
  */
-public class One {
+public class A {
 
     private static final int[] arr = new int[]{10, -5, -3, 4, 2, 12, -8, -12, 19};
     private static final int[] arr1 = new int[]{-3, 10, 5, -20, 4, 11, -5, 7};

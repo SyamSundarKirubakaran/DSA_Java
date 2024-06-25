@@ -4,7 +4,7 @@ package problems.bits;
  * @author SYAM K
  * @problem : Kth bit is set or not
  */
-public class One {
+public class A {
 
     public static void main(String[] args) {
 

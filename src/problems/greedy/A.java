@@ -6,7 +6,7 @@ import java.util.PriorityQueue;
  * @author SYAM K
  * @problem : n different ropes of different length, tie them up into a single rope with Min cost.
  */
-public class One {
+public class A {
 
     private static final int[] arr = {2, 3, 5, 7, 9, 13};
 

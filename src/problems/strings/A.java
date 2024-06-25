@@ -4,7 +4,7 @@ package problems.strings;
  * @author SYAM K
  * @problem : Find a max occurring character in a given array.
  */
-public class One {
+public class A {
 
     private static final int SIZE = 256;
     private static final String str = "syamaaa";

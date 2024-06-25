@@ -4,7 +4,7 @@ package problems.divideandconquer;
  * @author SYAM K
  * @problem : Find the element that occurs more than n/2 times - Sorted Array.
  */
-public class One {
+public class A {
 
     private static final int[] arr = new int[]{1, 2, 3, 4, 4, 4};
 

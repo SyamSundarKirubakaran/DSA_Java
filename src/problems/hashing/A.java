@@ -6,7 +6,7 @@ import java.util.HashSet;
  * @author SYAM K
  * @problem : check if the array has duplicate entries at K distance or not
  */
-public class One {
+public class A {
 
     private static final int[] arr = new int[]{10, 5, 3, 4, 3, 1, 6};
 

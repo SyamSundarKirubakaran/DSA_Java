@@ -4,7 +4,7 @@ package problems.heaps;
  * @author SYAM K
  * @problem : Finding the max element in MIN heap
  */
-public class One {
+public class A {
 
     public static void main(String[] args) {
 
