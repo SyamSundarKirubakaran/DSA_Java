@@ -21,7 +21,7 @@
 - [Workouts](#Workouts)
 
 ## Array Problems
-- [ ]  - One -> Linear Search
+- [ ] A - One -> Linear Search
 - [ ]  - Two -> Binary Search
 - [ ]  - Three -> Find a pair in an array whose sum is equal to given number (Hash Approach) - Brute Force, Quick Sort and search complement, Hash Table
 - [ ]  - Four -> Element that occurs more than n/2 times - Unsorted - Moore's Voting Algorithm, but using quick sort followed by count [or] HashMap
@@ -63,44 +63,44 @@
 - [ ]  - Forty -> Rotate an array of size n by d elements - Left rotation - Beginning to End 
 
 ## Tree Problems
-- [ ]  - One -> [Size of a Binary Tree](https://youtu.be/T8KyS9JZpCU)
-- [ ]  - Two -> [Identical or not](https://youtu.be/oxgOo4vT4CI)
-- [ ]  - Three -> [Mirror Tree](https://youtu.be/bW4EdiMm05M)
-- [ ]  - Four -> [Level Order Traversal](https://youtu.be/c5IwTf1h3Nc)
-- [ ]  - Five -> [Lowest Common Ancestor (LCA) - BST](https://youtu.be/fd_wVjtItIY)
-- [ ]  - Six -> [Lowest Common Ancestor (LCA) - Binary Tree](https://youtu.be/b0eZmFKHI1s)
-- [ ]  - Seven -> [Binary Tree into DLL - IN order - InPlace conversion](https://youtu.be/jE1LFxa-Uaw)
-- [ ]  - Eight -> [Diameter of the Binary Tree](https://youtu.be/_gd5x2EjYgk)
-- [ ]  - Nine -> [Find the level of a given node](https://youtu.be/Wq3wnxq_hpQ)
-- [ ]  - Ten -> [Print nodes at k distance form root](https://youtu.be/2oF5MuBH9r8)
-- [ ]  - Eleven -> [Print nodes at K distance from any node in BT](https://youtu.be/uQgkmWievXM)
-- [ ]  - Twelve -> [Vertical Tree Order Traversal](https://youtu.be/52ZnowIt1jI)
-- [ ]  - Thirteen -> [Vertical Sum of the Binary Tree](https://youtu.be/p0c5ACJLBPk)
-- [ ]  - Fourteen -> [Sum Tree or not](https://www.youtube.com/watch?v=aRTzFnsynas)
-- [ ]  - Fifteen -> [Top View](https://youtu.be/ftQ6ucy7XFM)
-- [ ]  - Sixteen -> [Bottom View](https://youtu.be/MaOR6405WHg)
-- [ ]  - Seventeen -> [Left View](https://youtu.be/x0GL9Iz_iik)
-- [ ]  - Eighteen -> [Remove all nodes whose length = K in BT.](https://youtu.be/cOIDvjdRvKE)
-- [ ]  - Nineteen -> [One BT is a sub tree of another BT or not](https://youtu.be/8xOvb1_rGbg)
-- [ ]  - Twenty -> [Cousin Nodes or not](https://youtu.be/xkCNEu27R8M)
-- [ ]  - TwentyOne -> [Balanced BST construction from a sorted List](https://youtu.be/-aGezpat2E0)
-- [ ]  - TwentyTwo -> [Unbalanced BST into Balanced BST](https://youtu.be/UvCgOtx8n3k)
-- [ ]  - TwentyThree -> [Print all paths possible from root to all leaves](https://youtu.be/2tRF4GSDWeU)
-- [ ]  - TwentyFour -> [Spiral Level Order Traversal](https://youtu.be/RdUqKikkhDo)
-- [ ]  - TwentyFive -> [BT construction from the given POST and IN Order](https://youtu.be/kcI_bvXKaeM)
-- [ ]  - TwentySix -> [All nodes at K distance from leaf](https://youtu.be/4aGMLno7IyM)
-- [ ]  - TwentySeven -> [Expression Evaluation](https://youtu.be/e74fPzgWJ5g)
-- [ ]  - TwentyEight -> [Extreme nodes of each level in alternating order](https://youtu.be/9jM3Bqj5phE)
-- [ ]  - TwentyNine -> [Diagonal Traversal BT](https://youtu.be/N1hHwhtu-ss)
-- [ ]  - Thirty -> [BT to a BT that holds Child sum property](https://youtu.be/jko8H5J6yZM)
+- [ ]  - One -> Size of a Binary Tree
+- [ ]  - Two -> Identical or not
+- [ ]  - Three -> Mirror Tree
+- [ ]  - Four -> Level Order Traversal
+- [ ]  - Five -> Lowest Common Ancestor (LCA) - BST
+- [ ]  - Six -> Lowest Common Ancestor (LCA) - Binary Tree
+- [ ]  - Seven -> Binary Tree into DLL - IN order - InPlace conversion
+- [ ]  - Eight -> Diameter of the Binary Tree
+- [ ]  - Nine -> Find the level of a given node
+- [ ]  - Ten -> Print nodes at k distance form root
+- [ ]  - Eleven -> Print nodes at K distance from any node in BT
+- [ ]  - Twelve -> Vertical Tree Order Traversal
+- [ ]  - Thirteen -> Vertical Sum of the Binary Tree
+- [ ]  - Fourteen -> Sum Tree or not
+- [ ]  - Fifteen -> Top View
+- [ ]  - Sixteen -> Bottom View
+- [ ]  - Seventeen -> Left View
+- [ ]  - Eighteen -> Remove all nodes whose length = K in BT.
+- [ ]  - Nineteen -> One BT is a sub tree of another BT or not
+- [ ]  - Twenty -> Cousin Nodes or not
+- [ ]  - TwentyOne -> Balanced BST construction from a sorted List
+- [ ]  - TwentyTwo -> Unbalanced BST into Balanced BST
+- [ ]  - TwentyThree -> Print all paths possible from root to all leaves
+- [ ]  - TwentyFour -> Spiral Level Order Traversal
+- [ ]  - TwentyFive -> BT construction from the given POST and IN Order
+- [ ]  - TwentySix -> All nodes at K distance from leaf
+- [ ]  - TwentySeven -> Expression Evaluation
+- [ ]  - TwentyEight -> Extreme nodes of each level in alternating order
+- [ ]  - TwentyNine -> Diagonal Traversal BT
+- [ ]  - Thirty -> BT to a BT that holds Child sum property
 - [ ]  - ThirtyOne -> Multiplication of Sums of data of leaves at same level
-- [ ]  - ThirtyTwo -> [Multiplication of Sums of data at same level](https://youtu.be/auq3GG6fxTU)
-- [ ]  - ThirtyThree -> [Max of all differences of a node and it's ancestors BT](https://youtu.be/bF35gZXcbuY)
-- [ ]  - ThirtyFour -> [Serialization and Deserialization BT](https://youtu.be/e5cZ8Ie_fzI)
-- [ ]  - ThirtyFive -> [Serialization and Deserialization n-ary Tree](https://youtu.be/7uGy7JeM_5k)
+- [ ]  - ThirtyTwo -> Multiplication of Sums of data at same level
+- [ ]  - ThirtyThree -> Max of all differences of a node and it's ancestors BT
+- [ ]  - ThirtyFour -> Serialization and Deserialization BT
+- [ ]  - ThirtyFive -> Serialization and Deserialization n-ary Tree
 - [ ]  - ThirtySix -> Tree from ancestor Matrix
-- [ ]  - ThirtySeven -> [Complete Binary Tree from a LL](https://youtu.be/4LAW7sYwCbA)
-- [ ]  - ThirtyEight -> [Find the next right node of a given node in the same level](https://youtu.be/Tqq7vINv5Eo)
+- [ ]  - ThirtySeven -> Complete Binary Tree from a LL
+- [ ]  - ThirtyEight -> Find the next right node of a given node in the same level
 - [ ]  - ThirtyNine -> Boundary Traversal
 - [ ]  - Forty -> Convert a given tree into sum tree
 - [ ]  - FortyOne -> Check if Foldable or not
@@ -113,7 +113,7 @@
 - [ ]  - FortyEight -> BT construction from the given PRE and IN Order -> Subsection of 25th Problem
 
 ## Linked List Problems
-- [ ]  - One -> Reverse a LL
+- [ ] A - One -> Reverse a LL
 - [ ]  - Two -> Middle of a LL
 - [ ]  - Three -> Kth node from the end of the LL
 - [ ]  - Four -> Detect loop in LL
@@ -132,7 +132,7 @@
 - [ ]  - Seventeen -> Merge K sorted LL of size N into single Sorted LL of size kn - Better complexity
 
 ## Stack Problems
-- [ ]  - One -> Stack using Queues
+- [ ] A - One -> Stack using Queues
 - [ ]  - Two -> getMin @ O(1)
 - [ ]  - Three -> Reverse a Stack
 - [ ]  - Four -> closest greater element to the right
@@ -144,10 +144,10 @@
 - [ ]  - Ten -> Celebrity Problem
 
 ## Queue Problems
-- [ ]  - One -> Circular tour that visit all gasoline stations before running out of gas
+- [ ] A - One -> Circular tour that visit all gasoline stations before running out of gas
 
 ## Dynamic Programming
-- [ ]  - One -> [Maximum Sum Sub array](https://youtu.be/2MRsqeRunrE)
+- [ ] A - One -> [Maximum Sum Sub array](https://youtu.be/2MRsqeRunrE)
 - [ ]  - Two -> Maximum Sum Increasing Sub Sequence [OR] Longest increasing Sub Sequence
 - [ ]  - Three -> Longest Sub Sequence in an array such that the element are consecutive
 - [ ]  - Four -> In a Binary Matrix, Max Square Matrix with all 1s
@@ -198,7 +198,7 @@
 - [ ]  - FortyNine -> No.of Non-decreasing numbers with n digits - Less space
 
 ## Greedy Problems
-- [ ]  - One -> n different ropes of different length, tie them up into a single rope with Min cost.
+- [ ] A - One -> n different ropes of different length, tie them up into a single rope with Min cost.
 - [ ]  - Twp -> Maximum Non Overlapping Intervals
 - [ ]  - Three -> Min no.of platforms required to station all trains without collision
 - [ ]  - Four -> Rearrange the characters in the string such that same characters become d-distance away from each other.
@@ -212,7 +212,7 @@
 - [ ]  - Twelve -> Optimal Merge Patterns
 
 ## Divide and Conquer
-- [ ]  - One -> Find the element that occurs more than n/2 times - Sorted Array.
+- [ ] A - One -> Find the element that occurs more than n/2 times - Sorted Array.
 - [ ]  - Two -> Bolt and Nuts
 - [ ]  - Three -> Implement pow()
 - [ ]  - Four -> Search an element in a sorted Rotated Array
@@ -229,7 +229,7 @@
 - [ ]  - Fifteen -> Get first 1.
 
 ## Bit Manipulation
-- [ ]  - One -> Kth bit is set or not
+- [ ] A - One -> Kth bit is set or not
 - [ ]  - Two -> set Kth Bit of a number
 - [ ]  - Three -> clear Kth bit of a number
 - [ ]  - Four -> Toggle Kth bit of a number
@@ -241,12 +241,12 @@
 - [ ]  - Ten -> Check if a Number is Odd or Even using Bitwise Operators
 
 ## Mathematical
-- [ ]  - One -> Prime or not
+- [ ] A - One -> Prime or not
 - [ ]  - Two -> Print prime upto n - Sieve of Eratosthenes Algorithm
 - [ ]  - Three -> Lucky number or not
 
 ## Hashing
-- [ ]  - One -> check if the array has duplicate entries at K distance or not
+- [ ] A - One -> check if the array has duplicate entries at K distance or not
 - [ ]  - Two -> check if 2 sets are disjoint or not
 - [ ]  - Three -> Group all occurrences of elements order by their 1st occurrence.
 - [ ]  - Four -> Given an array A, count the distinct elements in all windows of size K
@@ -255,7 +255,7 @@
 - [ ]  - Seven -> Find 4 elements i, j, k & l -> such that `i + j = k + l`
 
 ## Strings
-- [ ]  - One -> Find a max occurring character in a given array.
+- [ ] A - One -> Find a max occurring character in a given array.
 - [ ]  - Two -> Remove duplicates in a given string
 - [ ]  - Three -> Check if given 2 strings are rotations of each other
 - [ ]  - Four -> Reverse the words in the given sentence
@@ -277,14 +277,14 @@
 - [ ]  - Twenty -> Min no.of palindromic sub-sequences to be removed to empty a binary string - Tournament Method
 
 ## Pattern Matching
-- [ ]  - One -> Find all occurrences of str2 in str1 - Brute force
+- [ ] A - One -> Find all occurrences of str2 in str1 - Brute force
 - [ ]  - Two -> Knuth Morris Pratt Algorithm
 - [ ]  - Three -> Boyer's Moore String Matching Algorithm
 - [ ]  - Four -> Rabin-Karp String Matching Algorithm
 - [ ]  - Five -> Find all occurrences of a given word in a matrix
 
 ## Heaps
-- [ ]  - One -> Finding the max element in MIN heap
+- [ ] A - One -> Finding the max element in MIN heap
 - [ ]  - Two -> Deleting arb element in MIN heap
 - [ ]  - Three -> K-Largest elements from an array
 - [ ]  - Four -> Median in a stream of numbers
@@ -302,7 +302,7 @@
 - [ ]  - Sixteen -> Delete root from a heap.
 
 ## Back Tracking
-- [ ]  - One -> Print all permutations of given string
+- [ ] A - One -> Print all permutations of given string
 - [ ]  - Two -> Print all the strings of n-bits
 - [ ]  - Three -> N-Queens Problem
 - [ ]  - Four -> Rat in Maze
@@ -312,7 +312,7 @@
 - [ ]  - Eight -> N-Queens Problem - Easy way
 
 ## Graph Problems
-- [ ]  - One -> DFS
+- [ ] A - One -> DFS
 - [ ]  - Two -> BFS
 - [ ]  - Three -> Find if there's a path between vi and vj in a directed graph
 - [ ]  - Four -> Undirected Graph, cycle or not
