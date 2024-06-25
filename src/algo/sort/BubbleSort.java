@@ -2,7 +2,7 @@ package algo.sort;
 
 class BubbleSort {
 
-    static int[] arr = new int[]{22, 33, 11, 55, 99, 77, 66, 88};
+    static int[] arr = new int[]{22, 33, 11, 55, 99, 77, 66, 88, 12};
 
     public static void main(String[] args) {
         performBubbleSort(arr.length - 1);

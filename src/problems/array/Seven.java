@@ -2,7 +2,7 @@ package problems.array;
 
 /**
  * @author SYAM K
- * @problem : Largest Difference such that the smaller number appears before larger number - Maximum Sum Sub-array - Less space complexity
+ * @problem : Largest Difference such that the smaller number appears before larger number - Less space complexity
  */
 
 class Seven {

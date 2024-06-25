@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 class MergeSort {
-    static List<Integer> unsortedList = Arrays.asList(9, 6, 5, 0, 8, 2, 7, 1);
+    static List<Integer> unsortedList = Arrays.asList(9, 6, 5, 0, 8, 2, 7, 1, 100, 99, 67);
 
     public static void main(String[] args) {
         performMergeSort(0, unsortedList.size() - 1);
@@ -16,8 +16,8 @@ class MergeSort {
         // left and right index array size `+1` because a MAX value has to be stored at the end
         int leftListSize = middleIndex - startIndex + 1;
         int rightListSize = endIndex - (middleIndex + 1) + 1;
-        List<Integer> leftList = new ArrayList<>();
-        List<Integer> rightList = new ArrayList<>();
+        List<Integer> leftList = new ArrayList<>(leftListSize);
+        List<Integer> rightList = new ArrayList<>(rightListSize);
         for (int i = startIndex; i <= middleIndex; i++) {
             leftList.add(unsortedList.get(i));
         }

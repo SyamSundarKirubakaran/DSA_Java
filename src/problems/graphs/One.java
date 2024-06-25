@@ -25,9 +25,7 @@ public class One {
         visited[node.value] = true;
         System.out.println(node.value);
 
-        Iterator<Node> nodeIterator = node.adj.listIterator();
-        while (nodeIterator.hasNext()) {
-            Node n = nodeIterator.next();
+        for (Node n : node.adj) {
             if (!visited[n.value]) {
                 dfsUtil(n, visited);
             }
