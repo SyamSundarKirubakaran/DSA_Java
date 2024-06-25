@@ -6,7 +6,7 @@ import java.util.Stack;
  * @author SYAM K
  * @problem : getMin @ O(1)
  */
-public class Two {
+public class B {
 
     private static Stack<Integer> stack = new Stack<>();
     private static int currentMin;

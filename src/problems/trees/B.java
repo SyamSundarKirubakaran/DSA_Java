@@ -4,7 +4,7 @@ package problems.trees;
  * @author SYAM K
  * @problem : Identical or not
  */
-public class Two {
+public class B {
 
     public static void main(String[] args) {
         Node head = new Node().constructBalancedTree();

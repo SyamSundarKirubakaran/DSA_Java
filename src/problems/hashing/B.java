@@ -6,7 +6,7 @@ import java.util.HashSet;
  * @author SYAM K
  * @problem : check if 2 sets are disjoint or not
  */
-public class Two {
+public class B {
 
     private static final int[] arr1 = new int[]{10, 5, 3, 4, 6};
     private static final int[] arr2 = new int[]{8, 7, 9, 3};

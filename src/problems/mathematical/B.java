@@ -5,7 +5,7 @@ package problems.mathematical;
  * @problem : Print prime upto n - Sieve of Eratosthenes Algorithm
  * https://www.geeksforgeeks.org/sieve-of-eratosthenes/
  */
-public class Two {
+public class B {
 
     public static void main(String[] args) {
         

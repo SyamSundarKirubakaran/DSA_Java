@@ -4,7 +4,7 @@ package problems.linkedlist;
  * @author SYAM K
  * @problem : Middle of a LL
  */
-public class Two {
+public class B {
 
     public static void main(String[] args) {
         Node.SLLNode head = new Node().constructBasicOddLengthLL();

@@ -4,7 +4,7 @@ package problems.strings;
  * @author SYAM K
  * @problem : Remove duplicates in a given string
  */
-public class Two {
+public class B {
 
     private static final String str = "syaamyyy";
 

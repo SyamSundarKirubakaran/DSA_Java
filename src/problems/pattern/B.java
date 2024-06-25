@@ -6,7 +6,7 @@ import java.util.Arrays;
  * @author SYAM K
  * @problem : Knuth Morris Pratt Algorithm
  */
-public class Two {
+public class B {
 
     public static void main(String[] args) {
         

@@ -7,7 +7,7 @@ import java.util.LinkedList;
  * @author SYAM K
  * @problem : BFS
  */
-public class Two {
+public class B {
 
     public static void main(String[] args) {
         Node node = constructGraph();

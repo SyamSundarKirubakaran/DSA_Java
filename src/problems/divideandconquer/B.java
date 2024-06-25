@@ -6,7 +6,7 @@ import java.util.Arrays;
  * @author SYAM K
  * @problem : Bolt and Nuts
  */
-public class Two {
+public class B {
 
     private static final char[] bolts = new char[]{'*', '$', '@', '#', '!'};
     private static final char[] nuts = new char[]{'$', '*', '#', '@', '!'};

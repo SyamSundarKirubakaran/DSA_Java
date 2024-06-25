@@ -6,7 +6,7 @@ import java.util.Arrays;
  * @author SYAM K
  * @problem : Maximum Sum Increasing Sub Sequence [OR] Longest increasing Sub Sequence
  */
-public class Two {
+public class B {
 
     private static final int[] arr = new int[]{20, 3, 1, 15, 16, 2, 12, 13};
 

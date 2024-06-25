@@ -4,7 +4,7 @@ package problems.heaps;
  * @author SYAM K
  * @problem : Deleting arb element in MIN heap
  */
-public class Two {
+public class B {
 
     // heap represents the following min heap:
     //     10

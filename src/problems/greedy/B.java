@@ -4,7 +4,7 @@ package problems.greedy;
  * @author SYAM K
  * @problem : Maximum Non Overlapping Intervals
  */
-public class Two {
+public class B {
 
     private static final Activity[] arr = new Activity[]{
             new Activity(10, 13),

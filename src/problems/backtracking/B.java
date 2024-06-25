@@ -4,7 +4,7 @@ package problems.backtracking;
  * @author SYAM K
  * @problem : Print all the strings of n-bits
  */
-public class Two {
+public class B {
 
     public static void main(String[] args) {
         
