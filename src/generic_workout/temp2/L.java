@@ -1,4 +1,4 @@
-package generic_workout;
+package generic_workout.temp2;
 
 import java.util.ArrayList;
 import java.util.Arrays;

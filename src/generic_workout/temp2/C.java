@@ -1,4 +1,4 @@
-package generic_workout;
+package generic_workout.temp2;
 
 // https://leetcode.com/problems/longest-palindromic-substring/
 
