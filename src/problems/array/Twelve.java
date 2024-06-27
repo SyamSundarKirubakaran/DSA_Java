@@ -7,7 +7,7 @@ import java.util.Arrays;
  * @problem : 2 elements whose sum is close to zero - either positive or negative
  */
 
-class Twelve {
+public class Twelve {
     static int[] arr = new int[]{-5, -2, 1, 2, 6, 9};
 
     public static void main(String[] args) {

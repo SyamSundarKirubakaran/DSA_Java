@@ -7,7 +7,7 @@ import java.util.Arrays;
  * @problem : 3 elements such that their sum is equal to x.
  */
 
-class Thirteen {
+public class Thirteen {
     static int[] arr = new int[]{1, 2, 5, 6, 9, 10};
 
     public static void main(String[] args) {

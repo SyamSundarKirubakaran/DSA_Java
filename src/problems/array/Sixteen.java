@@ -5,7 +5,7 @@ package problems.array;
  * @problem : Array of unknown size. 0s followed by 1s find the first index of 1
  */
 
-class Sixteen {
+public class Sixteen {
     static int[] arr = new int[]{0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1};
 
     public static void main(String[] args) {

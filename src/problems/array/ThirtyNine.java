@@ -4,7 +4,7 @@ package problems.array;
  * @author SYAM K
  * @problem : Find Duplicates in O(n) time and O(1) space - Array element values are ≤ Max Index - GFG
  */
-class ThirtyNine {
+public class ThirtyNine {
 
     public static void main(String[] args) {
         int[] arr = {4, 3, 1, 2, 2, 3, 4};
