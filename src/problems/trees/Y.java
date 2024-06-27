@@ -1,5 +1,7 @@
 package problems.trees;
 
+import problems.trees.util.Node;
+
 import java.util.LinkedList;
 import java.util.List;
 

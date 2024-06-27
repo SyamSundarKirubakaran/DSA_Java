@@ -1,5 +1,7 @@
 package problems.trees;
 
+import problems.trees.util.Node;
+
 /**
  * @author SYAM K
  * @problem : Binary Tree into DLL - IN order - InPlace conversion

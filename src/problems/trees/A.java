@@ -1,5 +1,7 @@
 package problems.trees;
 
+import problems.trees.util.Node;
+
 /**
  * @author SYAM K
  * @problem : Size of a Binary Tree
