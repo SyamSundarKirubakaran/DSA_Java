@@ -4,7 +4,7 @@ package generic_workout.company.tesla.set1;
 
 // problem seventeen in linked list problem set
 
-import problems.linkedlist.Node;
+import problems.linkedlist.util.Node;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;

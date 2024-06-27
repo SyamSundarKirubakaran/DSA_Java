@@ -1,5 +1,7 @@
 package problems.linkedlist;
 
+import problems.linkedlist.util.Node;
+
 /**
  * @author SYAM K
  * @problem : Merge K sorted LL of size N into single Sorted LL of size kn

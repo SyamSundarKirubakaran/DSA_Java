@@ -1,5 +1,7 @@
 package problems.linkedlist;
 
+import problems.linkedlist.util.Node;
+
 /**
  * @author SYAM K
  * @problem : Middle of a LL

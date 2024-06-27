@@ -1,5 +1,7 @@
 package problems.linkedlist;
 
+import problems.linkedlist.util.Node;
+
 /**
  * @author SYAM K
  * @problem : Clone a LL that contains Random Pointer (Custom LL)

@@ -1,5 +1,7 @@
 package problems.linkedlist;
 
+import problems.linkedlist.util.Node;
+
 /**
  * @author SYAM K
  * @problem : Find start of the loop with the LL with Loop

@@ -1,5 +1,7 @@
 package problems.linkedlist;
 
+import problems.linkedlist.util.Node;
+
 import java.util.Comparator;
 import java.util.PriorityQueue;
 

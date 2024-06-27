@@ -1,5 +1,7 @@
 package problems.trees;
 
+import problems.trees.util.Node;
+
 /**
  * @author SYAM K
  * @problem : Remove all nodes whose length = K in BT.
