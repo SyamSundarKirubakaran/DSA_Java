@@ -11,7 +11,7 @@ public class K {
     int V, E;
     Edge[] edge;
 
-    Eleven(int v, int e) {
+    K(int v, int e) {
         V = v;
         E = e;
         edge = new Edge[E];
@@ -32,7 +32,7 @@ public class K {
                 4       */
         int V = 4;
         int E = 5;
-        Eleven g = new Eleven(V, E);
+        K g = new K(V, E);
 
         // add edge 0-1
         g.edge[0].src = 0;

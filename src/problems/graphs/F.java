@@ -13,7 +13,7 @@ public class F {
     private final int V;
     private final List<List<Integer>> adj;
 
-    public Six(int V) {
+    public F(int V) {
         this.V = V;
         adj = new ArrayList<>(V);
 
@@ -24,7 +24,7 @@ public class F {
     public static void main(String[] args) {
 
 
-        Six graph = new Six(4);
+        F graph = new F(4);
         graph.addEdge(0, 1);
         graph.addEdge(0, 2);
         graph.addEdge(1, 2);

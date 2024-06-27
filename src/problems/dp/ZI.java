@@ -33,7 +33,7 @@ public class ZI {
     private static void findMaxProfit(Job[] jobs, int length) {
         int profit, l;
         int[] table = new int[length];
-        jobs = sort(ThirtyFive.jobs, length);
+        jobs = sort(ZI.jobs, length);
         table[0] = jobs[0].profit;
         System.out.println("After sort(jobs): " + Arrays.toString(jobs));
         for (int i = 1; i < length; i++) {

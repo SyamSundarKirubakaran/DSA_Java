@@ -200,7 +200,7 @@ public class Node {
         public int value;
         public SLLNode next;
 
-        SLLNode(int value) {
+        public SLLNode(int value) {
             this.value = value;
             next = null;
         }
@@ -228,11 +228,11 @@ public class Node {
         }
     }
 
-    static class CustomNode {
-        int value;
-        CustomNode next, random;
+    public static class CustomNode {
+        public int value;
+        public CustomNode next, random;
 
-        CustomNode(int value) {
+        public CustomNode(int value) {
             this.value = value;
             next = null;
             random = null;

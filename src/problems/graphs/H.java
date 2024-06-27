@@ -15,7 +15,7 @@ public class H {
     public static void main(String[] args) {
 
 
-        Eight t = new Eight();
+        H t = new H();
         Graph g = t.newGraph(6);
         g.addEdge(0, 1, 5);
         g.addEdge(0, 2, 3);

@@ -12,7 +12,7 @@ public class C {
     private final int V;
     private final LinkedList<Integer>[] adj;
 
-    Three(int v) { // Represents graph node
+    C(int v) { // Represents graph node
         V = v;
         adj = new LinkedList[v];
         for (int i = 0; i < v; ++i)
@@ -22,7 +22,7 @@ public class C {
     public static void main(String[] args) {
         
 
-        Three g = new Three(4);
+        C g = new C(4);
         g.addEdge(0, 1);
         g.addEdge(0, 2);
         g.addEdge(1, 2);

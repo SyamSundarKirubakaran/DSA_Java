@@ -37,11 +37,11 @@ public class NaryNode {
         return root;
     }
 
-    static class NNode {
-        int value;
-        NNode[] children;
+    public static class NNode {
+        public int value;
+        public NNode[] children;
 
-        NNode(int n, int value) {
+        public NNode(int n, int value) {
             children = new NNode[n];
             this.value = value;
         }

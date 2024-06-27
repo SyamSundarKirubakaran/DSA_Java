@@ -10,7 +10,7 @@ public class M {
     int heapSize;
     int capacity;
 
-    public Thirteen(int[] a, int size) {
+    public M(int[] a, int size) {
         heapSize = size;
         capacity = size;
         harr = a;
@@ -33,7 +33,7 @@ public class M {
 
     static int minCost(int[] len, int n) {
         int cost = 0;
-        Thirteen minHeap = new Thirteen(len, n);
+        M minHeap = new M(len, n);
         while (!minHeap.isSizeOne()) {
             int min = minHeap.extractMin();
             int secMin = minHeap.extractMin();

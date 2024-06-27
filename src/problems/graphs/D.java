@@ -11,7 +11,7 @@ public class D {
     private final int V;
     private final LinkedList<Integer>[] adj;
 
-    Four(int v) {
+    D(int v) {
         V = v;
         adj = new LinkedList[v];
         for (int i = 0; i < v; ++i)
@@ -21,7 +21,7 @@ public class D {
     public static void main(String[] args) {
         
 
-        Four g1 = new Four(5);
+        D g1 = new D(5);
         g1.addEdge(1, 0);
         g1.addEdge(0, 2);
         g1.addEdge(2, 1);
@@ -32,7 +32,7 @@ public class D {
         else
             System.out.println("Graph doesn't contains cycle");
 
-        Four g2 = new Four(3);
+        D g2 = new D(3);
         g2.addEdge(0, 1);
         g2.addEdge(1, 2);
         if (g2.isCyclic())

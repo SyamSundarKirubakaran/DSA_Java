@@ -15,7 +15,7 @@ public class K {
     public static void main(String[] args) {
         
 
-        Eleven t = new Eleven();
+        K t = new K();
         Graph g = t.newGraph(6);
         g.addEdge(0, 1, 5);
         g.addEdge(0, 2, 3);

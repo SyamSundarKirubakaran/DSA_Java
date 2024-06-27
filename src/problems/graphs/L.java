@@ -7,7 +7,7 @@ import java.util.Stack;
 public class L {
 
     public static void main(String[] args) {
-        Twelve g = new Twelve(6);
+        L g = new L(6);
         g.addEdge(5, 2);
         g.addEdge(5, 0);
         g.addEdge(4, 0);
@@ -32,7 +32,7 @@ public class L {
 
     private final ArrayList<ArrayList<Integer>> adj;
 
-    Twelve(int v) {
+    L(int v) {
         V = v;
         adj = new ArrayList<>(v);
         for (int i = 0; i < v; ++i)

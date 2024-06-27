@@ -12,7 +12,7 @@ public class I {
     int vertices;
     ArrayList<Integer>[] edge;
 
-    Nine(int vertices) {
+    I(int vertices) {
         this.vertices = vertices;
         edge = new ArrayList[vertices + 1];
         for (int i = 0; i <= vertices; i++) {
@@ -24,7 +24,7 @@ public class I {
         
 
         int n = 5;
-        Nine graph = new Nine(n);
+        I graph = new I(n);
         graph.addEdge(1, 2);
         graph.addEdge(1, 3);
         graph.addEdge(3, 2);

@@ -13,7 +13,7 @@ public class J {
     private final LinkedList<Integer>[] adj;
     int time = 0; // runs upto the number of vertices
 
-    Ten(int v) {
+    J(int v) {
         V = v;
         adj = new LinkedList[v];
         for (int i = 0; i < v; ++i)
@@ -24,7 +24,7 @@ public class J {
         
 
         System.out.println("Articulation points in first graph ");
-        Ten g1 = new Ten(5);
+        J g1 = new J(5);
         g1.addEdge(1, 0);
         g1.addEdge(0, 2);
         g1.addEdge(2, 1);
@@ -34,7 +34,7 @@ public class J {
         System.out.println();
 
         System.out.println("Articulation points in Second graph");
-        Ten g2 = new Ten(4);
+        J g2 = new J(4);
         g2.addEdge(0, 1);
         g2.addEdge(1, 2);
         g2.addEdge(2, 3);
@@ -42,7 +42,7 @@ public class J {
         System.out.println();
 
         System.out.println("Articulation points in Third graph ");
-        Ten g3 = new Ten(7);
+        J g3 = new J(7);
         g3.addEdge(0, 1);
         g3.addEdge(1, 2);
         g3.addEdge(2, 0);
