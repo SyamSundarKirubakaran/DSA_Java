@@ -5,7 +5,7 @@
 
 ## 30 Days:
 - [ ] D: 36. Valid Sudoku
-- [ ] E: 37. Sudoku Solver
+- [X] E: 37. Sudoku Solver
 - [ ] F: 39. Combination Sum
 - [ ] G: 40. Combination Sum II
 - [ ] H: 44. Wildcard Matching
@@ -33,6 +33,88 @@
 - [ ] ZD: 635. Design Log Storage System
 - [ ] ZE: 964. Least Operators to Express Number
 - [ ] ZF: 1754. Largest Merge Of Two Strings
+
+## 3 months:
+- [ ] A: 146. LRU Cache
+- [ ] B: 36. Valid Sudoku
+- [ ] C: 37. Sudoku Solver
+- [ ] D: 39. Combination Sum
+- [ ] E: 40. Combination Sum II
+- [ ] F: 44. Wildcard Matching
+- [ ] G: 76. Minimum Window Substring
+- [ ] H: 96. Unique Binary Search Trees
+- [ ] I: 127. Word Ladder
+- [ ] J: 140. Word Break II
+- [ ] K: 151. Reverse Words in a String
+- [ ] L: 155. Min Stack
+- [ ] M: 161. One Edit Distance
+- [ ] N: 206. Reverse Linked List
+- [ ] O: 253. Meeting Rooms II
+- [ ] P: 269. Alien Dictionary
+- [ ] Q: 270. Closest Binary Search Tree Value
+- [ ] R: 289. Game of Life
+- [ ] S: 312. Burst Balloons
+- [ ] T: 314. Binary Tree Vertical Order Traversal
+- [ ] U: 377. Combination Sum IV
+- [ ] V: 402. Remove K Digits
+- [ ] W: 403. Frog Jump
+- [ ] X: 439. Ternary Expression Parser
+- [ ] Y: 443. String Compression
+- [ ] Z: 527. Word Abbreviation
+- [ ] ZA: 635. Design Log Storage System
+- [ ] ZB: 721. Accounts Merge
+- [ ] ZC: 964. Least Operators to Express Number
+- [ ] ZD: 1754. Largest Merge Of Two Strings
+- [ ] ZE: 2097. Valid Arrangement of Pairs
+
+## 6 months:
+- [ ] A: 4. Median of Two Sorted Arrays
+- [ ] B: 36. Valid Sudoku
+- [ ] C: 37. Sudoku Solver
+- [ ] D: 39. Combination Sum
+- [ ] E: 40. Combination Sum II
+- [ ] F: 44. Wildcard Matching
+- [ ] G: 49. Group Anagrams
+- [ ] H: 72. Edit Distance
+- [ ] I: 74. Search a 2D Matrix
+- [ ] J: 76. Minimum Window Substring
+- [ ] K: 79. Word Search
+- [ ] L: 96. Unique Binary Search Trees
+- [ ] M: 127. Word Ladder
+- [ ] N: 140. Word Break II
+- [ ] O: 151. Reverse Words in a String
+- [ ] P: 155. Min Stack
+- [ ] Q: 161. One Edit Distance
+- [ ] R: 200. Number of Islands
+- [ ] S: 206. Reverse Linked List
+- [ ] T: 207. Course Schedule
+- [ ] U: 210. Course Schedule II
+- [ ] V: 227. Basic Calculator II
+- [ ] W: 240. Search a 2D Matrix II
+- [ ] X: 253. Meeting Rooms II
+- [ ] Y: 269. Alien Dictionary
+- [ ] Z: 270. Closest Binary Search Tree Value
+- [ ] ZA: 289. Game of Life
+- [ ] ZB: 312. Burst Balloons
+- [ ] ZC: 314. Binary Tree Vertical Order Traversal
+- [ ] ZD: 377. Combination Sum IV
+- [ ] ZE: 380. Insert Delete GetRandom O(1)
+- [ ] ZF: 402. Remove K Digits
+- [ ] ZG: 403. Frog Jump
+- [ ] ZH: 439. Ternary Expression Parser
+- [ ] ZI: 443. String Compression
+- [ ] ZJ: 527. Word Abbreviation
+- [ ] ZK: 635. Design Log Storage System
+- [ ] ZL: 721. Accounts Merge
+- [ ] ZM: 791. Custom Sort String
+- [ ] ZN: 827. Making A Large Island
+- [ ] ZO: 853. Car Fleet
+- [ ] ZP: 939. Minimum Area Rectangle
+- [ ] ZQ: 964. Least Operators to Express Number
+- [ ] ZR: 1472. Design Browser History
+- [ ] ZS: 1754. Largest Merge Of Two Strings
+- [ ] ZT: 2268. Minimum Number of Keypresses
+- [ ] ZU: 2097. Valid Arrangement of Pairs
 
 ## More than 6 months:
 - [ ] ZG: 231. Power of Two
