@@ -167,32 +167,32 @@
 - [ ] A: 231. Power of Two
 - [ ] B: 146. LRU Cache
 - [ ] C: 253. Meeting Rooms II
-- [ ] D: 76. Minimum Window Substring
-- [ ] E: 127. Word Ladder
+- [X] D: 76. Minimum Window Substring
+- [X] E: 127. Word Ladder
 - [ ] F: 36. Valid Sudoku
-- [ ] G: 140. Word Break II
+- [X] G: 140. Word Break II
 - [ ] H: 155. Min Stack
 - [ ] I: 161. One Edit Distance
-- [ ] J: 269. Alien Dictionary
-- [ ] K: 37. Sudoku Solver
+- [X] J: 269. Alien Dictionary
+- [X] K: 37. Sudoku Solver
 - [ ] L: 39. Combination Sum
 - [ ] M: 40. Combination Sum II
-- [ ] N: 44. Wildcard Matching
+- [X] N: 44. Wildcard Matching
 - [ ] O: 96. Unique Binary Search Trees
 - [ ] P: 151. Reverse Words in a String
 - [ ] Q: 206. Reverse Linked List
 - [ ] R: 270. Closest Binary Search Tree Value
 - [ ] S: 289. Game of Life
-- [ ] T: 312. Burst Balloons
+- [X] T: 312. Burst Balloons
 - [ ] U: 314. Binary Tree Vertical Order Traversal
 - [ ] V: 377. Combination Sum IV
 - [ ] W: 402. Remove K Digits
-- [ ] X: 403. Frog Jump
+- [X] X: 403. Frog Jump
 - [ ] Y: 439. Ternary Expression Parser
 - [ ] Z: 443. String Compression
-- [ ] ZA: 527. Word Abbreviation
+- [X] ZA: 527. Word Abbreviation
 - [ ] ZB: 635. Design Log Storage System
-- [ ] ZC: 964. Least Operators to Express Number
+- [X] ZC: 964. Least Operators to Express Number
 - [ ] ZD: 1754. Largest Merge Of Two Strings
 - [ ] ZE: 79. Word Search
 - [ ] ZF: 210. Course Schedule II
@@ -200,61 +200,61 @@
 - [ ] ZH: 227. Basic Calculator II
 - [ ] ZI: 934. Shortest Bridge
 - [ ] ZJ: 200. Number of Islands
-- [ ] ZK: 1293. Shortest Path in a Grid with Obstacles Elimination
+- [X] ZK: 1293. Shortest Path in a Grid with Obstacles Elimination
 - [ ] ZL: 1306. Jump Game III
-- [ ] ZM: 2050. Parallel Courses III
-- [ ] ZN: 2097. Valid Arrangement of Pairs
+- [X] ZM: 2050. Parallel Courses III
+- [X] ZN: 2097. Valid Arrangement of Pairs
 - [ ] ZO: 21. Merge Two Sorted Lists
 - [ ] ZP: 207. Course Schedule
-- [ ] ZQ: 305. Number of Islands II
-- [ ] ZR: 332. Reconstruct Itinerary
-- [ ] ZS: 871. Minimum Number of Refueling Stops
-- [ ] ZT: 4. Median of Two Sorted Arrays
+- [X] ZQ: 305. Number of Islands II
+- [X] ZR: 332. Reconstruct Itinerary
+- [X] ZS: 871. Minimum Number of Refueling Stops
+- [X] ZT: 4. Median of Two Sorted Arrays
 - [ ] ZU: 56. Merge Intervals
 - [ ] ZV: 72. Edit Distance
 - [ ] ZW: 74. Search a 2D Matrix
 - [ ] ZX: 121. Best Time to Buy and Sell Stock
-- [ ] ZY: 317. Shortest Distance from All Buildings
+- [X] ZY: 317. Shortest Distance from All Buildings
 - [ ] ZZ: 380. Insert Delete GetRandom O(1)
 - [ ] ZZA: 399. Evaluate Division
-- [ ] ZZB: 632. Smallest Range Covering Elements from K Lists
+- [X] ZZB: 632. Smallest Range Covering Elements from K Lists
 - [ ] ZZC: 721. Accounts Merge
 - [ ] ZZD: 856. Score of Parentheses
 - [ ] ZZE: 1004. Max Consecutive Ones III
 - [ ] ZZF: 1249. Minimum Remove to Make Valid Parentheses
-- [ ] ZZG: 10. Regular Expression Matching
-- [ ] ZZH: 23. Merge k Sorted Lists
-- [ ] ZZI: 42. Trapping Rain Water
+- [X] ZZG: 10. Regular Expression Matching
+- [X] ZZH: 23. Merge k Sorted Lists
+- [X] ZZI: 42. Trapping Rain Water
 - [ ] ZZJ: 49. Group Anagrams
 - [ ] ZZK: 53. Maximum Subarray
 - [ ] ZZL: 55. Jump Game
 - [ ] ZZM: 64. Minimum Path Sum
 - [ ] ZZN: 91. Decode Ways
-- [ ] ZZO: 123. Best Time to Buy and Sell Stock III
-- [ ] ZZP: 124. Binary Tree Maximum Path Sum
+- [X] ZZO: 123. Best Time to Buy and Sell Stock III
+- [X] ZZP: 124. Binary Tree Maximum Path Sum
 - [ ] ZZQ: 162. Find Peak Element
 - [ ] ZZR: 166. Fraction to Recurring Decimal
-- [ ] ZZS: 224. Basic Calculator
+- [X] ZZS: 224. Basic Calculator
 - [ ] ZZT: 240. Search a 2D Matrix II
-- [ ] ZZU: 282. Expression Add Operators
-- [ ] ZZV: 297. Serialize and Deserialize Binary Tree
-- [ ] ZZW: 329. Longest Increasing Path in a Matrix
+- [X] ZZU: 282. Expression Add Operators
+- [X] ZZV: 297. Serialize and Deserialize Binary Tree
+- [X] ZZW: 329. Longest Increasing Path in a Matrix
 - [ ] ZZX: 347. Top K Frequent Elements
 - [ ] ZZY: 560. Subarray Sum Equals K
-- [ ] ZZZ: 636. Exclusive Time of Functions
-- [ ] ZZZA: 716. Max Stack
-- [ ] ZZZB: 772. Basic Calculator III
+- [X] ZZZ: 636. Exclusive Time of Functions
+- [X] ZZZA: 716. Max Stack
+- [X] ZZZB: 772. Basic Calculator III
 - [ ] ZZZC: 773. Sliding Puzzle
 - [ ] ZZZD: 785. Is Graph Bipartite?
 - [ ] ZZZE: 791. Custom Sort String
-- [ ] ZZZF: 827. Making A Large Island
-- [ ] ZZZG: 839. Similar String Groups
+- [X] ZZZF: 827. Making A Large Island
+- [X] ZZZG: 839. Similar String Groups
 - [ ] ZZZH: 849. Maximize Distance to Closest Person
 - [ ] ZZZI: 853. Car Fleet
 - [ ] ZZZJ: 863. All Nodes Distance K in Binary Tree
 - [ ] ZZZK: 876. Middle of the Linked List
 - [ ] ZZZL: 528. Random Pick with Weight
-- [ ] ZZZM: 895. Maximum Frequency Stack
+- [X] ZZZM: 895. Maximum Frequency Stack
 - [ ] ZZZN: 926. Flip String to Monotone Increasing
 - [ ] ZZZO: 935. Knight Dialer
 - [ ] ZZZP: 937. Reorder Data in Log Files
@@ -268,17 +268,17 @@
 - [ ] ZZZX: 1046. Last Stone Weight
 - [ ] ZZZY: 1048. Longest String Chain
 - [ ] ZZZZ: 1091. Shortest Path in Binary Matrix
-- [ ] ZZZZA: 1231. Divide Chocolate
+- [X] ZZZZA: 1231. Divide Chocolate
 - [ ] ZZZZB: 1146. Snapshot Array
 - [ ] ZZZZC: 1329. Sort the Matrix Diagonally
 - [ ] ZZZZD: 1268. Search Suggestions System
 - [ ] ZZZZE: 1341. Movie Rating
 - [ ] ZZZZF: 1472. Design Browser History
 - [ ] ZZZZG: 1498. Number of Subsequences That Satisfy the Given Sum Condition
-- [ ] ZZZZH: 1597. Build Binary Expression Tree From Infix Expression
+- [X] ZZZZH: 1597. Build Binary Expression Tree From Infix Expression
 - [ ] ZZZZI: 2232. Minimize Result by Adding Parentheses to Expression
 - [ ] ZZZZJ: 2294. Partition Array Such That Maximum Difference Is K
-- [ ] ZZZZK: 2296. Design a Text Editor
+- [X] ZZZZK: 2296. Design a Text Editor
 - [ ] ZZZZL: 2268. Minimum Number of Keypresses
 - [ ] ZZZZM: 2385. Amount of Time for Binary Tree to Be Infected
-- [ ] ZZZZN: 2589. Minimum Time to Complete All Tasks
+- [X] ZZZZN: 2589. Minimum Time to Complete All Tasks
